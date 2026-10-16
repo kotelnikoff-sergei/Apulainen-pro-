@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Apulainen.pro – pilottiversio</title>
+</head>
+<body>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+<style>
+:root{color-scheme:light}
+
+body{margin:0;background:#F4F5EF;color:#17231A;font-family:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.5}
+a{color:#2E6B45}a:hover{color:#1C3A27}
+.wrap{max-width:1180px;margin:0 auto;padding:0 32px;box-sizing:border-box}
+.disp{font-family:'Bricolage Grotesque',Georgia,serif;letter-spacing:-.02em;margin:0;text-wrap:balance}
+.top{position:sticky;top:0;z-index:5;background:rgba(244,245,239,.94);backdrop-filter:blur(10px);border-bottom:1px solid #DDE2D4}
+.top .wrap{display:flex;align-items:center;gap:28px;height:72px}
+.logo{font-family:'Bricolage Grotesque',Georgia,serif;font-weight:700;font-size:23px;letter-spacing:.3px;color:#17231A;text-decoration:none}
+.logo span{color:#2E6B45}
+.nav{display:flex;gap:26px;flex:1}
+.nav a{color:#17231A;text-decoration:none;font-weight:600;font-size:15px}
+.nav a:hover{color:#2E6B45}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 22px;border-radius:14px;background:#2E6B45;color:#fff;font-weight:700;font-size:16px;text-decoration:none;box-sizing:border-box}
+.btn:hover{color:#fff;background:#25583A}
+.btn.ghost{background:transparent;color:#17231A;border:1.5px solid #17231A}
+.btn.ghost:hover{background:#17231A;color:#fff}
+.btn.sm{min-height:44px;padding:0 16px;font-size:15px}
+.kicker{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#2E6B45}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border-radius:999px;background:#E3EEDF;color:#1F4D31;font-size:14px;font-weight:600}
+.card{background:#fff;border:1px solid #DDE2D4;border-radius:20px}
+.ph{position:relative;border-radius:20px;background:repeating-linear-gradient(135deg,#E3EEDF 0 12px,#ECF2E9 12px 24px);border:1.5px dashed #9DBBA4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:#1F4D31;text-align:center;padding:16px;box-sizing:border-box}
+.ph b{font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+.ph span{font-size:13px;max-width:280px;line-height:1.35}
+.sec{padding-top:96px}
+.h2{font-size:44px;line-height:1.08;font-weight:700}
+.lead{color:#44544A;font-size:18px;margin:0}
+.badge{display:inline-block;background:#F2C14E;color:#2A2206;font-family:'Bricolage Grotesque',Georgia,serif;font-weight:700;padding:6px 12px;border-radius:999px}
+.svc{display:flex;flex-direction:column;overflow:hidden;text-decoration:none;color:#17231A;transition:transform .15s,border-color .15s}
+.svc:hover{transform:translateY(-3px);border-color:#2E6B45;color:#17231A}
+.svc .ph{border-radius:0;border:0;border-bottom:1.5px dashed #9DBBA4;aspect-ratio:16/10}
+.price{font-family:'Bricolage Grotesque',Georgia,serif;font-weight:700;font-variant-numeric:tabular-nums}
+.foot a{color:#F1F5EE;text-decoration:none}
+.foot a:hover{color:#F2C14E}
+@media (max-width:960px){
+.nav,.top .hide-m{display:none}
+.hero-grid,.split{grid-template-columns:minmax(0,1fr)!important}
+.g3,.g4{grid-template-columns:minmax(0,1fr)!important}
+.h1{font-size:40px!important}
+.h2{font-size:32px}
+.wrap{padding:0 16px}
+.sec{padding-top:64px}
+}
+@media (prefers-reduced-motion:reduce){.svc{transition:none}}
+
+.nav a:hover,.nav a.on{color:#2E6B45}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 22px;border-radius:14px;background:#2E6B45;color:#fff;font-weight:700;font-size:16px;text-decoration:none;box-sizing:border-box;border:0;font-family:inherit;cursor:pointer}
+.step{width:48px;height:48px;border-radius:12px;border:1px solid #DDE2D4;background:#F4F5EF;color:#17231A;font-size:24px;cursor:pointer;font-family:inherit}
+.step:hover{border-color:#2E6B45}
+.tgl{width:100%;min-height:52px;border:1px solid #DDE2D4;border-radius:14px;background:#fff;padding:0 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;font:inherit;font-weight:600;color:#17231A;cursor:pointer;text-align:left}
+.tgl .tr{flex:none;width:48px;height:28px;border-radius:14px;background:#DDE2D4;position:relative;transition:background .15s}
+.tgl .tr i{position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:11px;background:#fff;transition:left .15s}
+.tgl[aria-pressed="true"]{border-color:#2E6B45;background:#F1F7EE}
+.tgl[aria-pressed="true"] .tr{background:#2E6B45}
+.tgl[aria-pressed="true"] .tr i{left:23px}
+.faq details{border-bottom:1px solid #DDE2D4}
+.faq summary{list-style:none;cursor:pointer;min-height:60px;display:flex;align-items:center;justify-content:space-between;gap:12px;font-weight:600;font-size:17px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:26px;font-weight:400;color:#2E6B45}
+.faq details[open] summary::after{content:"−"}
+.faq p{margin:0 0 18px;color:#44544A}
+.fld{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:600}
+.inp{min-height:50px;padding:0 14px;border-radius:12px;border:1px solid #DDE2D4;background:#F4F5EF;color:#17231A;font:inherit;font-size:16px;font-weight:400;box-sizing:border-box;width:100%}
+textarea.inp{padding:12px 14px;min-height:96px}
+.hero-grid,.split,.calc{grid-template-columns:minmax(0,1fr)!important}
+.g3,.g4,.g2{grid-template-columns:minmax(0,1fr)!important}
+.tgl .tr,.tgl .tr i{transition:none}
+.seg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;padding:6px;background:#F4F5EF;border:1px solid #DDE2D4;border-radius:16px}
+.seg button,.opt{min-height:52px;border-radius:12px;border:1.5px solid transparent;background:transparent;font:inherit;font-weight:700;color:#17231A;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.2}
+.seg button small{font-weight:500;color:#44544A;font-size:13px}
+.seg button[aria-pressed="true"]{background:#fff;border-color:#2E6B45}
+.opts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.opt{border:1.5px solid #DDE2D4;background:#fff;font-size:15px}
+.opt[aria-pressed="true"]{border-color:#2E6B45;background:#F1F7EE}
+.ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;color:#44544A;font-size:15px}
+.ul li::before{content:"✓";color:#2E6B45;font-weight:700;margin-right:8px}
+.opts{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:960px){.float-price{position:static!important;margin-top:14px;min-width:0!important}}
+.mock-bar{background:#17231A;color:#F1F5EE;font-size:13px;padding:8px max(16px,env(safe-area-inset-left,0px));display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.mock-bar a{color:#F2C14E;font-weight:700;text-decoration:none}
+</style>
+<div class="mock-bar"><b>Pilottiversio · apulainen.pro</b><span>Страницы:</span><a href="#etusivu">Etusivu</a><a href="#ikkunat">Ikkunanpesu</a><a href="#siivous">Kotisiivous</a></div>
+<div class="page" id="etusivu" data-page="etusivu">
+
+
+<header class="top">
+<div class="wrap">
+<a class="logo" href="#etusivu">APULAINEN<span>.PRO</span></a>
+<nav class="nav" aria-label="Päävalikko">
+<a href="#ikkunat">Ikkunanpesu</a>
+<a href="#siivous">Kotisiivous</a>
+<a href="#etusivu-palvelut">Kaikki palvelut</a>
+<a href="#etusivu-kaupungit">Kaupungit</a>
+<a href="#etusivu-yrityksille">Yrityksille</a>
+</nav>
+<a class="btn sm" href="#etusivu-yhteys"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg><span class="hide-m">WhatsApp</span></a>
+</div>
+</header>
+
+<section class="wrap" style="padding-top: 56px">
+<div class="hero-grid" style="display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 48px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 22px">
+<div class="kicker">Siivous ja ikkunanpesu · Porvoo · Kotka · Kouvola · Lappeenranta · Turku</div>
+<h1 class="disp h1" style="font-size: 62px; line-height: 1.02; font-weight: 700">Puhdas koti ilman soittelua</h1>
+<p class="lead">Laske hinta sivulla ja varaa viestillä. Vahvistamme ajan tunnin sisällä arkisin, ja maksat vasta työn jälkeen.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a class="btn" href="#etusivu-palvelut">Laske hinta</a>
+<a class="btn ghost" href="#etusivu-yhteys"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg>Kirjoita WhatsAppiin</a>
+</div>
+<div class="chips">
+<span class="chip">Kotitalousvähennys 40 %</span>
+<span class="chip">Välineet ja aineet mukana</span>
+<span class="chip">Vastuuvakuutus</span>
+</div>
+</div>
+<div style="position: relative">
+<div class="ph" style="aspect-ratio: 4 / 5; max-height: 560px; width: 100%">
+<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h3l2-3h6l2 3h3a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+<b>Kuva · pystykuva 4:5</b>
+<span>Siivooja työssä kirkkaassa kodissa, kasvot eivät välttämättä näy</span>
+</div>
+<div class="card float-price" style="position: absolute; left: -28px; bottom: 28px; padding: 18px 20px; display: flex; flex-direction: column; gap: 10px; box-shadow: 0 18px 40px -22px rgba(23,35,26,.45); min-width: 250px">
+<div class="kicker" style="color: #44544A">Hinnat sis. alv</div>
+<div style="display: flex; justify-content: space-between; gap: 18px; align-items: baseline"><span style="font-weight: 600">Ikkunanpesu</span><span class="price" style="font-size: 22px">45 €/h</span></div>
+<div style="display: flex; justify-content: space-between; gap: 18px; align-items: baseline"><span style="font-weight: 600">Kotisiivous</span><span class="price" style="font-size: 22px">alk. 42 €/h</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="wrap sec" id="etusivu-palvelut">
+<div style="display: flex; justify-content: space-between; align-items: end; gap: 24px; flex-wrap: wrap; margin-bottom: 32px">
+<div style="display: flex; flex-direction: column; gap: 10px; max-width: 640px">
+<div class="kicker">Palvelut</div>
+<h2 class="disp h2">Mitä teemme</h2>
+<p class="lead">Jokaisella palvelulla on oma hintalaskuri. Valitse palvelu ja näet hinnan heti.</p>
+</div>
+</div>
+<div class="g3" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px">
+<a class="card svc" href="#ikkunat">
+<div class="ph"><b>Kuva · 16:10</b><span>Ikkunanpesu, korkeat ikkunat</span></div>
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px; flex: 1">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 8px"><h3 class="disp" style="font-size: 24px">Ikkunanpesu</h3><span class="badge" style="font-size: 13px">Suosituin</span></div>
+<p style="margin: 0; color: #44544A">Lasit kolmelta puolelta, myös korkeat ikkunat 9 metriin asti.</p>
+<div class="price" style="font-size: 26px; margin-top: auto">45 €/h</div>
+</div>
+</a>
+<a class="card svc" href="#siivous">
+<div class="ph"><b>Kuva · 16:10</b><span>Kotisiivous, olohuone tai keittiö</span></div>
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px; flex: 1">
+<h3 class="disp" style="font-size: 24px">Kotisiivous</h3>
+<p style="margin: 0; color: #44544A">Kertasiivous tai säännöllinen siivous viikoittain, joka toinen viikko tai kerran kuussa.</p>
+<div class="price" style="font-size: 26px; margin-top: auto">alk. 42 €/h</div>
+</div>
+</a>
+<a class="card svc" href="#etusivu-palvelut">
+<div class="ph"><b>Kuva · 16:10</b><span>Kylpyhuone, puhtaat saumat</span></div>
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px; flex: 1">
+<h3 class="disp" style="font-size: 24px">Kylpyhuonesiivous</h3>
+<p style="margin: 0; color: #44544A">Laatat, saumat ja kalkki kiinteällä pakettihinnalla.</p>
+<div class="price" style="font-size: 26px; margin-top: auto">alk. 150 €</div>
+</div>
+</a>
+<a class="card svc" href="#etusivu-palvelut">
+<div class="ph"><b>Kuva · 16:10</b><span>Suursiivous, kaapit ja pinnat</span></div>
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px; flex: 1">
+<h3 class="disp" style="font-size: 24px">Suursiivous</h3>
+<p style="margin: 0; color: #44544A">Koko koti perusteellisesti: kaapit, kodinkoneet, ovet ja listat.</p>
+<div class="price" style="font-size: 26px; margin-top: auto">[HINTA]</div>
+</div>
+</a>
+<a class="card svc" href="#etusivu-palvelut">
+<div class="ph"><b>Kuva · 16:10</b><span>Muuttosiivous, tyhjä asunto</span></div>
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px; flex: 1">
+<h3 class="disp" style="font-size: 24px">Muuttosiivous</h3>
+<p style="margin: 0; color: #44544A">Asunto luovutuskuntoon, jotta takuuvuokra palautuu.</p>
+<div class="price" style="font-size: 26px; margin-top: auto">[HINTA]</div>
+</div>
+</a>
+<a class="card svc" href="#etusivu-yrityksille" style="background: #1C3A27; border-color: #1C3A27; color: #F1F5EE">
+<div class="ph" style="background: repeating-linear-gradient(135deg,#24472F 0 12px,#2A4F35 12px 24px); color: #DCE8DE; border-bottom-color: #4F7A5C"><b>Kuva · 16:10</b><span>Toimisto tai liiketila</span></div>
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px; flex: 1">
+<h3 class="disp" style="font-size: 24px; color: #F1F5EE">Yrityksille</h3>
+<p style="margin: 0; color: #B9CCBE">Toimistot, liiketilat ja porraskäytävien ikkunat sopimuksella.</p>
+<div class="price" style="font-size: 26px; margin-top: auto; color: #F2C14E">Pyydä tarjous</div>
+</div>
+</a>
+</div>
+</section>
+
+<section class="wrap sec">
+<div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 32px">
+<div class="kicker">Näin se toimii</div>
+<h2 class="disp h2">Kolme askelta, ei yhtään puhelua</h2>
+</div>
+<div class="g3" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px">
+<div class="card" style="padding: 24px; display: flex; flex-direction: column; gap: 10px"><span class="price" style="font-size: 40px; color: #2E6B45">1</span><h3 class="disp" style="font-size: 22px">Laske hinta</h3><p style="margin: 0; color: #44544A">Laskuri näyttää arvion heti: ikkunoiden määrä tai asunnon koko riittää.</p></div>
+<div class="card" style="padding: 24px; display: flex; flex-direction: column; gap: 10px"><span class="price" style="font-size: 40px; color: #2E6B45">2</span><h3 class="disp" style="font-size: 22px">Varaa viestillä</h3><p style="margin: 0; color: #44544A">Lomakkeella tai WhatsAppissa. Vahvistamme ajan tunnin sisällä ma–pe 9–18.</p></div>
+<div class="card" style="padding: 24px; display: flex; flex-direction: column; gap: 10px"><span class="price" style="font-size: 40px; color: #2E6B45">3</span><h3 class="disp" style="font-size: 22px">Me siivoamme</h3><p style="margin: 0; color: #44544A">Maksat työn jälkeen. Kotitalousvähennyksen tiedot ovat valmiina laskulla.</p></div>
+</div>
+</section>
+
+<section class="wrap sec">
+<div class="split" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px; align-items: center">
+<div class="ph" style="aspect-ratio: 4 / 3; width: 100%"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h3l2-3h6l2 3h3a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z"></path><circle cx="12" cy="13" r="4"></circle></svg><b>Kuva · 4:3</b><span>Tiimi tai yrittäjä työvaatteissa, auto ja välineet</span></div>
+<div style="display: flex; flex-direction: column; gap: 18px">
+<div class="kicker">Miksi Apulainen</div>
+<h2 class="disp h2">Paikallinen tiimi, selkeät hinnat</h2>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px">
+<div class="card" style="padding: 18px; display: flex; flex-direction: column; gap: 6px"><b>Hinta etukäteen</b><span style="color: #44544A; font-size: 15px">Laskuri ja kirjallinen vahvistus ennen työtä.</span></div>
+<div class="card" style="padding: 18px; display: flex; flex-direction: column; gap: 6px"><b>Välineet mukana</b><span style="color: #44544A; font-size: 15px">Tuomme aineet, imurit ja pitkät varret.</span></div>
+<div class="card" style="padding: 18px; display: flex; flex-direction: column; gap: 6px"><b>Kotitalousvähennys</b><span style="color: #44544A; font-size: 15px">Työn osuus eriteltynä laskulla.</span></div>
+<div class="card" style="padding: 18px; display: flex; flex-direction: column; gap: 6px"><b>Vastuuvakuutus</b><span style="color: #44544A; font-size: 15px">Työ on vakuutettu.</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="wrap sec">
+<div class="card" style="padding: 36px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; background: #E3EEDF; border-color: #E3EEDF">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; gap: 8px; max-width: 640px">
+<span class="badge" style="align-self: flex-start">Jopa −20 %</span>
+<h2 class="disp" style="font-size: 34px; line-height: 1.1">Säännöllisen siivouksen asiakkaille</h2>
+<p style="margin: 0; color: #1F4D31">Ikkunanpesu, kylpyhuoneen syväpuhdistus, huonekalujen pesu ja muuttosiivous edullisemmin. Alennus sovitaan tilauksen yhteydessä.</p>
+</div>
+<a class="btn" href="#siivous">Katso säännöllinen siivous</a>
+</div>
+</div>
+</section>
+
+<section class="wrap sec">
+<div style="display: flex; justify-content: space-between; align-items: end; gap: 20px; flex-wrap: wrap; margin-bottom: 28px">
+<div style="display: flex; flex-direction: column; gap: 10px"><div class="kicker">Asiakkaat</div><h2 class="disp h2">Mitä asiakkaat sanovat</h2></div>
+<div style="display: flex; align-items: center; gap: 10px"><span style="color: #A86B0C; font-size: 22px; letter-spacing: 2px" aria-hidden="true">★★★★★</span><b>[X,X] / 5 · [X] arviota Googlessa</b></div>
+</div>
+<div class="g3" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px">
+<div class="card" style="padding: 22px; display: flex; flex-direction: column; gap: 12px"><span style="color: #A86B0C; letter-spacing: 2px" aria-hidden="true">★★★★★</span><p style="margin: 0">[Asiakkaan oikea arvio Googlesta, 1–3 lausetta.]</p><b style="font-size: 14px">[Etunimi], [kaupunki]</b></div>
+<div class="card" style="padding: 22px; display: flex; flex-direction: column; gap: 12px"><span style="color: #A86B0C; letter-spacing: 2px" aria-hidden="true">★★★★★</span><p style="margin: 0">[Asiakkaan oikea arvio Googlesta, 1–3 lausetta.]</p><b style="font-size: 14px">[Etunimi], [kaupunki]</b></div>
+<div class="card" style="padding: 22px; display: flex; flex-direction: column; gap: 12px"><span style="color: #A86B0C; letter-spacing: 2px" aria-hidden="true">★★★★★</span><p style="margin: 0">[Asiakkaan oikea arvio Googlesta, 1–3 lausetta.]</p><b style="font-size: 14px">[Etunimi], [kaupunki]</b></div>
+</div>
+</section>
+
+<section class="wrap sec" id="etusivu-kaupungit">
+<div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px"><div class="kicker">Kaupungit</div><h2 class="disp h2">Missä toimimme</h2><p class="lead">Jokaisella kaupungilla on oma sivu, hinnat ja vapaat ajat.</p></div>
+<div class="g4" style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px">
+<a class="card" href="#ikkunat" style="padding: 18px; text-decoration: none; color: #17231A; display: flex; flex-direction: column; gap: 4px"><b class="disp" style="font-size: 22px">Porvoo</b><span style="font-size: 14px; color: #44544A">Ikkunat · Siivous</span></a>
+<a class="card" href="#ikkunat" style="padding: 18px; text-decoration: none; color: #17231A; display: flex; flex-direction: column; gap: 4px"><b class="disp" style="font-size: 22px">Kotka</b><span style="font-size: 14px; color: #44544A">Ikkunat · Siivous</span></a>
+<a class="card" href="#ikkunat" style="padding: 18px; text-decoration: none; color: #17231A; display: flex; flex-direction: column; gap: 4px"><b class="disp" style="font-size: 22px">Kouvola</b><span style="font-size: 14px; color: #44544A">Ikkunat · Siivous</span></a>
+<a class="card" href="#ikkunat" style="padding: 18px; text-decoration: none; color: #17231A; display: flex; flex-direction: column; gap: 4px"><b class="disp" style="font-size: 22px">Lappeenranta</b><span style="font-size: 14px; color: #44544A">Ikkunat · Siivous</span></a>
+<a class="card" href="#ikkunat" style="padding: 18px; text-decoration: none; color: #17231A; display: flex; flex-direction: column; gap: 4px"><b class="disp" style="font-size: 22px">Turku</b><span style="font-size: 14px; color: #44544A">Ikkunat · Siivous</span></a>
+</div>
+</section>
+
+<section class="wrap sec" id="etusivu-yrityksille">
+<div class="card split" style="display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 32px; padding: 36px; background: #1C3A27; border-color: #1C3A27; color: #F1F5EE; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<div class="kicker" style="color: #6FBF8A">Yrityksille</div>
+<h2 class="disp h2" style="color: #F1F5EE">Toimistot ja liiketilat sopimuksella</h2>
+<p style="margin: 0; color: #B9CCBE; font-size: 17px">Viikkosiivous, ikkunat ja porraskäytävät samalta tiimiltä. Kiinteä kuukausihinta ja yksi lasku.</p>
+<div><a class="btn" href="#etusivu-yhteys" style="background: #F2C14E; color: #2A2206">Pyydä tarjous</a></div>
+</div>
+<div class="ph" style="aspect-ratio: 4 / 3; width: 100%; background: repeating-linear-gradient(135deg,#24472F 0 12px,#2A4F35 12px 24px); color: #DCE8DE; border-color: #4F7A5C"><b>Kuva · 4:3</b><span>Siisti toimisto tai liiketilan ikkunat</span></div>
+</div>
+</section>
+
+<section class="wrap sec" id="etusivu-yhteys" style="padding-bottom: 96px">
+<div class="card" style="padding: 40px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; gap: 8px; max-width: 620px">
+<h2 class="disp" style="font-size: 36px; line-height: 1.1">Kysy mitä tahansa viestillä</h2>
+<p style="margin: 0; color: #44544A">Lähetä kuva ikkunoista tai kerro asunnon koko. Vastaamme tunnin sisällä ma–pe 9–18.</p>
+</div>
+<div style="display: flex; gap: 12px; flex-wrap: wrap">
+<a class="btn" href="#etusivu-yhteys"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg>WhatsApp</a>
+<a class="btn ghost" href="#etusivu-yhteys">Sähköposti</a>
+</div>
+</div>
+</section>
+
+<footer class="foot" style="background: #14261B; color: #F1F5EE; border-radius: 28px 28px 0 0">
+<div class="wrap g4" style="padding-top: 48px; padding-bottom: 40px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 10px"><span class="logo" style="color: #F1F5EE">APULAINEN<span style="color: #6FBF8A">.PRO</span></span><span style="color: #A9C2B0; font-size: 14px">Siivous ja ikkunanpesu Itä- ja Etelä-Suomessa. Y-tunnus 3607106-2</span></div>
+<div style="display: flex; flex-direction: column; gap: 8px; font-size: 15px"><b>Palvelut</b><a href="#ikkunat">Ikkunanpesu</a><a href="#siivous">Kotisiivous</a><a href="#etusivu-palvelut">Kylpyhuonesiivous</a><a href="#etusivu-palvelut">Muuttosiivous</a></div>
+<div style="display: flex; flex-direction: column; gap: 8px; font-size: 15px"><b>Kaupungit</b><a href="#etusivu-kaupungit">Porvoo</a><a href="#etusivu-kaupungit">Kotka</a><a href="#etusivu-kaupungit">Kouvola</a><a href="#etusivu-kaupungit">Lappeenranta</a><a href="#etusivu-kaupungit">Turku</a></div>
+<div style="display: flex; flex-direction: column; gap: 8px; font-size: 15px"><b>Yhteys</b><a href="#etusivu-yhteys">WhatsApp</a><a href="#etusivu-yhteys">[sähköposti]@apulainen.pro</a><span style="color: #A9C2B0">ma–pe 9–18</span><a href="#etusivu-yhteys">Talon huolto: apulainen-huolto.pro</a></div>
+</div>
+</footer>
+
+
+</div>
+<div class="page" id="ikkunat" data-page="ikkunat">
+
+
+<header class="top">
+<div class="wrap">
+<a class="logo" href="#etusivu">APULAINEN<span>.PRO</span></a>
+<nav class="nav" aria-label="Päävalikko">
+<a class="on" href="#ikkunat">Ikkunanpesu</a>
+<a href="#siivous">Kotisiivous</a>
+<a href="#etusivu">Kaikki palvelut</a>
+<a href="#etusivu">Kaupungit</a>
+<a href="#etusivu">Yrityksille</a>
+</nav>
+<a class="btn sm" href="#ikkunat-varaa"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg><span class="hide-m">WhatsApp</span></a>
+</div>
+</header>
+
+<section class="wrap" style="padding-top: 40px">
+<nav aria-label="Murupolku" style="font-size: 14px; color: #44544A; margin-bottom: 20px"><a href="#etusivu">Etusivu</a> / Ikkunanpesu / <b style="color: #17231A">[Kaupunki]</b></nav>
+<div class="hero-grid" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 48px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 22px">
+<div class="kicker">Ikkunanpesu · [Kaupunki] ja lähialueet</div>
+<h1 class="disp h1" style="font-size: 58px; line-height: 1.03; font-weight: 700">Ikkunanpesu – laske hinta heti</h1>
+<p class="lead">Pesemme ikkunat sisältä, ulkoa ja välistä. Korkeat ikkunat 9 metriin asti, sitä korkeammalle nostimella. Välineet ja aineet tuomme itse.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a class="btn" href="#ikkunat-laskuri">Laske hinta</a>
+<a class="btn ghost" href="#ikkunat-varaa">Lähetä kuva WhatsAppissa</a>
+</div>
+<div class="chips">
+<span class="chip">45 €/h</span>
+<span class="chip">Korkeat ikkunat 9 m asti</span>
+<span class="chip">Kotitalousvähennys 40 %</span>
+<span class="chip">Lähin vapaa aika: [PÄIVÄ]</span>
+</div>
+</div>
+<div class="ph" style="aspect-ratio: 16 / 11; width: 100%">
+<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h3l2-3h6l2 3h3a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+<b>Pääkuva · 16:11</b>
+<span>Ikkunanpesu käynnissä: lasta ja kirkas lasi, kaupunkinäkymä taustalla</span>
+</div>
+</div>
+</section>
+
+<section class="wrap sec" id="ikkunat-laskuri">
+<div class="calc card" style="display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); overflow: hidden">
+<div style="padding: 36px; display: flex; flex-direction: column; gap: 22px">
+<div style="display: flex; flex-direction: column; gap: 8px"><div class="kicker">Hintalaskuri</div><h2 class="disp" style="font-size: 34px; line-height: 1.1">Montako ikkunaa pestään?</h2></div>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 16px; border: 1px solid #DDE2D4; border-radius: 14px">
+<div style="display: flex; flex-direction: column"><b>Ikkunat</b><span style="font-size: 14px; color: #44544A">Avattava ikkuna = 1, noin 18 min / ikkuna</span></div>
+<div style="display: flex; align-items: center; gap: 8px">
+<button class="step" type="button" aria-label="Vähemmän ikkunoita" data-act="ikkunat:dec">−</button>
+<output class="price" style="width: 48px; text-align: center; font-size: 28px"><span data-v="ikkunat:n"></span></output>
+<button class="step" type="button" aria-label="Lisää ikkunoita" data-act="ikkunat:inc">+</button>
+</div>
+</div>
+<button class="tgl" type="button" aria-pressed="false" data-pressed="ikkunat:balcPressed" data-act="ikkunat:toggleBalc"><span>Lasitettu parveke <span style="font-weight: 400; color: #44544A">+1 h</span></span><span class="tr"><i></i></span></button>
+<div class="chips"><span class="chip">Pikavalinta:</span><button type="button" class="chip" style="border: 0; cursor: pointer; font-family: inherit" data-act="ikkunat:p6">Kaksio · 6</button><button type="button" class="chip" style="border: 0; cursor: pointer; font-family: inherit" data-act="ikkunat:p10">Kolmio · 10</button><button type="button" class="chip" style="border: 0; cursor: pointer; font-family: inherit" data-act="ikkunat:p14">Omakotitalo · 14</button></div>
+<p style="margin: 0; font-size: 14px; color: #44544A">Hinta 45 €/h, minimiveloitus 2,5 h, käyntimaksu 15 €. Laskutamme toteutuneen ajan.</p>
+</div>
+<div style="background: #1C3A27; color: #F1F5EE; padding: 36px; display: flex; flex-direction: column; gap: 14px; justify-content: center">
+<span class="kicker" style="color: #6FBF8A">Hinta-arvio · sis. alv</span>
+<span class="price" style="font-size: 64px; line-height: 1"><span data-v="ikkunat:price"></span></span>
+<span style="color: #B9CCBE">Arvioitu työaika <span data-v="ikkunat:hours"></span></span>
+<div style="border-top: 1px solid #2A4233; padding-top: 14px; display: flex; justify-content: space-between; gap: 12px"><span style="color: #B9CCBE">Kotitalousvähennys, jos omavastuu on jo käytetty</span><b style="color: #F2C14E; white-space: nowrap">−<span data-v="ikkunat:ded"></span></b></div>
+<a class="btn" href="#ikkunat-varaa" style="background: #F2C14E; color: #2A2206; margin-top: 6px">Varaa tällä hinnalla</a>
+</div>
+</div>
+</section>
+
+<section class="wrap sec">
+<div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 28px"><div class="kicker">Esimerkkejä</div><h2 class="disp h2">Mitä ikkunanpesu maksaa</h2></div>
+<div class="g4" style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px">
+<div class="card" style="overflow: hidden; display: flex; flex-direction: column"><div class="ph" style="border-radius: 0; border: 0; border-bottom: 1.5px dashed #9DBBA4; aspect-ratio: 4 / 3"><b>Kuva · 4:3</b><span>Kaksion ikkunat</span></div><div style="padding: 18px; display: flex; flex-direction: column; gap: 4px"><b>Kaksio</b><span style="font-size: 14px; color: #44544A">6 ikkunaa · noin 2,5 h</span><span class="price" style="font-size: 26px">127,50 €</span></div></div>
+<div class="card" style="overflow: hidden; display: flex; flex-direction: column"><div class="ph" style="border-radius: 0; border: 0; border-bottom: 1.5px dashed #9DBBA4; aspect-ratio: 4 / 3"><b>Kuva · 4:3</b><span>Kolmion ikkunat ja parveke</span></div><div style="padding: 18px; display: flex; flex-direction: column; gap: 4px"><b>Kolmio</b><span style="font-size: 14px; color: #44544A">10 ikkunaa · noin 3 h</span><span class="price" style="font-size: 26px">150 €</span></div></div>
+<div class="card" style="overflow: hidden; display: flex; flex-direction: column"><div class="ph" style="border-radius: 0; border: 0; border-bottom: 1.5px dashed #9DBBA4; aspect-ratio: 4 / 3"><b>Kuva · 4:3</b><span>Omakotitalo ulkoa</span></div><div style="padding: 18px; display: flex; flex-direction: column; gap: 4px"><b>Omakotitalo</b><span style="font-size: 14px; color: #44544A">14 ikkunaa · noin 4,2 h</span><span class="price" style="font-size: 26px">204 €</span></div></div>
+<div class="card" style="overflow: hidden; display: flex; flex-direction: column"><div class="ph" style="border-radius: 0; border: 0; border-bottom: 1.5px dashed #9DBBA4; aspect-ratio: 4 / 3"><b>Kuva · 4:3</b><span>Korkea olohuoneen ikkuna</span></div><div style="padding: 18px; display: flex; flex-direction: column; gap: 4px"><b>Korkeat ikkunat</b><span style="font-size: 14px; color: #44544A">yli 9 m nostimella</span><span class="price" style="font-size: 26px">Hinta kuvista</span></div></div>
+</div>
+</section>
+
+<section class="wrap sec">
+<div class="split" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 18px">
+<div class="kicker">Mitä hintaan sisältyy</div>
+<h2 class="disp h2">Kolme puolta, karmit ja välineet</h2>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px">
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2E6B45" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M20 6 9 17l-5-5"></path></svg><span><b>Lasit sisältä, ulkoa ja välistä</b> – raidattomaksi lastalla ja mikrokuidulla</span></li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2E6B45" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M20 6 9 17l-5-5"></path></svg><span><b>Karmit ja puitteet</b> pyyhitään pölystä ja liasta</span></li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2E6B45" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M20 6 9 17l-5-5"></path></svg><span><b>Lasitettu parveke</b> lisäpalveluna, noin 1 h</span></li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2E6B45" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M20 6 9 17l-5-5"></path></svg><span><b>Välineet ja aineet</b> tuomme itse, myös pitkät varret</span></li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2E6B45" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M20 6 9 17l-5-5"></path></svg><span><b>Suojaamme</b> ikkunalaudat ja lattiat</span></li>
+</ul>
+</div>
+<div class="ph" style="aspect-ratio: 4 / 5; max-height: 520px; width: 100%"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h3l2-3h6l2 3h3a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z"></path><circle cx="12" cy="13" r="4"></circle></svg><b>Kuva · 4:5</b><span>Korkeiden ikkunoiden pesu pitkällä varrella</span></div>
+</div>
+</section>
+
+<section class="wrap sec">
+<div class="split" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 10px"><div class="kicker">Usein kysyttyä</div><h2 class="disp h2">Kysymyksiä ikkunanpesusta</h2></div>
+<div class="faq" style="border-top: 1px solid #DDE2D4">
+<details><summary>Pitääkö minun olla kotona?</summary><p>Ei välttämättä. Ulkopuolet voi pestä ilman sinua, sisäpuolta varten sovimme avaimen luovutuksesta.</p></details>
+<details><summary>Pesettekö myös korkeita ikkunoita?</summary><p>Kyllä, pitkillä varsilla 9 metriin asti. Sitä korkeammat ikkunat pestään nostimella, nostimen hinta sovitaan kuvista.</p></details>
+<details><summary>Miten kotitalousvähennys toimii?</summary><p>Vähennys on 40 % työn osuudesta, omavastuu 150 € vuodessa. Työn osuus on eritelty laskulla valmiiksi.</p></details>
+<details><summary>Entä jos sataa?</summary><p>Sisäpuolet pestään sovitusti. Ulkopuolista sovimme uuden ajan, jos sade pilaa lopputuloksen.</p></details>
+</div>
+</div>
+</section>
+
+<section class="wrap sec" id="ikkunat-varaa">
+<div class="card split" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 36px; padding: 36px">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<div class="kicker">Varaus</div>
+<h2 class="disp h2">Varaa ikkunanpesu</h2>
+<p style="margin: 0; color: #44544A">Vahvistamme ajan viestillä tunnin sisällä ma–pe 9–18. Maksat vasta työn jälkeen.</p>
+<div style="background: #E3EEDF; color: #1F4D31; border-radius: 14px; padding: 14px 16px; font-size: 14px"><b>Laskurin arvio:</b> <span data-v="ikkunat:summary"></span></div>
+</div>
+<form style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px" class="g2">
+<label class="fld" for="w-name">Nimi<input class="inp" id="w-name" type="text" autocomplete="name"></label>
+<label class="fld" for="w-phone">Puhelin (WhatsApp)<input class="inp" id="w-phone" type="tel" autocomplete="tel"></label>
+<label class="fld" for="w-mail">Sähköposti<input class="inp" id="w-mail" type="email" autocomplete="email"></label>
+<label class="fld" for="w-addr">Osoite<input class="inp" id="w-addr" type="text" autocomplete="street-address"></label>
+<label class="fld" for="w-when" style="grid-column: 1 / -1">Toivottu ajankohta<select class="inp" id="w-when"><option>Tällä viikolla</option><option>Ensi viikolla</option><option>Joustava</option></select></label>
+<label class="fld" for="w-more" style="grid-column: 1 / -1">Lisätiedot<textarea class="inp" id="w-more" placeholder="Esim. kerros, korkeat ikkunat, avain"></textarea></label>
+<button class="btn" type="button" style="grid-column: 1 / -1">Lähetä varaus</button>
+</form>
+</div>
+</section>
+
+<section class="wrap sec" style="padding-bottom: 96px">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; padding: 32px 36px; border-radius: 20px; background: #E3EEDF">
+<div style="display: flex; flex-direction: column; gap: 6px"><h2 class="disp" style="font-size: 30px">Jäikö kysyttävää?</h2><p style="margin: 0; color: #1F4D31">Lähetä kuva ikkunoista, kerromme hinnan viestillä.</p></div>
+<a class="btn" href="#ikkunat-varaa"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg>Kirjoita WhatsAppiin</a>
+</div>
+</section>
+
+<footer class="foot" style="background: #14261B; color: #F1F5EE; border-radius: 28px 28px 0 0">
+<div class="wrap g4" style="padding-top: 48px; padding-bottom: 40px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 10px"><span class="logo" style="color: #F1F5EE">APULAINEN<span style="color: #6FBF8A">.PRO</span></span><span style="color: #A9C2B0; font-size: 14px">Siivous ja ikkunanpesu. Y-tunnus 3607106-2</span></div>
+<div style="display: flex; flex-direction: column; gap: 8px; font-size: 15px"><b>Palvelut</b><a href="#ikkunat">Ikkunanpesu</a><a href="#siivous">Kotisiivous</a><a href="#etusivu">Kylpyhuonesiivous</a><a href="#etusivu">Muuttosiivous</a></div>
+<div style="display: flex; flex-direction: column; gap: 8px; font-size: 15px"><b>Ikkunanpesu</b><a href="#ikkunat">Porvoo</a><a href="#ikkunat">Kotka</a><a href="#ikkunat">Kouvola</a><a href="#ikkunat">Lappeenranta</a><a href="#ikkunat">Turku</a></div>
+<div style="display: flex; flex-direction: column; gap: 8px; font-size: 15px"><b>Yhteys</b><a href="#ikkunat-varaa">WhatsApp</a><a href="#ikkunat-varaa">[sähköposti]@apulainen.pro</a><span style="color: #A9C2B0">ma–pe 9–18</span></div>
+</div>
+</footer>
+
+
+</div>
+<div class="page" id="siivous" data-page="siivous">
+
+
+<header class="top">
+<div class="wrap">
+<a class="logo" href="#etusivu">APULAINEN<span>.PRO</span></a>
+<nav class="nav" aria-label="Päävalikko">
+<a href="#ikkunat">Ikkunanpesu</a>
+<a class="on" href="#siivous">Kotisiivous</a>
+<a href="#etusivu">Kaikki palvelut</a>
+<a href="#etusivu">Kaupungit</a>
+<a href="#etusivu">Yrityksille</a>
+</nav>
+<a class="btn sm" href="#siivous-varaa"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg><span class="hide-m">WhatsApp</span></a>
+</div>
+</header>
+
+<section class="wrap" style="padding-top: 40px">
+<nav aria-label="Murupolku" style="font-size: 14px; color: #44544A; margin-bottom: 20px"><a href="#etusivu">Etusivu</a> / Kotisiivous / <b style="color: #17231A">[Kaupunki]</b></nav>
+<div class="hero-grid" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 48px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 22px">
+<div class="kicker">Kotisiivous · [Kaupunki] ja lähialueet</div>
+<h1 class="disp h1" style="font-size: 58px; line-height: 1.03; font-weight: 700">Kotisiivous kerran tai säännöllisesti</h1>
+<p class="lead">Sama siivooja joka kerta, omat aineet ja välineet. Valitse asunnon koko, näet hinnan heti.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a class="btn" href="#siivous-laskuri">Laske hinta</a>
+<a class="btn ghost" href="#siivous-varaa">Kysy WhatsAppissa</a>
+</div>
+<div class="chips">
+<span class="chip">Säännöllinen 42 €/h</span>
+<span class="chip">Kertasiivous 45 €/h</span>
+<span class="chip">Ei käyntimaksua</span>
+<span class="chip">Kotitalousvähennys 40 %</span>
+</div>
+</div>
+<div class="ph" style="aspect-ratio: 16 / 11; width: 100%">
+<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h3l2-3h6l2 3h3a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+<b>Pääkuva · 16:11</b>
+<span>Valoisa, siisti olohuone tai siivooja keittiössä</span>
+</div>
+</div>
+</section>
+
+<section class="wrap sec" id="siivous-laskuri">
+<div class="calc card" style="display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); overflow: hidden">
+<div style="padding: 36px; display: flex; flex-direction: column; gap: 22px">
+<div style="display: flex; flex-direction: column; gap: 8px"><div class="kicker">Hintalaskuri</div><h2 class="disp" style="font-size: 34px; line-height: 1.1">Millainen siivous?</h2></div>
+<div class="seg">
+<button type="button" aria-pressed="false" data-pressed="siivous:regPressed" data-act="siivous:setReg">Säännöllinen<small>42 €/h</small></button>
+<button type="button" aria-pressed="false" data-pressed="siivous:oncePressed" data-act="siivous:setOnce">Kertasiivous<small>45 €/h</small></button>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px"><b>Asunnon koko</b>
+<div class="opts">
+<button type="button" class="opt" aria-pressed="false" data-size="0">alle 40 m²</button><button type="button" class="opt" aria-pressed="false" data-size="1">40–60 m²</button><button type="button" class="opt" aria-pressed="false" data-size="2">61–80 m²</button><button type="button" class="opt" aria-pressed="false" data-size="3">81–100 m²</button><button type="button" class="opt" aria-pressed="false" data-size="4">101–130 m²</button><button type="button" class="opt" aria-pressed="false" data-size="5">yli 130 m²</button>
+</div>
+</div>
+ <div id="freq-box">
+<div style="display: flex; flex-direction: column; gap: 10px"><b>Kuinka usein</b>
+<div class="opts">
+<button type="button" class="opt" aria-pressed="false" data-freq="0">Joka viikko</button><button type="button" class="opt" aria-pressed="false" data-freq="1">2 viikon välein</button><button type="button" class="opt" aria-pressed="false" data-freq="2">Kerran kuussa</button>
+</div>
+</div>
+</div>
+<p style="margin: 0; font-size: 14px; color: #44544A">Minimiveloitus 2,5 h, ei käyntimaksua. Laskutamme toteutuneen ajan.</p>
+</div>
+<div style="background: #1C3A27; color: #F1F5EE; padding: 36px; display: flex; flex-direction: column; gap: 14px; justify-content: center">
+<span class="kicker" style="color: #6FBF8A">Hinta-arvio · sis. alv</span>
+<span class="price" style="font-size: 64px; line-height: 1"><span data-v="siivous:price"></span></span>
+<span style="color: #B9CCBE"><span data-v="siivous:per"></span> · noin <span data-v="siivous:hours"></span></span>
+<div style="border-top: 1px solid #2A4233; padding-top: 14px; display: flex; justify-content: space-between; gap: 12px"><span style="color: #B9CCBE">Kotitalousvähennys, jos omavastuu on jo käytetty</span><b style="color: #F2C14E; white-space: nowrap">−<span data-v="siivous:ded"></span></b></div>
+<a class="btn" href="#siivous-varaa" style="background: #F2C14E; color: #2A2206; margin-top: 6px">Varaa siivous</a>
+</div>
+</div>
+</section>
+
+<section class="wrap sec">
+<div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 28px"><div class="kicker">Esimerkkejä</div><h2 class="disp h2">Mitä kotisiivous maksaa</h2></div>
+<div class="g4" style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px">
+<div class="card" style="overflow: hidden; display: flex; flex-direction: column"><div class="ph" style="border-radius: 0; border: 0; border-bottom: 1.5px dashed #9DBBA4; aspect-ratio: 4 / 3"><b>Kuva · 4:3</b><span>Yksiö</span></div><div style="padding: 18px; display: flex; flex-direction: column; gap: 6px"><b>Yksiö · alle 40 m²</b><div style="display: flex; justify-content: space-between; font-size: 15px"><span style="color: #44544A">Säännöllinen</span><b class="price">105 €</b></div><div style="display: flex; justify-content: space-between; font-size: 15px"><span style="color: #44544A">Kertasiivous</span><b class="price">157,50 €</b></div></div></div>
+<div class="card" style="overflow: hidden; display: flex; flex-direction: column"><div class="ph" style="border-radius: 0; border: 0; border-bottom: 1.5px dashed #9DBBA4; aspect-ratio: 4 / 3"><b>Kuva · 4:3</b><span>Kaksio</span></div><div style="padding: 18px; display: flex; flex-direction: column; gap: 6px"><b>Kaksio · 40–60 m²</b><div style="display: flex; justify-content: space-between; font-size: 15px"><span style="color: #44544A">Säännöllinen</span><b class="price">126 €</b></div><div style="display: flex; justify-content: space-between; font-size: 15px"><span style="color: #44544A">Kertasiivous</span><b class="price">180 €</b></div></div></div>
+<div class="card" style="overflow: hidden; display: flex; flex-direction: column"><div class="ph" style="border-radius: 0; border: 0; border-bottom: 1.5px dashed #9DBBA4; aspect-ratio: 4 / 3"><b>Kuva · 4:3</b><span>Kolmio</span></div><div style="padding: 18px; display: flex; flex-direction: column; gap: 6px"><b>Kolmio · 61–80 m²</b><div style="display: flex; justify-content: space-between; font-size: 15px"><span style="color: #44544A">Säännöllinen</span><b class="price">147 €</b></div><div style="display: flex; justify-content: space-between; font-size: 15px"><span style="color: #44544A">Kertasiivous</span><b class="price">202,50 €</b></div></div></div>
+<div class="card" style="overflow: hidden; display: flex; flex-direction: column"><div class="ph" style="border-radius: 0; border: 0; border-bottom: 1.5px dashed #9DBBA4; aspect-ratio: 4 / 3"><b>Kuva · 4:3</b><span>Omakotitalo</span></div><div style="padding: 18px; display: flex; flex-direction: column; gap: 6px"><b>Omakotitalo · 101–130 m²</b><div style="display: flex; justify-content: space-between; font-size: 15px"><span style="color: #44544A">Säännöllinen</span><b class="price">210 €</b></div><div style="display: flex; justify-content: space-between; font-size: 15px"><span style="color: #44544A">Kertasiivous</span><b class="price">292,50 €</b></div></div></div>
+</div>
+</section>
+
+<section class="wrap sec">
+<div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 28px"><div class="kicker">Mitä siivoukseen kuuluu</div><h2 class="disp h2">Joka kerta samat asiat</h2></div>
+<div class="g3" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px">
+<div class="card" style="padding: 24px; display: flex; flex-direction: column; gap: 12px"><h3 class="disp" style="font-size: 22px">Keittiö</h3><ul class="ul"><li>Työtasot, liesi ja tiskiallas</li><li>Kodinkoneiden ulkopinnat</li><li>Kaappien ovet ja vetimet</li><li>Lattia imuroidaan ja pestään</li></ul></div>
+<div class="card" style="padding: 24px; display: flex; flex-direction: column; gap: 12px"><h3 class="disp" style="font-size: 22px">Kylpyhuone ja WC</h3><ul class="ul"><li>WC-istuin, allas ja hanat</li><li>Suihkunurkka ja peili</li><li>Kalkkitahrat pinnoilta</li><li>Lattia ja lattiakaivo</li></ul></div>
+<div class="card" style="padding: 24px; display: flex; flex-direction: column; gap: 12px"><h3 class="disp" style="font-size: 22px">Olohuone ja makuuhuoneet</h3><ul class="ul"><li>Pölyt tasoilta ja hyllyiltä</li><li>Imurointi, myös mattojen</li><li>Lattiat nihkeäpyyhitään</li><li>Peilit ja lasipinnat</li></ul></div>
+</div>
+</section>
+
+<section class="wrap sec">
+<div class="split" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; padding: 36px; border-radius: 20px; background: #1C3A27; color: #F1F5EE; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<span class="badge" style="align-self: flex-start">Jopa −20 %</span>
+<h2 class="disp h2" style="color: #F1F5EE">Säännöllisen asiakkaan edut</h2>
+<p style="margin: 0; color: #B9CCBE">Sama siivooja, kiinteä viikonpäivä ja alennus lisäpalveluista. Alennus sovitaan tilauksen yhteydessä.</p>
+<ul class="ul" style="color: #DCE8DE"><li>Ikkunanpesu</li><li>Kylpyhuoneen syväpuhdistus</li><li>Huonekalujen pesu</li><li>Muuttosiivous</li></ul>
+</div>
+<div class="ph" style="aspect-ratio: 4 / 3; width: 100%; background: repeating-linear-gradient(135deg,#24472F 0 12px,#2A4F35 12px 24px); color: #DCE8DE; border-color: #4F7A5C"><b>Kuva · 4:3</b><span>Sama siivooja tutussa kodissa, avaimet tai ovi</span></div>
+</div>
+</section>
+
+<section class="wrap sec">
+<div class="split" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 10px"><div class="kicker">Usein kysyttyä</div><h2 class="disp h2">Kysymyksiä siivouksesta</h2></div>
+<div class="faq" style="border-top: 1px solid #DDE2D4">
+<details><summary>Tuleeko aina sama siivooja?</summary><p>Säännöllisessä siivouksessa kyllä. Lomien ajaksi sovimme sijaisen etukäteen.</p></details>
+<details><summary>Pitääkö minun olla kotona?</summary><p>Ei tarvitse. Moni asiakas jättää avaimen, sovimme luovutuksesta ensimmäisellä kerralla.</p></details>
+<details><summary>Tuotteko omat aineet?</summary><p>Kyllä, aineet ja välineet ovat mukana. Jos haluat omia aineitasi, käytämme niitä.</p></details>
+<details><summary>Voinko perua tai siirtää siivouksen?</summary><p>Voit, viestillä viimeistään [X] tuntia ennen sovittua aikaa.</p></details>
+</div>
+</div>
+</section>
+
+<section class="wrap sec" id="siivous-varaa">
+<div class="card split" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 36px; padding: 36px">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<div class="kicker">Varaus</div>
+<h2 class="disp h2">Varaa siivous</h2>
+<p style="margin: 0; color: #44544A">Vahvistamme ajan viestillä tunnin sisällä ma–pe 9–18. Maksat vasta työn jälkeen.</p>
+<div style="background: #E3EEDF; color: #1F4D31; border-radius: 14px; padding: 14px 16px; font-size: 14px"><b>Laskurin arvio:</b> <span data-v="siivous:summary"></span></div>
+</div>
+<form style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px" class="g2">
+<label class="fld" for="k-name">Nimi<input class="inp" id="k-name" type="text" autocomplete="name"></label>
+<label class="fld" for="k-phone">Puhelin (WhatsApp)<input class="inp" id="k-phone" type="tel" autocomplete="tel"></label>
+<label class="fld" for="k-mail">Sähköposti<input class="inp" id="k-mail" type="email" autocomplete="email"></label>
+<label class="fld" for="k-addr">Osoite<input class="inp" id="k-addr" type="text" autocomplete="street-address"></label>
+<label class="fld" for="k-type">Siivous<select class="inp" id="k-type"><option>Kertasiivous</option><option>Säännöllinen, joka viikko</option><option>Säännöllinen, 2 viikon välein</option><option>Säännöllinen, kerran kuussa</option></select></label>
+<label class="fld" for="k-start">Toivottu aloituspäivä<input class="inp" id="k-start" type="date"></label>
+<label class="fld" for="k-more" style="grid-column: 1 / -1">Lisätiedot<textarea class="inp" id="k-more" placeholder="Esim. lemmikit, avain, erityistoiveet"></textarea></label>
+<button class="btn" type="button" style="grid-column: 1 / -1">Lähetä varaus</button>
+</form>
+</div>
+</section>
+
+<section class="wrap sec" style="padding-bottom: 96px">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; padding: 32px 36px; border-radius: 20px; background: #E3EEDF">
+<div style="display: flex; flex-direction: column; gap: 6px"><h2 class="disp" style="font-size: 30px">Jäikö kysyttävää?</h2><p style="margin: 0; color: #1F4D31">Kerro asunnon koko ja toiveet, vastaamme viestillä.</p></div>
+<a class="btn" href="#siivous-varaa"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg>Kirjoita WhatsAppiin</a>
+</div>
+</section>
+
+<footer class="foot" style="background: #14261B; color: #F1F5EE; border-radius: 28px 28px 0 0">
+<div class="wrap g4" style="padding-top: 48px; padding-bottom: 40px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 10px"><span class="logo" style="color: #F1F5EE">APULAINEN<span style="color: #6FBF8A">.PRO</span></span><span style="color: #A9C2B0; font-size: 14px">Siivous ja ikkunanpesu. Y-tunnus 3607106-2</span></div>
+<div style="display: flex; flex-direction: column; gap: 8px; font-size: 15px"><b>Palvelut</b><a href="#ikkunat">Ikkunanpesu</a><a href="#siivous">Kotisiivous</a><a href="#etusivu">Kylpyhuonesiivous</a><a href="#etusivu">Muuttosiivous</a></div>
+<div style="display: flex; flex-direction: column; gap: 8px; font-size: 15px"><b>Kotisiivous</b><a href="#siivous">Porvoo</a><a href="#siivous">Kotka</a><a href="#siivous">Kouvola</a><a href="#siivous">Lappeenranta</a><a href="#siivous">Turku</a></div>
+<div style="display: flex; flex-direction: column; gap: 8px; font-size: 15px"><b>Yhteys</b><a href="#siivous-varaa">WhatsApp</a><a href="#siivous-varaa">[sähköposti]@apulainen.pro</a><span style="color: #A9C2B0">ma–pe 9–18</span></div>
+</div>
+</footer>
+
+
+</div>
+
+<script>
+(function(){
+function fmt(v){return v.toFixed(2).replace('.',',').replace(',00','')+' €';}
+function setV(k,v){document.querySelectorAll('[data-v="'+k+'"]').forEach(function(e){e.textContent=v;});}
+function press(sel,on){document.querySelectorAll(sel).forEach(function(e){e.setAttribute('aria-pressed',on?'true':'false');});}
+/* pages */
+function show(){var id=(location.hash||'#etusivu').slice(1),pid=id.split('-')[0];if(!document.getElementById(pid))pid='etusivu';
+document.querySelectorAll('.page').forEach(function(p){p.hidden=p.id!==pid;});
+var t=document.getElementById(id);if(t&&t.classList.contains('page'))window.scrollTo(0,0);else if(t)t.scrollIntoView();}
+window.addEventListener('hashchange',show);
+/* windows */
+var W={n:8,balc:false};
+function rw(){var h=Math.max(2.5,W.n*0.3+(W.balc?1:0)),work=h*45,p=work+15,hs=(Math.round(h*10)/10).toString().replace('.',',');
+setV('ikkunat:n',W.n);setV('ikkunat:price',fmt(p));setV('ikkunat:hours','noin '+hs+' h');setV('ikkunat:ded',fmt(Math.round(work*0.4)));
+setV('ikkunat:summary',W.n+' ikkunaa'+(W.balc?' + lasitettu parveke':'')+', noin '+hs+' h, arvio '+fmt(p));press('[data-pressed="ikkunat:balcPressed"]',W.balc);}
+/* cleaning */
+var SZ=[['alle 40 m²',2.5,3.5],['40–60 m²',3,4],['61–80 m²',3.5,4.5],['81–100 m²',4,5.5],['101–130 m²',5,6.5],['yli 130 m²',6,8]],FQ=['Joka viikko','2 viikon välein','Kerran kuussa'];
+var C={reg:true,size:1,freq:1};
+function rc(){var s=SZ[C.size],h=C.reg?s[1]:s[2],p=h*(C.reg?42:45),hs=h.toString().replace('.',',')+' h';
+setV('siivous:price',fmt(p));setV('siivous:hours',hs);setV('siivous:ded',fmt(Math.round(p*0.4)));
+setV('siivous:per',C.reg?'Per kerta, '+FQ[C.freq].toLowerCase():'Kertasiivous');
+setV('siivous:summary',(C.reg?'Säännöllinen siivous, '+FQ[C.freq].toLowerCase():'Kertasiivous')+', '+s[0]+', noin '+hs+', arvio '+fmt(p)+(C.reg?' / kerta':''));
+press('[data-pressed="siivous:regPressed"]',C.reg);press('[data-pressed="siivous:oncePressed"]',!C.reg);
+document.querySelectorAll('[data-size]').forEach(function(b){b.setAttribute('aria-pressed',+b.dataset.size===C.size?'true':'false');});
+document.querySelectorAll('[data-freq]').forEach(function(b){b.setAttribute('aria-pressed',+b.dataset.freq===C.freq?'true':'false');});
+var fb=document.getElementById('freq-box');if(fb)fb.hidden=!C.reg;}
+document.addEventListener('click',function(e){var b=e.target.closest('[data-act],[data-size],[data-freq]');if(!b)return;
+if(b.dataset.size!==undefined){C.size=+b.dataset.size;rc();return;}
+if(b.dataset.freq!==undefined){C.freq=+b.dataset.freq;rc();return;}
+var a=b.dataset.act;
+if(a==='ikkunat:dec')W.n=Math.max(1,W.n-1);else if(a==='ikkunat:inc')W.n=Math.min(60,W.n+1);else if(a==='ikkunat:toggleBalc')W.balc=!W.balc;
+else if(a==='ikkunat:p6')W.n=6;else if(a==='ikkunat:p10')W.n=10;else if(a==='ikkunat:p14')W.n=14;
+else if(a==='siivous:setReg')C.reg=true;else if(a==='siivous:setOnce')C.reg=false;
+rw();rc();});
+rw();rc();show();
+})();
+</script>
+
+</body>
+</html>
