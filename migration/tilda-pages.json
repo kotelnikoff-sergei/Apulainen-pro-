@@ -1,0 +1,1822 @@
+[
+ {
+  "path": "/ukk",
+  "lastmod": "2026-07-17T08:58:41+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/kotisiivous/helsinki/lauttasaari",
+  "lastmod": "2026-09-23T09:42:10+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/hinnasto",
+  "lastmod": "2026-10-16T18:22:33+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/kruununhaka/",
+  "lastmod": "2026-09-25T15:03:07+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ilmalmppumpun_puhdistus",
+  "lastmod": "2026-09-23T07:35:37+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/ikkunanpesu/turku/i-kaupunginosassa",
+  "lastmod": "2026-07-18T02:31:29+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki",
+  "lastmod": "2026-10-15T16:42:42+00:00",
+  "type": "ikkunanpesu-city"
+ },
+ {
+  "path": "/referenssit",
+  "lastmod": "2026-07-17T08:58:42+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/ukk/ikkunanpesu",
+  "lastmod": "2026-07-17T08:58:42+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/kotisiivous/helsinki/etu-toolo",
+  "lastmod": "2026-09-23T09:43:17+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku",
+  "lastmod": "2026-07-27T14:21:06+00:00",
+  "type": "ikkunanpesu-city"
+ },
+ {
+  "path": "/referenssit/ikkunanpesu-ita-pakila-kerrostalo/",
+  "lastmod": "2026-07-17T08:58:43+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/yhteystiedot",
+  "lastmod": "2026-08-28T14:19:49+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/page37246514.html",
+  "lastmod": "2026-07-17T08:58:43+00:00",
+  "type": "tilda-technical"
+ },
+ {
+  "path": "/kotisiivous/helsinki/taka-toolo",
+  "lastmod": "2026-08-10T14:58:06+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/ikkunanpesu-vantaa",
+  "lastmod": "2026-10-16T17:29:50+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/referenssit/ikkunanpesu-oulunkyla-kerrostalo/",
+  "lastmod": "2026-07-17T08:58:44+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/paljonko-ikkunan-pesu-maksaa",
+  "lastmod": "2026-07-17T08:58:44+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/etusivu",
+  "lastmod": "2026-07-17T08:58:44+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/ikkunanpesu-espoo",
+  "lastmod": "2026-10-16T11:25:24+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/kotisiivous/helsinki/ullanlinna",
+  "lastmod": "2026-08-10T14:58:54+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/referenssit/ikkunanpesu-tapanila-omakotitalo/",
+  "lastmod": "2026-07-17T08:58:45+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/ikkunanpesu-herttoniemenranta-kerrostalo/",
+  "lastmod": "2026-07-17T08:58:45+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/kotisiivous/helsinki/punavuori",
+  "lastmod": "2026-08-10T15:00:12+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/ikkunanpesu-lahti",
+  "lastmod": "2026-09-23T07:17:51+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/kotisiivous/helsinki/kruununhaka",
+  "lastmod": "2026-08-10T15:01:22+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/referenssit/ikkunanpesu-palohein-rivitalo/",
+  "lastmod": "2026-07-17T08:58:46+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/ikkunanpesu-pukinmaki-omakotitalo",
+  "lastmod": "2026-07-17T08:58:46+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/ikkunanpesu-ita-pakila-omakotitalo/",
+  "lastmod": "2026-07-17T08:58:46+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/kotisiivous/helsinki/kamppi",
+  "lastmod": "2026-08-10T15:01:58+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/kaartinkaupunki",
+  "lastmod": "2026-08-10T15:33:06+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/eira",
+  "lastmod": "2026-08-10T15:34:47+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/kaivopuisto",
+  "lastmod": "2026-08-10T15:36:38+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/lansisatama",
+  "lastmod": "2026-08-10T15:38:03+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/typaikat-puhdistusalalla",
+  "lastmod": "2026-07-17T08:58:47+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/ikkunanpesu_lappeenranta",
+  "lastmod": "2026-07-17T08:58:47+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/kotisiivous/helsinki/munkkiniemi",
+  "lastmod": "2026-08-13T13:48:31+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/tietosuojaseloste",
+  "lastmod": "2026-07-17T08:58:48+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/ikkunanpesu_imatra",
+  "lastmod": "2026-07-17T08:58:48+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/loppusiivous",
+  "lastmod": "2026-09-23T07:36:49+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/ikkunanpesu-kauniainen",
+  "lastmod": "2026-09-23T07:20:51+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/muuttosiivous",
+  "lastmod": "2026-09-22T15:50:19+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/muuttosiivous-helsinki",
+  "lastmod": "2026-09-22T15:52:01+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/ikkunanpesu-kirkkonummi",
+  "lastmod": "2026-09-23T07:21:00+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/muuttosiivous-vantaa",
+  "lastmod": "2026-09-23T07:25:40+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/ikkunanpesu-nurmijarvi",
+  "lastmod": "2026-09-23T07:21:08+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/muuttosiivous-espoo",
+  "lastmod": "2026-09-23T07:25:48+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/ikkunanpesu-hyvinkaa",
+  "lastmod": "2026-09-23T07:21:17+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/ikkunanpesu-tuusula",
+  "lastmod": "2026-09-23T07:21:25+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/muuttosiivous-turku",
+  "lastmod": "2026-09-23T07:25:57+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/muuttosiivous-lahti",
+  "lastmod": "2026-09-23T07:26:04+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/ikkunanpesu-jarvenpaa",
+  "lastmod": "2026-09-23T07:21:34+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/ikkunanpesu-kerava",
+  "lastmod": "2026-09-23T07:21:54+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/ikkunanpesu-lohja",
+  "lastmod": "2026-09-23T07:22:03+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/ikkunanpesu-vihti",
+  "lastmod": "2026-09-23T07:22:11+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/ikkunanpesu-klaukkala",
+  "lastmod": "2026-09-23T07:22:20+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/muuttosiivous-lappenranta",
+  "lastmod": "2026-09-23T07:35:09+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/ikkunanpesu_mikkeli",
+  "lastmod": "2026-07-17T08:58:55+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/ikkunanpesu_anttola",
+  "lastmod": "2026-07-17T08:58:55+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/ikkunanpesu_savonlinna",
+  "lastmod": "2026-07-17T08:58:55+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/ikkunanpesu_valkeala",
+  "lastmod": "2026-09-23T07:33:24+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/ikkunanpesu",
+  "lastmod": "2026-10-11T19:48:23+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/page148499616.html",
+  "lastmod": "2026-07-17T08:58:57+00:00",
+  "type": "tilda-technical"
+ },
+ {
+  "path": "/kotisiivous",
+  "lastmod": "2026-09-28T18:11:51+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/kotisiivous-turku",
+  "lastmod": "2026-09-23T07:34:48+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/kotisiivous-lahti",
+  "lastmod": "2026-09-23T07:22:58+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/kotisiivous-lappenranta",
+  "lastmod": "2026-07-17T08:59:00+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/toimistosiivous",
+  "lastmod": "2026-07-17T08:59:00+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/yrityssiivous-kotka",
+  "lastmod": "2026-07-17T08:59:00+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/yrityssiivous-helsinki",
+  "lastmod": "2026-07-17T08:59:01+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/yrityssiivous-vantaa",
+  "lastmod": "2026-07-17T08:59:01+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/yrityssiivous-espoo",
+  "lastmod": "2026-07-17T08:59:01+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/referenssit/espoo-muuttosiivous-vuokra-asunnon-loppusiivous",
+  "lastmod": "2026-07-17T08:59:01+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/espoo-kotisiivous-61m2-kolmen-huoneen-asunto",
+  "lastmod": "2026-07-17T08:59:01+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/espoo-kotisiivous-80m2-rivitalon-kertasiivous",
+  "lastmod": "2026-07-17T08:59:02+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/helsinki-saannollinen-kotisiivous-39m2-asunto",
+  "lastmod": "2026-07-17T08:59:02+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/muuttosiivous-espoo-55m2",
+  "lastmod": "2026-07-17T08:59:02+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/muuttosiivous-helsinki-yksio-37m2/",
+  "lastmod": "2026-07-17T08:59:03+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/omakotitalon-muuttosiivous-kotka-210m2",
+  "lastmod": "2026-07-17T08:59:03+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/vuokra-asunnon-muuttosiivous-kotkassa",
+  "lastmod": "2026-07-17T08:59:03+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/kaksion-saannollinen-siivous-kotkassa",
+  "lastmod": "2026-07-17T08:59:03+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/rivitaloasunnon-muuttosiivous-vantaalla",
+  "lastmod": "2026-07-17T08:59:04+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/saannollinen-siivous-vantaalla-120m2",
+  "lastmod": "2026-07-17T08:59:04+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/muuttosiivous-kolmio-espoo-70m2",
+  "lastmod": "2026-07-17T08:59:04+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/muuttosiivous-kaksio-vantaa-49m2",
+  "lastmod": "2026-07-17T08:59:04+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/muuttosiivous-kaksio-espoo-48m2",
+  "lastmod": "2026-07-17T08:59:04+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/suursiivous",
+  "lastmod": "2026-09-23T07:27:19+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/lahjakortti",
+  "lastmod": "2026-09-23T07:27:26+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/joulusiivous",
+  "lastmod": "2026-09-22T15:46:43+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/blogi/puhdas-kylpyhuone-helposti-vinkit",
+  "lastmod": "2026-07-17T08:59:06+00:00",
+  "type": "blog-post"
+ },
+ {
+  "path": "/kotisiivous-helsinki/kotisiivous-vuosaari",
+  "lastmod": "2026-09-23T07:23:24+00:00",
+  "type": "kotisiivous-district-legacy"
+ },
+ {
+  "path": "/kotisiivous-helsinki/kotisiivous-toolo",
+  "lastmod": "2026-09-23T07:23:40+00:00",
+  "type": "kotisiivous-district-legacy"
+ },
+ {
+  "path": "/kotisiivous-kirkkonummi",
+  "lastmod": "2026-09-23T07:23:48+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/kotisiivous-nurmijarvi",
+  "lastmod": "2026-10-04T11:20:49+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/kotisiivous-jarvenpaa",
+  "lastmod": "2026-09-23T07:24:17+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/kotisiivous-tuusula",
+  "lastmod": "2026-09-23T07:24:26+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/kotisiivous-kerava",
+  "lastmod": "2026-09-23T07:24:40+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/kotisiivous-kauniainen",
+  "lastmod": "2026-09-23T07:24:48+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/referenssit/muuttosiivous-tapiola-espoo-35m2",
+  "lastmod": "2026-07-17T08:59:12+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/saannollinen-kotisiivous-espoonlahti-espoo-78m2",
+  "lastmod": "2026-07-17T08:59:12+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/muuttosiivous-westend-espoo-200m2",
+  "lastmod": "2026-07-17T08:59:12+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/muuttosiivous-lauttasaari-helsinki-85m2",
+  "lastmod": "2026-07-17T08:59:12+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/muuttosiivous-jatkasaari-helsinki-28m2",
+  "lastmod": "2026-07-17T08:59:12+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/blogi/muuttosiivous-taydellinen-opas-stressittomaan-muuttoon",
+  "lastmod": "2026-07-17T08:59:12+00:00",
+  "type": "blog-post"
+ },
+ {
+  "path": "/blogi/ammattilaisvinkit-keittion-siivoukseen",
+  "lastmod": "2026-07-17T08:59:13+00:00",
+  "type": "blog-post"
+ },
+ {
+  "path": "/blogi/kiireisen-kodin-siivous",
+  "lastmod": "2026-10-16T14:42:42+00:00",
+  "type": "blog-post"
+ },
+ {
+  "path": "/blog",
+  "lastmod": "2026-07-17T08:59:13+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/blogi",
+  "lastmod": "2026-07-17T08:59:13+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/lampopumppu_puhdistushuolto",
+  "lastmod": "2026-09-23T07:35:46+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/muuttosiivous-hamina",
+  "lastmod": "2026-07-17T08:59:13+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/kylpyhuonesiivous",
+  "lastmod": "2026-09-28T18:15:56+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/home-cleaning",
+  "lastmod": "2026-09-23T07:24:57+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/kotisiivous-lohja",
+  "lastmod": "2026-10-04T11:16:29+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/kotisiivous-vihti",
+  "lastmod": "2026-09-30T19:00:38+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/kotisiivous-klaukkala",
+  "lastmod": "2026-10-04T11:21:07+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/referenssit/muuttosiivous-hermanni-helsinki-30m2",
+  "lastmod": "2026-07-17T08:59:15+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/muuttosiivous-kapyla-helsinki-75m2",
+  "lastmod": "2026-07-17T08:59:15+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/page64047615.html",
+  "lastmod": "2026-07-17T08:59:16+00:00",
+  "type": "tilda-technical"
+ },
+ {
+  "path": "/referenssit/ikkunanpesu-meilahti-helsinki-4h",
+  "lastmod": "2026-07-17T08:59:16+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/quick_application",
+  "lastmod": "2026-07-17T08:59:16+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/referenssit/muuttosiivous-lauttasaari-helsinki-30m2",
+  "lastmod": "2026-07-17T08:59:16+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/ikkunanpesu-kauniainen-omakotitalo-7h",
+  "lastmod": "2026-07-17T08:59:16+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/ikkunanpesu-kolmio-espoo-rakennuspoly-5h",
+  "lastmod": "2026-07-17T08:59:16+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/ikkunanpesu-espoo-viisi-ikkunaa-parvekelasit",
+  "lastmod": "2026-10-15T16:07:42+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/loppusiivous-kallio",
+  "lastmod": "2026-07-17T08:59:16+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/kotisiivous_mikkeli",
+  "lastmod": "2026-07-17T08:59:17+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/muuttosiivous-kerava",
+  "lastmod": "2026-09-23T07:26:22+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/muuttosiivous-jarvenpaa",
+  "lastmod": "2026-09-23T07:35:27+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/muuttosiivous-hyvinkaa",
+  "lastmod": "2026-09-23T07:26:32+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/muuttosiivous-tuusula",
+  "lastmod": "2026-09-23T07:26:40+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/muuttosiivous-nurmijarvi",
+  "lastmod": "2026-09-23T07:26:49+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/loppusiivous-2h-olari",
+  "lastmod": "2026-07-17T08:59:18+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/loppusiivous-rivitalo-espoo",
+  "lastmod": "2026-07-17T08:59:18+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/suursiivous-hyvinkaa",
+  "lastmod": "2026-07-17T08:59:19+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/page99073796.html",
+  "lastmod": "2026-07-17T08:59:19+00:00",
+  "type": "tilda-technical"
+ },
+ {
+  "path": "/page99074656.html",
+  "lastmod": "2026-07-17T08:59:19+00:00",
+  "type": "tilda-technical"
+ },
+ {
+  "path": "/referenssit/saannollinen-kotisiivous-pakila-helsinki-136m2",
+  "lastmod": "2026-07-17T08:59:20+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/saannollinen-kotisiivous-lauttasaari-helsinki-90m2",
+  "lastmod": "2026-07-17T08:59:20+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/referenssit/saannollinen-kotisiivous-kalasatama-helsinki-kerrostalo",
+  "lastmod": "2026-07-17T08:59:20+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/remonttisiivous",
+  "lastmod": "2026-07-17T08:59:20+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/ikkunanpesu-taloyhtiot",
+  "lastmod": "2026-07-17T08:59:20+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/ikkunanpesun-laskuri",
+  "lastmod": "2026-07-17T08:59:20+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/tietoa-meista/",
+  "lastmod": "2026-07-17T08:59:21+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/arvostelut",
+  "lastmod": "2026-07-17T08:59:21+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/saako-ikkunanpesusta-kotitalousvahennysta",
+  "lastmod": "2026-07-17T08:59:21+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/kauanko-ikkunanpesu-kesta",
+  "lastmod": "2026-07-17T08:59:21+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/mika-on-paras-ikkunanpesuaine",
+  "lastmod": "2026-07-17T08:59:21+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/",
+  "lastmod": "2026-09-24T18:59:08+00:00",
+  "type": "home"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/kluuvi",
+  "lastmod": "2026-09-25T15:03:15+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/missa-kuussa-ikkuna-kannattaa-pesta",
+  "lastmod": "2026-07-17T08:59:22+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/videot",
+  "lastmod": "2026-07-17T08:59:22+00:00",
+  "type": "static/service"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/pitaako-muuttosiivouksessa-pesta-ikkunat",
+  "lastmod": "2026-07-17T08:59:22+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/voiko-ikkunat-pesta-pelkalla-vedella",
+  "lastmod": "2026-07-17T08:59:23+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/kaartinkaupunki",
+  "lastmod": "2026-09-25T15:03:22+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/kamppi",
+  "lastmod": "2026-09-25T15:03:30+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/pitaako-ikkunat-pesta-joka-vuosi",
+  "lastmod": "2026-07-17T08:59:23+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/milla-saa-ikkunat-kirkkaaksi",
+  "lastmod": "2026-07-17T08:59:23+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/mika-on-paras-saa-pesta-ikkunat",
+  "lastmod": "2026-07-17T08:59:23+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/kenelle-kuuluu-ikkunoiden-pesu",
+  "lastmod": "2026-07-17T08:59:24+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/saako-kerrostalossa-pesta-ikkunat",
+  "lastmod": "2026-07-17T08:59:24+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/miten-pesta-ikkunat-kerrostalossa",
+  "lastmod": "2026-07-17T08:59:24+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/kuka-pesee-kerrostalon-ikkunat",
+  "lastmod": "2026-07-17T08:59:24+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/miksi-ikkunapesuri-jattaa-aitoja",
+  "lastmod": "2026-07-17T08:59:24+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/pitaako-kerrostalon-ikkunat-pesta-ulkoa",
+  "lastmod": "2026-07-17T08:59:24+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/milloin-ei-voi-pesta-ikkunoita",
+  "lastmod": "2026-07-17T08:59:24+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/voiko-aurinkoisella-saalla-pesta-ikkunat",
+  "lastmod": "2026-07-17T08:59:24+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ukk/ikkunanpesu/voiko-ikkunat-pesta-sateella",
+  "lastmod": "2026-07-17T08:59:25+00:00",
+  "type": "faq-article"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/punavuori",
+  "lastmod": "2026-09-25T15:04:57+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/eira",
+  "lastmod": "2026-09-25T15:05:41+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/ullanlinna",
+  "lastmod": "2026-09-25T15:07:34+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/katajanokka",
+  "lastmod": "2026-09-25T15:07:43+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/kaivopuisto",
+  "lastmod": "2026-09-25T15:07:50+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/toolo",
+  "lastmod": "2026-09-25T15:07:58+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/lansisatama",
+  "lastmod": "2026-09-25T15:08:47+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/jatkasaari",
+  "lastmod": "2026-09-25T15:08:52+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/ruoholahti",
+  "lastmod": "2026-09-25T15:09:22+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/salmisaari",
+  "lastmod": "2026-09-25T15:10:11+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/lapinlahti",
+  "lastmod": "2026-09-25T15:10:42+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/munkkisaari",
+  "lastmod": "2026-09-25T15:10:50+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/lauttasaari",
+  "lastmod": "2026-10-15T21:17:08+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/suomenlinna",
+  "lastmod": "2026-09-25T15:11:18+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/meilahti",
+  "lastmod": "2026-09-25T15:00:33+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/ruskeasuo",
+  "lastmod": "2026-09-25T15:11:32+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/haaga",
+  "lastmod": "2026-09-25T15:11:40+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/laakso",
+  "lastmod": "2026-09-25T15:02:33+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/lassila",
+  "lastmod": "2026-09-25T15:11:58+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/kivihaka",
+  "lastmod": "2026-09-25T15:12:05+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/munkkiniemi",
+  "lastmod": "2026-09-25T15:12:20+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/munkkivuori",
+  "lastmod": "2026-09-25T15:12:28+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/konala",
+  "lastmod": "2026-09-25T15:12:40+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/kaarela",
+  "lastmod": "2026-09-25T15:12:47+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/kannelmaki",
+  "lastmod": "2026-09-25T15:13:03+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/malminkartano",
+  "lastmod": "2026-09-25T15:13:11+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/pitajanmaki",
+  "lastmod": "2026-09-25T15:13:25+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/sornainen",
+  "lastmod": "2026-09-25T15:13:33+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/kalasatama",
+  "lastmod": "2026-09-25T15:13:49+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/kallio",
+  "lastmod": "2026-09-25T15:13:57+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/alppiharju",
+  "lastmod": "2026-09-25T15:14:12+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/pasila",
+  "lastmod": "2026-09-25T15:14:20+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/hermanni",
+  "lastmod": "2026-09-25T15:14:35+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/vallila",
+  "lastmod": "2026-09-25T15:14:43+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/toukola",
+  "lastmod": "2026-09-25T15:14:57+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/arabianranta",
+  "lastmod": "2026-09-25T15:15:05+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/kumpula",
+  "lastmod": "2026-09-25T15:16:06+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/kapyla",
+  "lastmod": "2026-09-25T15:16:35+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/koskela",
+  "lastmod": "2026-09-25T15:16:43+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/vanhakaupunki",
+  "lastmod": "2026-09-25T15:16:59+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/ii-kaupunginosassa",
+  "lastmod": "2026-07-18T02:31:48+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/iii-kaupunginosassa",
+  "lastmod": "2026-07-18T02:33:36+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/martti",
+  "lastmod": "2026-07-18T02:33:40+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/itaranta",
+  "lastmod": "2026-07-18T02:33:25+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/vi-kaupunginosassa",
+  "lastmod": "2026-07-18T02:34:07+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/vii-kaupunginosassa",
+  "lastmod": "2026-07-18T02:34:32+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/port-arthur",
+  "lastmod": "2026-07-18T02:34:54+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/lansiranta/",
+  "lastmod": "2026-07-18T02:35:23+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/vahaheikkila/",
+  "lastmod": "2026-07-18T02:35:53+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/iso-heikkila/",
+  "lastmod": "2026-07-18T02:36:19+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/korppolaismaki",
+  "lastmod": "2026-07-18T02:36:43+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/kupittaa",
+  "lastmod": "2026-07-18T02:37:05+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/kurjenmaki",
+  "lastmod": "2026-07-18T02:37:27+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/mantymaki",
+  "lastmod": "2026-07-18T02:37:46+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/nummi",
+  "lastmod": "2026-07-18T02:39:25+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/pihlajaniemi",
+  "lastmod": "2026-07-18T02:39:35+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/turun-satama",
+  "lastmod": "2026-07-18T02:42:04+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/ruissalo",
+  "lastmod": "2026-07-18T02:42:09+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/illoinen",
+  "lastmod": "2026-07-18T02:41:56+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/kaistarniemi",
+  "lastmod": "2026-07-18T02:43:15+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/kakskerta",
+  "lastmod": "2026-07-18T02:42:47+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/kukola",
+  "lastmod": "2026-07-18T02:43:06+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/lauttaranta",
+  "lastmod": "2026-07-18T02:44:25+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/maanpaa",
+  "lastmod": "2026-07-18T02:44:17+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/moikoinen",
+  "lastmod": "2026-07-18T02:44:52+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/oriniemi",
+  "lastmod": "2026-07-18T02:45:09+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/pikisaari",
+  "lastmod": "2026-07-18T02:45:31+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/satava",
+  "lastmod": "2026-07-18T02:45:52+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/sarkilahti",
+  "lastmod": "2026-07-18T02:46:11+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/toijainen",
+  "lastmod": "2026-07-18T02:47:47+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/friskala",
+  "lastmod": "2026-07-18T02:46:56+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/haarla",
+  "lastmod": "2026-07-18T02:47:38+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/janessaari",
+  "lastmod": "2026-07-18T02:48:11+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/vasaramaki",
+  "lastmod": "2026-07-18T02:49:28+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/ilpoinen",
+  "lastmod": "2026-07-18T02:50:31+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/ispoinen",
+  "lastmod": "2026-07-18T02:50:07+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/katariina",
+  "lastmod": "2026-07-18T02:50:26+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/koivula",
+  "lastmod": "2026-07-18T02:50:50+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/luolavuori",
+  "lastmod": "2026-07-18T02:51:32+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/peltola",
+  "lastmod": "2026-07-18T02:51:54+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/puistomaki",
+  "lastmod": "2026-07-18T02:52:30+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/skanssi",
+  "lastmod": "2026-07-18T02:52:59+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/uittamo",
+  "lastmod": "2026-07-18T02:54:39+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/harittu",
+  "lastmod": "2026-07-18T02:53:43+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/vaala",
+  "lastmod": "2026-07-18T02:54:30+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/varissuo",
+  "lastmod": "2026-07-18T02:54:56+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/lauste",
+  "lastmod": "2026-07-18T02:55:19+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/paaskyvuori",
+  "lastmod": "2026-07-18T02:55:44+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/turku/huhkola",
+  "lastmod": "2026-07-18T02:56:18+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/porvoo",
+  "lastmod": "2026-07-27T14:22:43+00:00",
+  "type": "ikkunanpesu-city"
+ },
+ {
+  "path": "/ikkunanpesu/sipoo",
+  "lastmod": "2026-07-17T08:59:53+00:00",
+  "type": "ikkunanpesu-city"
+ },
+ {
+  "path": "/ikkunanpesu/loviisa",
+  "lastmod": "2026-07-27T14:20:08+00:00",
+  "type": "ikkunanpesu-city"
+ },
+ {
+  "path": "/ikkunanpesu/kouvola",
+  "lastmod": "2026-07-27T14:22:25+00:00",
+  "type": "ikkunanpesu-city"
+ },
+ {
+  "path": "/ikkunanpesu/kotka",
+  "lastmod": "2026-07-27T14:23:56+00:00",
+  "type": "ikkunanpesu-city"
+ },
+ {
+  "path": "/ikkunanpesu/hamina",
+  "lastmod": "2026-07-27T14:23:35+00:00",
+  "type": "ikkunanpesu-city"
+ },
+ {
+  "path": "/ikkunanpesu/kouvola/anjalankoski",
+  "lastmod": "2026-07-19T00:11:31+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/kouvola/elimaki",
+  "lastmod": "2026-07-19T00:11:27+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/kouvola/valkeala",
+  "lastmod": "2026-07-19T00:12:15+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/kouvola/jaala",
+  "lastmod": "2026-07-19T00:12:33+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/kouvola/kuusankoski",
+  "lastmod": "2026-07-19T00:12:56+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/kotka/kotkan-keskustaajama",
+  "lastmod": "2026-07-19T00:16:16+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/kotka/halla-tiutinen",
+  "lastmod": "2026-07-19T00:16:31+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/hamina/haminan-keskustaajama",
+  "lastmod": "2026-07-19T00:17:28+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/hamina/neuvoton",
+  "lastmod": "2026-07-19T00:17:52+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/hamina/vilniemi",
+  "lastmod": "2026-07-19T00:18:06+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/hamina/metsakyla",
+  "lastmod": "2026-07-19T00:18:26+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/kotisiivous/porvoo",
+  "lastmod": "2026-09-23T09:44:54+00:00",
+  "type": "kotisiivous-city"
+ },
+ {
+  "path": "/kotisiivous/sipoo",
+  "lastmod": "2026-09-23T09:44:54+00:00",
+  "type": "kotisiivous-city"
+ },
+ {
+  "path": "/kotisiivous/loviisa",
+  "lastmod": "2026-09-23T09:44:55+00:00",
+  "type": "kotisiivous-city"
+ },
+ {
+  "path": "/kotisiivous/kouvola",
+  "lastmod": "2026-09-23T09:44:55+00:00",
+  "type": "kotisiivous-city"
+ },
+ {
+  "path": "/kotisiivous/kotka",
+  "lastmod": "2026-09-23T09:44:56+00:00",
+  "type": "kotisiivous-city"
+ },
+ {
+  "path": "/kotisiivous/hamina",
+  "lastmod": "2026-09-23T09:44:56+00:00",
+  "type": "kotisiivous-city"
+ },
+ {
+  "path": "/ikkunanpesu/inkeroinen",
+  "lastmod": "2026-07-17T09:00:00+00:00",
+  "type": "ikkunanpesu-city"
+ },
+ {
+  "path": "/kotisiivous/inkeroinen",
+  "lastmod": "2026-09-23T09:44:56+00:00",
+  "type": "kotisiivous-city"
+ },
+ {
+  "path": "/kotisiivous/kouvola/anjalankoski",
+  "lastmod": "2026-08-03T16:49:04+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/kouvola/elimaki",
+  "lastmod": "2026-08-03T16:49:21+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/kouvola/valkeala",
+  "lastmod": "2026-08-03T16:49:38+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/kouvola/jaala",
+  "lastmod": "2026-08-03T16:49:54+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/kouvola/kuusankoski",
+  "lastmod": "2026-08-03T16:50:14+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/kotka/kotkan-keskustaajama",
+  "lastmod": "2026-08-03T16:50:48+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/kotka/halla-tiutinen",
+  "lastmod": "2026-08-03T16:51:05+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/hamina/haminan-keskustaajama",
+  "lastmod": "2026-08-03T16:51:35+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/hamina/neuvoton",
+  "lastmod": "2026-08-03T16:52:07+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/hamina/vilniemi",
+  "lastmod": "2026-08-03T16:52:24+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/hamina/metsakyla",
+  "lastmod": "2026-08-03T16:52:40+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/muuttosiivous/kotka",
+  "lastmod": "2026-07-27T14:25:46+00:00",
+  "type": "muuttosiivous-city"
+ },
+ {
+  "path": "/muuttosiivous/kouvola",
+  "lastmod": "2026-07-27T14:25:30+00:00",
+  "type": "muuttosiivous-city"
+ },
+ {
+  "path": "/muuttosiivous/porvoo",
+  "lastmod": "2026-07-27T14:25:14+00:00",
+  "type": "muuttosiivous-city"
+ },
+ {
+  "path": "/muuttosiivous/sipoo",
+  "lastmod": "2026-07-27T14:24:55+00:00",
+  "type": "muuttosiivous-city"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/oulunkyla",
+  "lastmod": "2026-09-25T15:18:05+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/maunula",
+  "lastmod": "2026-09-25T15:17:52+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/pirkkola",
+  "lastmod": "2026-09-25T15:18:23+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/patola",
+  "lastmod": "2026-09-25T15:18:30+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/pakila",
+  "lastmod": "2026-09-25T15:18:45+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/ita-pakila",
+  "lastmod": "2026-09-25T15:18:53+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/lansi-pakila",
+  "lastmod": "2026-09-25T15:19:07+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/ikkunanpesu/helsinki/tuomarinkyla",
+  "lastmod": "2026-09-25T15:19:13+00:00",
+  "type": "ikkunanpesu-district"
+ },
+ {
+  "path": "/kotisiivous/espoo",
+  "lastmod": "2026-10-10T07:15:57+00:00",
+  "type": "kotisiivous-city"
+ },
+ {
+  "path": "/kotisiivous/espoo/leppavaara",
+  "lastmod": "2026-10-09T14:41:38+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/kilo",
+  "lastmod": "2026-10-09T18:44:13+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/karakallio",
+  "lastmod": "2026-10-09T18:44:53+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/lintuvaara",
+  "lastmod": "2026-10-09T18:47:41+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/laaksolahti",
+  "lastmod": "2026-10-09T18:48:27+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/viherlaakso",
+  "lastmod": "2026-10-09T18:49:20+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/perkkaa",
+  "lastmod": "2026-10-09T18:47:23+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/matinkyla",
+  "lastmod": "2026-10-09T09:17:29+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/olari",
+  "lastmod": "2026-10-10T14:48:47+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/suurpelto",
+  "lastmod": "2026-10-09T09:17:36+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/tapiola",
+  "lastmod": "2026-10-09T09:17:39+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/westend",
+  "lastmod": "2026-10-09T09:17:41+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/haukilahti",
+  "lastmod": "2026-10-09T09:17:44+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/mankkaa",
+  "lastmod": "2026-10-09T09:17:47+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/niittykumpu",
+  "lastmod": "2026-10-09T09:17:50+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/laajalahti",
+  "lastmod": "2026-10-09T09:17:53+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/espoonlahti",
+  "lastmod": "2026-10-09T09:18:02+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/kivenlahti",
+  "lastmod": "2026-10-09T09:18:05+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/soukka",
+  "lastmod": "2026-10-09T09:18:07+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/saunalahti",
+  "lastmod": "2026-10-09T09:18:10+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/noykkio",
+  "lastmod": "2026-10-09T09:18:13+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/laurinlahti",
+  "lastmod": "2026-10-09T09:18:16+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/kaitaa",
+  "lastmod": "2026-10-09T09:18:18+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/lippajarvi",
+  "lastmod": "2026-10-09T09:26:33+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/suvela",
+  "lastmod": "2026-10-09T09:18:27+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/tuomarila",
+  "lastmod": "2026-10-09T09:28:25+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/kauklahti",
+  "lastmod": "2026-10-09T09:18:33+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/vanttila",
+  "lastmod": "2026-10-09T09:18:36+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/espoo/kurttila",
+  "lastmod": "2026-10-09T09:18:39+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki",
+  "lastmod": "2026-09-23T09:44:57+00:00",
+  "type": "kotisiivous-city"
+ },
+ {
+  "path": "/kotisiivous-vantaa",
+  "lastmod": "2026-10-16T14:32:16+00:00",
+  "type": "city-legacy"
+ },
+ {
+  "path": "/kotisiivous/helsinki/katajanokka",
+  "lastmod": "2026-08-13T13:50:01+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/meilahti",
+  "lastmod": "2026-08-13T13:51:18+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/haaga",
+  "lastmod": "2026-08-13T13:53:28+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/pitajanmaki",
+  "lastmod": "2026-08-13T13:54:27+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/ruskeasuo",
+  "lastmod": "2026-08-13T13:56:19+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/pasila",
+  "lastmod": "2026-08-13T13:57:21+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/sornainen",
+  "lastmod": "2026-08-13T14:02:55+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/hermanni",
+  "lastmod": "2026-08-13T14:05:04+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/toukola",
+  "lastmod": "2026-08-13T14:07:35+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/kumpula",
+  "lastmod": "2026-08-13T14:08:12+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/kapyla",
+  "lastmod": "2026-08-15T22:38:23+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/vallila",
+  "lastmod": "2026-08-15T22:39:07+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/pakila",
+  "lastmod": "2026-08-15T22:39:38+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/oulunkyla",
+  "lastmod": "2026-08-15T22:40:14+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/kulosaari",
+  "lastmod": "2026-08-15T22:40:43+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/helsinki/herttoniemi",
+  "lastmod": "2026-08-15T22:41:06+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/vantaa/tikkurila",
+  "lastmod": "2026-10-11T15:20:44+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/vantaa/myyrmaki",
+  "lastmod": "2026-10-11T16:30:57+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/vantaa/kivisto",
+  "lastmod": "2026-10-12T11:06:24+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/vantaa/korso",
+  "lastmod": "2026-10-12T11:08:56+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/vantaa/koivukyla",
+  "lastmod": "2026-10-13T07:12:59+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/vantaa/hakunila",
+  "lastmod": "2026-10-13T07:18:00+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/vantaa/martinlaakso",
+  "lastmod": "2026-10-14T15:45:16+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/vantaa/pakkala",
+  "lastmod": "2026-10-15T11:07:53+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/kotisiivous/vantaa/havukoski",
+  "lastmod": "2026-10-15T11:17:14+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/referenssit/ikkunanpesu-lauttasaari-kolmio-parvekelasit",
+  "lastmod": "2026-10-15T16:35:25+00:00",
+  "type": "reference"
+ },
+ {
+  "path": "/kotisiivous/vantaa/hiekkaharju",
+  "lastmod": "2026-10-16T14:30:20+00:00",
+  "type": "kotisiivous-district"
+ },
+ {
+  "path": "/referenssit/ikkunanpesu-kivisto-omakotitalo",
+  "lastmod": "2026-10-16T17:14:16+00:00",
+  "type": "reference"
+ }
+]
