@@ -29,7 +29,7 @@ PUB = os.path.join(ROOT, 'public')
 SITE = 'https://apulainen.pro'
 WA = 'https://wa.me/358417232410'
 EMAIL = 'apulainen.tilaus@gmail.com'
-YTUNNUS = '3607106-2'
+YTUNNUS = 'Ksm Service Oy, Y-tunnus 3528429-3'
 
 SKIP_TYPES = {'702', '967', '966', '420', '389', '704', '215', '410', '1331', '147', '191'}
 SKIP_PATHS = {'/header', '/footer', '/test', '/1', '/etusivu-2026', '/ongelma'}
@@ -578,7 +578,7 @@ def header():
 def footer():
     col = lambda title, lst: f'<div class="fcol"><b>{title}</b>' + ''.join(f'<a href="{h}">{t}</a>' for h, t in lst) + '</div>'
     return f'''<footer class="foot"><div class="wrap fgrid">
-<div class="fcol"><span class="logo">APULAINEN<span>.PRO</span></span><span class="muted">Siivous ja ikkunanpesu kotiin ja yrityksille. Y-tunnus {YTUNNUS}</span>
+<div class="fcol"><span class="logo">APULAINEN<span>.PRO</span></span><span class="muted">Siivous ja ikkunanpesu kotiin ja yrityksille. {YTUNNUS}</span>
 <a href="{WA}">WhatsApp</a><a href="mailto:{EMAIL}">{EMAIL}</a><span class="muted">Asiakaspalvelu ma–pe 9–18</span></div>
 {col('Palvelut', FOOT_SERV)}{col('Kaupungit', FOOT_CITY)}{col('Tietoa', FOOT_INFO)}
 </div><div class="wrap copy">© 2020–2026 Apulainen.pro</div></footer>'''

@@ -1,6 +1,6 @@
 # Instructions for AI edits — Apulainen.pro
 
-Cleaning and window washing site (Apulainen, Y-tunnus 3607106-2). Site language: Finnish only. Owners: Sergei (Russian, edits via Claude) and a business partner (may edit via GPT Codex).
+Cleaning and window washing site (Apulainen.pro, Ksm Service Oy, Y-tunnus 3528429-3). Site language: Finnish only. Owners: Sergei (Russian, edits via Claude) and a business partner (may edit via GPT Codex).
 
 - PILOT: the site must stay `noindex` (meta robots, `public/robots.txt`, `public/_headers`) until the owners approve the move from Tilda. Never remove noindex on your own.
 - SEO migration: every URL in `migration/tilda-pages.json` must exist on the new site with the same path, or get a 301 in `public/_redirects`. Never change an existing URL without a redirect.
