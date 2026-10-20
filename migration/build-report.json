@@ -1,0 +1,2601 @@
+{
+ "pages": [
+  {
+   "path": "/ukk",
+   "file": "ukk.html",
+   "source": "page143136026.html",
+   "h1": "Usein kysytyt kysymykset siivouspalveluista",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/lauttasaari",
+   "file": "kotisiivous/helsinki/lauttasaari.html",
+   "source": "page168054609.html",
+   "h1": "Kotisiivous Lauttasaaren koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/hinnasto",
+   "file": "hinnasto.html",
+   "source": "page36972908.html",
+   "h1": "Siivouspalveluiden hinnasto",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/kruununhaka/",
+   "file": "ikkunanpesu/helsinki/kruununhaka/index.html",
+   "source": "page142851696.html",
+   "h1": "Ikkunanpesu Kruununhaassa",
+   "faq": 0
+  },
+  {
+   "path": "/ilmalmppumpun_puhdistus",
+   "file": "ilmalmppumpun_puhdistus.html",
+   "source": "page54077821.html",
+   "h1": "Lämpöpumppu puhdistushuolto",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/i-kaupunginosassa",
+   "file": "ikkunanpesu/turku/i-kaupunginosassa.html",
+   "source": "page149457806.html",
+   "h1": "Ikkunanpesu Turun I kaupunginosassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki",
+   "file": "ikkunanpesu/helsinki.html",
+   "source": "page39824306.html",
+   "h1": "Ikkunanpesu Helsinki",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit",
+   "file": "referenssit.html",
+   "source": "page141719006.html",
+   "h1": "Referenssit – toteutuneet siivouskohteet",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu",
+   "file": "ukk/ikkunanpesu.html",
+   "source": "page143137796.html",
+   "h1": "Usein kysytyt kysymykset ikkunanpesusta",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/etu-toolo",
+   "file": "kotisiivous/helsinki/etu-toolo.html",
+   "source": "page168122209.html",
+   "h1": "Kotisiivous Etu-Töölön koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku",
+   "file": "ikkunanpesu/turku.html",
+   "source": "page149364116.html",
+   "h1": "Ikkunanpesu Turku koteihin ja yrityksille",
+   "faq": 10
+  },
+  {
+   "path": "/referenssit/ikkunanpesu-ita-pakila-kerrostalo/",
+   "file": "referenssit/ikkunanpesu-ita-pakila-kerrostalo/index.html",
+   "source": "page141720986.html",
+   "h1": "Ikkunanpesu Itä-Pakila – kerrostaloasunto ja lasitettu parveke",
+   "faq": 0
+  },
+  {
+   "path": "/yhteystiedot",
+   "file": "yhteystiedot.html",
+   "source": "page36985788.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/taka-toolo",
+   "file": "kotisiivous/helsinki/taka-toolo.html",
+   "source": "page168205909.html",
+   "h1": "Kotisiivous Taka-Töölön koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu-vantaa",
+   "file": "ikkunanpesu-vantaa.html",
+   "source": "page36951721.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/ikkunanpesu-oulunkyla-kerrostalo/",
+   "file": "referenssit/ikkunanpesu-oulunkyla-kerrostalo/index.html",
+   "source": "page141721526.html",
+   "h1": "Ikkunanpesu Oulunkylä – kerrostaloasunto, lasitettu parveke",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/paljonko-ikkunan-pesu-maksaa",
+   "file": "ukk/ikkunanpesu/paljonko-ikkunan-pesu-maksaa.html",
+   "source": "page143138276.html",
+   "h1": "Paljonko maksaa ikkunan pesu?",
+   "faq": 0
+  },
+  {
+   "path": "/etusivu",
+   "file": "etusivu.html",
+   "source": "page37246983.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu-espoo",
+   "file": "ikkunanpesu-espoo.html",
+   "source": "page39822699.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/ullanlinna",
+   "file": "kotisiivous/helsinki/ullanlinna.html",
+   "source": "page168345809.html",
+   "h1": "Kotisiivous Ullanlinna koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/ikkunanpesu-tapanila-omakotitalo/",
+   "file": "referenssit/ikkunanpesu-tapanila-omakotitalo/index.html",
+   "source": "page141722076.html",
+   "h1": "Ikkunanpesu Tapanila – omakotitalo ja terassilasitus",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/ikkunanpesu-herttoniemenranta-kerrostalo/",
+   "file": "referenssit/ikkunanpesu-herttoniemenranta-kerrostalo/index.html",
+   "source": "page141722436.html",
+   "h1": "Ikkunanpesu Herttoniemenranta – kerrostaloasunto, parveke",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/punavuori",
+   "file": "kotisiivous/helsinki/punavuori.html",
+   "source": "page168634709.html",
+   "h1": "Kotisiivous Punavuoren koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu-lahti",
+   "file": "ikkunanpesu-lahti.html",
+   "source": "page39824815.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/kruununhaka",
+   "file": "kotisiivous/helsinki/kruununhaka.html",
+   "source": "page171801709.html",
+   "h1": "Kotisiivous Kruununhaan koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kiitossivu-kotisiivous",
+   "file": "kiitossivu-kotisiivous.html",
+   "source": "page36590480.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/ikkunanpesu-palohein-rivitalo/",
+   "file": "referenssit/ikkunanpesu-palohein-rivitalo/index.html",
+   "source": "page141722796.html",
+   "h1": "Ikkunanpesu Paloheinä – rivitaloasunto ennen muuttoa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/ikkunanpesu-pukinmaki-omakotitalo",
+   "file": "referenssit/ikkunanpesu-pukinmaki-omakotitalo.html",
+   "source": "page141723026.html",
+   "h1": "Ikkunanpesu Pukinmäki – omakotitalo, korkeat ikkunat",
+   "faq": 0
+  },
+  {
+   "path": "/kiitossivu-ikkunapesu",
+   "file": "kiitossivu-ikkunapesu.html",
+   "source": "page36421043.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/ikkunanpesu-ita-pakila-omakotitalo/",
+   "file": "referenssit/ikkunanpesu-ita-pakila-omakotitalo/index.html",
+   "source": "page141723406.html",
+   "h1": "Ikkunanpesu Itä-Pakila – omakotitalo",
+   "faq": 0
+  },
+  {
+   "path": "/kiitossivu_yritys",
+   "file": "kiitossivu_yritys.html",
+   "source": "page40939466.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/kamppi",
+   "file": "kotisiivous/helsinki/kamppi.html",
+   "source": "page172507609.html",
+   "h1": "Kotisiivous Kampin koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/kaartinkaupunki",
+   "file": "kotisiivous/helsinki/kaartinkaupunki.html",
+   "source": "page173072109.html",
+   "h1": "Kotisiivous Kaartinkaupungin koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/eira",
+   "file": "kotisiivous/helsinki/eira.html",
+   "source": "page173075709.html",
+   "h1": "Kotisiivous Eiran koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/kaivopuisto",
+   "file": "kotisiivous/helsinki/kaivopuisto.html",
+   "source": "page173081009.html",
+   "h1": "Kotisiivous Kaivopuiston koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/lansisatama",
+   "file": "kotisiivous/helsinki/lansisatama.html",
+   "source": "page173088409.html",
+   "h1": "Kotisiivous Länsisataman koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/typaikat-puhdistusalalla",
+   "file": "typaikat-puhdistusalalla.html",
+   "source": "page41965220.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu_lappeenranta",
+   "file": "ikkunanpesu_lappeenranta.html",
+   "source": "page50008365.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/munkkiniemi",
+   "file": "kotisiivous/helsinki/munkkiniemi.html",
+   "source": "page174347309.html",
+   "h1": "Kotisiivous Munkkiniemen koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/tietosuojaseloste",
+   "file": "tietosuojaseloste.html",
+   "source": "page45413767.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu_imatra",
+   "file": "ikkunanpesu_imatra.html",
+   "source": "page51331331.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/loppusiivous",
+   "file": "loppusiivous.html",
+   "source": "page53747571.html",
+   "h1": "Loppusiivous",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu-kauniainen",
+   "file": "ikkunanpesu-kauniainen.html",
+   "source": "page61357385.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/muuttosiivous",
+   "file": "muuttosiivous.html",
+   "source": "page38977262.html",
+   "h1": "Muuttosiivous",
+   "faq": 0
+  },
+  {
+   "path": "/muuttosiivous-helsinki",
+   "file": "muuttosiivous-helsinki.html",
+   "source": "page39730491.html",
+   "h1": "Muuttosiivous Helsinki",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu-kirkkonummi",
+   "file": "ikkunanpesu-kirkkonummi.html",
+   "source": "page61360577.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/muuttosiivous-vantaa",
+   "file": "muuttosiivous-vantaa.html",
+   "source": "page38946394.html",
+   "h1": "Muuttosiivous Vantaa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu-nurmijarvi",
+   "file": "ikkunanpesu-nurmijarvi.html",
+   "source": "page61361531.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/muuttosiivous-espoo",
+   "file": "muuttosiivous-espoo.html",
+   "source": "page39728534.html",
+   "h1": "Muuttosiivous Espoo",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu-hyvinkaa",
+   "file": "ikkunanpesu-hyvinkaa.html",
+   "source": "page61362125.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu-tuusula",
+   "file": "ikkunanpesu-tuusula.html",
+   "source": "page61362925.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/muuttosiivous-turku",
+   "file": "muuttosiivous-turku.html",
+   "source": "page39731706.html",
+   "h1": "Muuttosiivous Turku – Takuu puhtaalle lopputulokselle!",
+   "faq": 0
+  },
+  {
+   "path": "/muuttosiivous-lahti",
+   "file": "muuttosiivous-lahti.html",
+   "source": "page39732762.html",
+   "h1": "Muuttosiivous Lahti",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu-jarvenpaa",
+   "file": "ikkunanpesu-jarvenpaa.html",
+   "source": "page61363453.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu-kerava",
+   "file": "ikkunanpesu-kerava.html",
+   "source": "page61364513.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu-lohja",
+   "file": "ikkunanpesu-lohja.html",
+   "source": "page61364993.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu-vihti",
+   "file": "ikkunanpesu-vihti.html",
+   "source": "page61365495.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu-klaukkala",
+   "file": "ikkunanpesu-klaukkala.html",
+   "source": "page61365935.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/muuttosiivous-lappenranta",
+   "file": "muuttosiivous-lappenranta.html",
+   "source": "page52094679.html",
+   "h1": "Muuttosiivous Lappeenrannassa – Takuu puhtaalle lopputulokselle!",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu_mikkeli",
+   "file": "ikkunanpesu_mikkeli.html",
+   "source": "page69929931.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu_anttola",
+   "file": "ikkunanpesu_anttola.html",
+   "source": "page70464377.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu_savonlinna",
+   "file": "ikkunanpesu_savonlinna.html",
+   "source": "page70470531.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu_valkeala",
+   "file": "ikkunanpesu_valkeala.html",
+   "source": "page71691763.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu",
+   "file": "ikkunanpesu.html",
+   "source": "page141724326.html",
+   "h1": "Ikkunanpesu selkeällä hinnalla ja huolellisella työnjäljellä",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous",
+   "file": "kotisiivous.html",
+   "source": "page36372209.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-turku",
+   "file": "kotisiivous-turku.html",
+   "source": "page41765033.html",
+   "h1": "Kotisiivous Turku",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-lahti",
+   "file": "kotisiivous-lahti.html",
+   "source": "page41765806.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/saannollinen_siivous",
+   "file": "saannollinen_siivous.html",
+   "source": "page51652851.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-lappenranta",
+   "file": "kotisiivous-lappenranta.html",
+   "source": "page52095061.html",
+   "h1": "Kotisiivous Lappenranta",
+   "faq": 0
+  },
+  {
+   "path": "/toimistosiivous",
+   "file": "toimistosiivous.html",
+   "source": "page36275008.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/yrityssiivous-kotka",
+   "file": "yrityssiivous-kotka.html",
+   "source": "page40596603.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/yrityssiivous-helsinki",
+   "file": "yrityssiivous-helsinki.html",
+   "source": "page40902582.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/yrityssiivous-vantaa",
+   "file": "yrityssiivous-vantaa.html",
+   "source": "page40933822.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/yrityssiivous-espoo",
+   "file": "yrityssiivous-espoo.html",
+   "source": "page40965311.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/espoo-muuttosiivous-vuokra-asunnon-loppusiivous",
+   "file": "referenssit/espoo-muuttosiivous-vuokra-asunnon-loppusiivous.html",
+   "source": "page42495899.html",
+   "h1": "Muuttosiivous Espoossa – vuokra-asunnon loppusiivous 80 m² kolmiossa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/espoo-kotisiivous-61m2-kolmen-huoneen-asunto",
+   "file": "referenssit/espoo-kotisiivous-61m2-kolmen-huoneen-asunto.html",
+   "source": "page42198837.html",
+   "h1": "Kotisiivous Espoossa – 61 m² kolmen huoneen asunnon siivous",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/espoo-kotisiivous-80m2-rivitalon-kertasiivous",
+   "file": "referenssit/espoo-kotisiivous-80m2-rivitalon-kertasiivous.html",
+   "source": "page42400680.html",
+   "h1": "Kotisiivous Espoossa – 80 m² rivitalon kertasiivous",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/helsinki-saannollinen-kotisiivous-39m2-asunto",
+   "file": "referenssit/helsinki-saannollinen-kotisiivous-39m2-asunto.html",
+   "source": "page43354366.html",
+   "h1": "Säännöllinen kotisiivous Helsingissä – 39 m² asunnon kuukausisiivous",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/muuttosiivous-espoo-55m2",
+   "file": "referenssit/muuttosiivous-espoo-55m2.html",
+   "source": "page42520959.html",
+   "h1": "Muuttosiivous 55 m² asunnossa Espoossa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/muuttosiivous-helsinki-yksio-37m2/",
+   "file": "referenssit/muuttosiivous-helsinki-yksio-37m2/index.html",
+   "source": "page43357188.html",
+   "h1": "Muuttosiivous 37 m² yksiössä Helsingissä",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/omakotitalon-muuttosiivous-kotka-210m2",
+   "file": "referenssit/omakotitalon-muuttosiivous-kotka-210m2.html",
+   "source": "page43362753.html",
+   "h1": "Omakotitalon muuttosiivous Kotkassa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/vuokra-asunnon-muuttosiivous-kotkassa",
+   "file": "referenssit/vuokra-asunnon-muuttosiivous-kotkassa.html",
+   "source": "page43363579.html",
+   "h1": "Vuokra-asunnon muuttosiivous Kotkassa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/kaksion-saannollinen-siivous-kotkassa",
+   "file": "referenssit/kaksion-saannollinen-siivous-kotkassa.html",
+   "source": "page43390576.html",
+   "h1": "Kaksion säännöllinen siivous Kotkassa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/rivitaloasunnon-muuttosiivous-vantaalla",
+   "file": "referenssit/rivitaloasunnon-muuttosiivous-vantaalla.html",
+   "source": "page43924439.html",
+   "h1": "Rivitaloasunnon muuttosiivous Vantaalla",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/saannollinen-siivous-vantaalla-120m2",
+   "file": "referenssit/saannollinen-siivous-vantaalla-120m2.html",
+   "source": "page45393719.html",
+   "h1": "Säännöllinen siivous Vantaalla 120 m² kodissa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/muuttosiivous-kolmio-espoo-70m2",
+   "file": "referenssit/muuttosiivous-kolmio-espoo-70m2.html",
+   "source": "page45913399.html",
+   "h1": "Muuttosiivous kolmioon Espoossa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/muuttosiivous-kaksio-vantaa-49m2",
+   "file": "referenssit/muuttosiivous-kaksio-vantaa-49m2.html",
+   "source": "page47872285.html",
+   "h1": "Muuttosiivous kaksioon Vantaalla",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/muuttosiivous-kaksio-espoo-48m2",
+   "file": "referenssit/muuttosiivous-kaksio-espoo-48m2.html",
+   "source": "page48201963.html",
+   "h1": "Muuttosiivous kaksioon Espoossa",
+   "faq": 0
+  },
+  {
+   "path": "/suursiivous",
+   "file": "suursiivous.html",
+   "source": "page54481257.html",
+   "h1": "Suursiivous",
+   "faq": 0
+  },
+  {
+   "path": "/lahjakortti",
+   "file": "lahjakortti.html",
+   "source": "page55065827.html",
+   "h1": "Lahjakortit siivouspalveluihin",
+   "faq": 0
+  },
+  {
+   "path": "/ilmastointilaitteen_pesu",
+   "file": "ilmastointilaitteen_pesu.html",
+   "source": "page55218889.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/joulusiivous",
+   "file": "joulusiivous.html",
+   "source": "page57506745.html",
+   "h1": "Joulusiivous. Autamme sinua valmistamaan kotisi lomaa varten.",
+   "faq": 0
+  },
+  {
+   "path": "/blogi/puhdas-kylpyhuone-helposti-vinkit",
+   "file": "blogi/puhdas-kylpyhuone-helposti-vinkit.html",
+   "source": "page59667755.html",
+   "h1": "Kylpyhuoneen siivousvinkit: Ammattilaisniksit kiiltävään lopputulokseen",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-helsinki/kotisiivous-vuosaari",
+   "file": "kotisiivous-helsinki/kotisiivous-vuosaari.html",
+   "source": "page59673171.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-helsinki/kotisiivous-toolo",
+   "file": "kotisiivous-helsinki/kotisiivous-toolo.html",
+   "source": "page59739923.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-kirkkonummi",
+   "file": "kotisiivous-kirkkonummi.html",
+   "source": "page59856523.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-nurmijarvi",
+   "file": "kotisiivous-nurmijarvi.html",
+   "source": "page59863413.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-hyvinkaa",
+   "file": "kotisiivous-hyvinkaa.html",
+   "source": "page59864803.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-jarvenpaa",
+   "file": "kotisiivous-jarvenpaa.html",
+   "source": "page59865669.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-tuusula",
+   "file": "kotisiivous-tuusula.html",
+   "source": "page59866177.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-kerava",
+   "file": "kotisiivous-kerava.html",
+   "source": "page60343645.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-kauniainen",
+   "file": "kotisiivous-kauniainen.html",
+   "source": "page60344155.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/muuttosiivous-tapiola-espoo-35m2",
+   "file": "referenssit/muuttosiivous-tapiola-espoo-35m2.html",
+   "source": "page60744587.html",
+   "h1": "Muuttosiivous Tapiolassa 35 m² omistusasuntoon",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/saannollinen-kotisiivous-espoonlahti-espoo-78m2",
+   "file": "referenssit/saannollinen-kotisiivous-espoonlahti-espoo-78m2.html",
+   "source": "page60746193.html",
+   "h1": "Säännöllinen kotisiivous kolmioon Espoonlahdessa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/muuttosiivous-westend-espoo-200m2",
+   "file": "referenssit/muuttosiivous-westend-espoo-200m2.html",
+   "source": "page60747753.html",
+   "h1": "Muuttosiivous 200 m² omakotitaloon Westendissä",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/muuttosiivous-lauttasaari-helsinki-85m2",
+   "file": "referenssit/muuttosiivous-lauttasaari-helsinki-85m2.html",
+   "source": "page60748869.html",
+   "h1": "Muuttosiivous 85 m² kolmioon Lauttasaaressa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/muuttosiivous-jatkasaari-helsinki-28m2",
+   "file": "referenssit/muuttosiivous-jatkasaari-helsinki-28m2.html",
+   "source": "page60749423.html",
+   "h1": "Muuttosiivous 28 m² yksiöön Jätkäsaaressa",
+   "faq": 0
+  },
+  {
+   "path": "/blogi/muuttosiivous-taydellinen-opas-stressittomaan-muuttoon",
+   "file": "blogi/muuttosiivous-taydellinen-opas-stressittomaan-muuttoon.html",
+   "source": "page60799333.html",
+   "h1": "Muuttosiivous: Täydellinen opas stressittömään muuttoon",
+   "faq": 0
+  },
+  {
+   "path": "/blogi/ammattilaisvinkit-keittion-siivoukseen",
+   "file": "blogi/ammattilaisvinkit-keittion-siivoukseen.html",
+   "source": "page60803289.html",
+   "h1": "Keittiön perusteellinen puhdistus: Vaihe vaiheelta opas hygieeniseen keittiöön",
+   "faq": 0
+  },
+  {
+   "path": "/blogi/kiireisen-kodin-siivous",
+   "file": "blogi/kiireisen-kodin-siivous.html",
+   "source": "page60811061.html",
+   "h1": "Kiireisen perheen siivoussuunnitelma: Säilytä järjestys helposti",
+   "faq": 0
+  },
+  {
+   "path": "/blog",
+   "file": "blog.html",
+   "source": "page122362426.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/blogi",
+   "file": "blogi.html",
+   "source": "page60811417.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/lampopumppu_puhdistushuolto",
+   "file": "lampopumppu_puhdistushuolto.html",
+   "source": "page60828031.html",
+   "h1": "Lämpöpumppu puhdistushuolto",
+   "faq": 0
+  },
+  {
+   "path": "/muuttosiivous-hamina",
+   "file": "muuttosiivous-hamina.html",
+   "source": "page60863711.html",
+   "h1": "Muuttosiivous Hamina",
+   "faq": 0
+  },
+  {
+   "path": "/kylpyhuonesiivous",
+   "file": "kylpyhuonesiivous.html",
+   "source": "page61023123.html",
+   "h1": "Kylpyhuoneesi syväpuhdistus ammattilaisilta",
+   "faq": 0
+  },
+  {
+   "path": "/home-cleaning",
+   "file": "home-cleaning.html",
+   "source": "page61059479.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-lohja",
+   "file": "kotisiivous-lohja.html",
+   "source": "page61202945.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-vihti",
+   "file": "kotisiivous-vihti.html",
+   "source": "page61288513.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-klaukkala",
+   "file": "kotisiivous-klaukkala.html",
+   "source": "page61292157.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/muuttosiivous-hermanni-helsinki-30m2",
+   "file": "referenssit/muuttosiivous-hermanni-helsinki-30m2.html",
+   "source": "page62120287.html",
+   "h1": "Muuttosiivous 30 m² yksiöön Hermannissa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/muuttosiivous-kapyla-helsinki-75m2",
+   "file": "referenssit/muuttosiivous-kapyla-helsinki-75m2.html",
+   "source": "page62155509.html",
+   "h1": "Muuttosiivous 75 m² kolmioon Käpylässä",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/ikkunanpesu-meilahti-helsinki-4h",
+   "file": "referenssit/ikkunanpesu-meilahti-helsinki-4h.html",
+   "source": "page64093575.html",
+   "h1": "Ikkunanpesu Meilahdessa – ikkunat, lasipinnat ja peilit",
+   "faq": 0
+  },
+  {
+   "path": "/quick_application",
+   "file": "quick_application.html",
+   "source": "page64166663.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/muuttosiivous-lauttasaari-helsinki-30m2",
+   "file": "referenssit/muuttosiivous-lauttasaari-helsinki-30m2.html",
+   "source": "page64720161.html",
+   "h1": "Muuttosiivous 30 m² yksiöön Lauttasaaressa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/ikkunanpesu-kauniainen-omakotitalo-7h",
+   "file": "referenssit/ikkunanpesu-kauniainen-omakotitalo-7h.html",
+   "source": "page65170463.html",
+   "h1": "Ikkunanpesu omakotitaloon Kauniaisissa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/ikkunanpesu-kolmio-espoo-rakennuspoly-5h",
+   "file": "referenssit/ikkunanpesu-kolmio-espoo-rakennuspoly-5h.html",
+   "source": "page65173053.html",
+   "h1": "Ikkunanpesu kolmiossa Espoossa rakennuspölyn jälkeen",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/ikkunanpesu-espoo-viisi-ikkunaa-parvekelasit",
+   "file": "referenssit/ikkunanpesu-espoo-viisi-ikkunaa-parvekelasit.html",
+   "source": "page303079209.html",
+   "h1": "Ikkunanpesu kerrostalon neliössä Espoossa",
+   "faq": 0
+  },
+  {
+   "path": "/loppusiivous-kallio",
+   "file": "loppusiivous-kallio.html",
+   "source": "page65174943.html",
+   "h1": "Loppusiivous Kalliossa – Huolellinen palvelu korkeissa tiloissa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous_mikkeli",
+   "file": "kotisiivous_mikkeli.html",
+   "source": "page71407529.html",
+   "h1": "Kotisiivous Mikkeli",
+   "faq": 0
+  },
+  {
+   "path": "/laskuri",
+   "file": "laskuri.html",
+   "source": "page73093555.html",
+   "h1": "",
+   "faq": 0
+  },
+  {
+   "path": "/muuttosiivous-kerava",
+   "file": "muuttosiivous-kerava.html",
+   "source": "page73764393.html",
+   "h1": "Muuttosiivous Kerava",
+   "faq": 0
+  },
+  {
+   "path": "/muuttosiivous-jarvenpaa",
+   "file": "muuttosiivous-jarvenpaa.html",
+   "source": "page73765103.html",
+   "h1": "Muuttosiivous Järvenpää",
+   "faq": 0
+  },
+  {
+   "path": "/muuttosiivous-hyvinkaa",
+   "file": "muuttosiivous-hyvinkaa.html",
+   "source": "page73765307.html",
+   "h1": "Muuttosiivous Hyvinkää",
+   "faq": 0
+  },
+  {
+   "path": "/muuttosiivous-tuusula",
+   "file": "muuttosiivous-tuusula.html",
+   "source": "page73765461.html",
+   "h1": "Muuttosiivous Tuusula",
+   "faq": 0
+  },
+  {
+   "path": "/muuttosiivous-nurmijarvi",
+   "file": "muuttosiivous-nurmijarvi.html",
+   "source": "page73765649.html",
+   "h1": "Muuttosiivous Nurmijärvi",
+   "faq": 0
+  },
+  {
+   "path": "/loppusiivous-2h-olari",
+   "file": "loppusiivous-2h-olari.html",
+   "source": "page76578046.html",
+   "h1": "Loppusiivous Espoossa – Huolellinen siivous tyhjään vuokra-asuntoon lyhyellä varoitusajalla",
+   "faq": 0
+  },
+  {
+   "path": "/loppusiivous-rivitalo-espoo",
+   "file": "loppusiivous-rivitalo-espoo.html",
+   "source": "page76582076.html",
+   "h1": "Loppusiivous Espoossa – Rivitaloasunnon luovutus siististi ja aikataulussa",
+   "faq": 0
+  },
+  {
+   "path": "/suursiivous-hyvinkaa",
+   "file": "suursiivous-hyvinkaa.html",
+   "source": "page91795356.html",
+   "h1": "Suursiivous Hyvinkäällä – Kolmikerroksisen kodin perusteellinen puhdistus",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/saannollinen-kotisiivous-pakila-helsinki-136m2",
+   "file": "referenssit/saannollinen-kotisiivous-pakila-helsinki-136m2.html",
+   "source": "page112869656.html",
+   "h1": "Säännöllinen kotisiivous 136 m² omakotitaloon Pakilassa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/saannollinen-kotisiivous-lauttasaari-helsinki-90m2",
+   "file": "referenssit/saannollinen-kotisiivous-lauttasaari-helsinki-90m2.html",
+   "source": "page112876216.html",
+   "h1": "Säännöllinen kotisiivous 90 m² rivitaloasuntoon Lauttasaaressa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/saannollinen-kotisiivous-kalasatama-helsinki-kerrostalo",
+   "file": "referenssit/saannollinen-kotisiivous-kalasatama-helsinki-kerrostalo.html",
+   "source": "page117722906.html",
+   "h1": "Säännöllinen kotisiivous kerrostaloasuntoon Kalasatamassa",
+   "faq": 0
+  },
+  {
+   "path": "/remonttisiivous",
+   "file": "remonttisiivous.html",
+   "source": "page124118486.html",
+   "h1": "Remontin jälkeinen siivous Uudellamaalla",
+   "faq": 1
+  },
+  {
+   "path": "/ikkunanpesu-taloyhtiot",
+   "file": "ikkunanpesu-taloyhtiot.html",
+   "source": "page125127136.html",
+   "h1": "Ikkunanpesu taloyhtiöille Uudellamaalla",
+   "faq": 1
+  },
+  {
+   "path": "/ikkunanpesun-laskuri",
+   "file": "ikkunanpesun-laskuri.html",
+   "source": "page125718196.html",
+   "h1": "Ikkunanpesun hintalaskuri",
+   "faq": 0
+  },
+  {
+   "path": "/tietoa-meista/",
+   "file": "tietoa-meista/index.html",
+   "source": "page142939996.html",
+   "h1": "Tietoa Apulainen Prosta",
+   "faq": 0
+  },
+  {
+   "path": "/arvostelut",
+   "file": "arvostelut.html",
+   "source": "page143419876.html",
+   "h1": "Apulainen Pro arvostelut",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/saako-ikkunanpesusta-kotitalousvahennysta",
+   "file": "ukk/ikkunanpesu/saako-ikkunanpesusta-kotitalousvahennysta.html",
+   "source": "page143139046.html",
+   "h1": "Saako ikkunanpesusta kotitalousvähennystä?",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/kauanko-ikkunanpesu-kesta",
+   "file": "ukk/ikkunanpesu/kauanko-ikkunanpesu-kesta.html",
+   "source": "page143141336.html",
+   "h1": "Kauanko ikkunanpesu kestää?",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/mika-on-paras-ikkunanpesuaine",
+   "file": "ukk/ikkunanpesu/mika-on-paras-ikkunanpesuaine.html",
+   "source": "page143280716.html",
+   "h1": "Mikä on paras ikkunanpesuaine?",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/kluuvi",
+   "file": "ikkunanpesu/helsinki/kluuvi.html",
+   "source": "page143417286.html",
+   "h1": "Ikkunanpesu Kluuvissa",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/missa-kuussa-ikkuna-kannattaa-pesta",
+   "file": "ukk/ikkunanpesu/missa-kuussa-ikkuna-kannattaa-pesta.html",
+   "source": "page143612966.html",
+   "h1": "Missä kuussa ikkuna kannattaa pestä?",
+   "faq": 0
+  },
+  {
+   "path": "/videot",
+   "file": "videot.html",
+   "source": "page144046846.html",
+   "h1": "Työnäytteemme videoina",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/pitaako-muuttosiivouksessa-pesta-ikkunat",
+   "file": "ukk/ikkunanpesu/pitaako-muuttosiivouksessa-pesta-ikkunat.html",
+   "source": "page143613176.html",
+   "h1": "Pitääkö muuttosiivouksessa pestä ikkunat?",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/voiko-ikkunat-pesta-pelkalla-vedella",
+   "file": "ukk/ikkunanpesu/voiko-ikkunat-pesta-pelkalla-vedella.html",
+   "source": "page143614266.html",
+   "h1": "Voiko ikkunat pestä pelkällä vedellä?",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/kaartinkaupunki",
+   "file": "ikkunanpesu/helsinki/kaartinkaupunki.html",
+   "source": "page143617126.html",
+   "h1": "Ikkunanpesu Kaartinkaupungissa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/kamppi",
+   "file": "ikkunanpesu/helsinki/kamppi.html",
+   "source": "page143683986.html",
+   "h1": "Ikkunanpesu Kampissa",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/pitaako-ikkunat-pesta-joka-vuosi",
+   "file": "ukk/ikkunanpesu/pitaako-ikkunat-pesta-joka-vuosi.html",
+   "source": "page143997356.html",
+   "h1": "Pitääkö ikkunat pestä joka vuosi?",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/milla-saa-ikkunat-kirkkaaksi",
+   "file": "ukk/ikkunanpesu/milla-saa-ikkunat-kirkkaaksi.html",
+   "source": "page143998026.html",
+   "h1": "Millä sää ikkunat kirkkaaksi?",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/mika-on-paras-saa-pesta-ikkunat",
+   "file": "ukk/ikkunanpesu/mika-on-paras-saa-pesta-ikkunat.html",
+   "source": "page143998786.html",
+   "h1": "Mikä on paras sää pestä ikkunat?",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/kenelle-kuuluu-ikkunoiden-pesu",
+   "file": "ukk/ikkunanpesu/kenelle-kuuluu-ikkunoiden-pesu.html",
+   "source": "page144057686.html",
+   "h1": "Kenelle kuuluu ikkunoiden pesu?",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/saako-kerrostalossa-pesta-ikkunat",
+   "file": "ukk/ikkunanpesu/saako-kerrostalossa-pesta-ikkunat.html",
+   "source": "page144063906.html",
+   "h1": "Saako kerrostalossa pestä ikkunat?",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/miten-pesta-ikkunat-kerrostalossa",
+   "file": "ukk/ikkunanpesu/miten-pesta-ikkunat-kerrostalossa.html",
+   "source": "page144064386.html",
+   "h1": "Miten pestä ikkunat kerrostalossa?",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/kuka-pesee-kerrostalon-ikkunat",
+   "file": "ukk/ikkunanpesu/kuka-pesee-kerrostalon-ikkunat.html",
+   "source": "page144077956.html",
+   "h1": "Kuka pesee kerrostalon ikkunat?",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/miksi-ikkunapesuri-jattaa-aitoja",
+   "file": "ukk/ikkunanpesu/miksi-ikkunapesuri-jattaa-aitoja.html",
+   "source": "page144080176.html",
+   "h1": "Miksi ikkunapesuri jättää raitoja?",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/pitaako-kerrostalon-ikkunat-pesta-ulkoa",
+   "file": "ukk/ikkunanpesu/pitaako-kerrostalon-ikkunat-pesta-ulkoa.html",
+   "source": "page144081276.html",
+   "h1": "Pitääkö kerrostalon ikkunat pestä ulkoa?",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/milloin-ei-voi-pesta-ikkunoita",
+   "file": "ukk/ikkunanpesu/milloin-ei-voi-pesta-ikkunoita.html",
+   "source": "page144110806.html",
+   "h1": "Milloin ei voi pestä ikkunoita?",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/voiko-aurinkoisella-saalla-pesta-ikkunat",
+   "file": "ukk/ikkunanpesu/voiko-aurinkoisella-saalla-pesta-ikkunat.html",
+   "source": "page144111336.html",
+   "h1": "Voiko aurinkoisella säällä pestä ikkunat?",
+   "faq": 0
+  },
+  {
+   "path": "/ukk/ikkunanpesu/voiko-ikkunat-pesta-sateella",
+   "file": "ukk/ikkunanpesu/voiko-ikkunat-pesta-sateella.html",
+   "source": "page144112266.html",
+   "h1": "Voiko ikkunat pestä sateella?",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/punavuori",
+   "file": "ikkunanpesu/helsinki/punavuori.html",
+   "source": "page144623146.html",
+   "h1": "Ikkunanpesu Punavuoressa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/eira",
+   "file": "ikkunanpesu/helsinki/eira.html",
+   "source": "page144733746.html",
+   "h1": "Ikkunanpesu Eirassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/ullanlinna",
+   "file": "ikkunanpesu/helsinki/ullanlinna.html",
+   "source": "page144878696.html",
+   "h1": "Ikkunanpesu Ullanlinnassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/katajanokka",
+   "file": "ikkunanpesu/helsinki/katajanokka.html",
+   "source": "page144925466.html",
+   "h1": "Ikkunanpesu Katajanokalla",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/kaivopuisto",
+   "file": "ikkunanpesu/helsinki/kaivopuisto.html",
+   "source": "page145209046.html",
+   "h1": "Ikkunanpesu Kaivopuistossa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/toolo",
+   "file": "ikkunanpesu/helsinki/toolo.html",
+   "source": "page145707646.html",
+   "h1": "Ikkunanpesu Töölössä",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/lansisatama",
+   "file": "ikkunanpesu/helsinki/lansisatama.html",
+   "source": "page145735766.html",
+   "h1": "Ikkunanpesu Länsisatamassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/jatkasaari",
+   "file": "ikkunanpesu/helsinki/jatkasaari.html",
+   "source": "page145748436.html",
+   "h1": "Ikkunanpesu Jätkäsaaressa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/ruoholahti",
+   "file": "ikkunanpesu/helsinki/ruoholahti.html",
+   "source": "page145780236.html",
+   "h1": "Ikkunanpesu Ruoholahdessa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/salmisaari",
+   "file": "ikkunanpesu/helsinki/salmisaari.html",
+   "source": "page146012616.html",
+   "h1": "Ikkunanpesu Salmisaaressa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/lapinlahti",
+   "file": "ikkunanpesu/helsinki/lapinlahti.html",
+   "source": "page146537156.html",
+   "h1": "Ikkunanpesu Lapinlahdessa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/munkkisaari",
+   "file": "ikkunanpesu/helsinki/munkkisaari.html",
+   "source": "page146546916.html",
+   "h1": "Ikkunanpesu Munkkisaaressa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/lauttasaari",
+   "file": "ikkunanpesu/helsinki/lauttasaari.html",
+   "source": "page146552506.html",
+   "h1": "Ikkunanpesu Lauttasaaressa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/suomenlinna",
+   "file": "ikkunanpesu/helsinki/suomenlinna.html",
+   "source": "page146571096.html",
+   "h1": "Ikkunanpesu Suomenlinnassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/meilahti",
+   "file": "ikkunanpesu/helsinki/meilahti.html",
+   "source": "page147479246.html",
+   "h1": "Ikkunanpesu Meilahdessa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/ruskeasuo",
+   "file": "ikkunanpesu/helsinki/ruskeasuo.html",
+   "source": "page147483726.html",
+   "h1": "Ikkunanpesu Ruskeasuolla",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/haaga",
+   "file": "ikkunanpesu/helsinki/haaga.html",
+   "source": "page147486456.html",
+   "h1": "Ikkunanpesu Haagassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/laakso",
+   "file": "ikkunanpesu/helsinki/laakso.html",
+   "source": "page147488306.html",
+   "h1": "Ikkunanpesu Laaksossa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/lassila",
+   "file": "ikkunanpesu/helsinki/lassila.html",
+   "source": "page148008656.html",
+   "h1": "Ikkunanpesu Lassilassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/kivihaka",
+   "file": "ikkunanpesu/helsinki/kivihaka.html",
+   "source": "page148009766.html",
+   "h1": "Ikkunanpesu Kivihaassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/munkkiniemi",
+   "file": "ikkunanpesu/helsinki/munkkiniemi.html",
+   "source": "page148010556.html",
+   "h1": "Ikkunanpesu Munkkiniemessä",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/munkkivuori",
+   "file": "ikkunanpesu/helsinki/munkkivuori.html",
+   "source": "page148013626.html",
+   "h1": "Ikkunanpesu Munkkivuoressa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/konala",
+   "file": "ikkunanpesu/helsinki/konala.html",
+   "source": "page148163196.html",
+   "h1": "Ikkunanpesu Konalassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/kaarela",
+   "file": "ikkunanpesu/helsinki/kaarela.html",
+   "source": "page148231736.html",
+   "h1": "Ikkunanpesu Kaarelassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/kannelmaki",
+   "file": "ikkunanpesu/helsinki/kannelmaki.html",
+   "source": "page148232316.html",
+   "h1": "Ikkunanpesu Kannelmäessä",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/malminkartano",
+   "file": "ikkunanpesu/helsinki/malminkartano.html",
+   "source": "page148375176.html",
+   "h1": "Ikkunanpesu Malminkartanossa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/pitajanmaki",
+   "file": "ikkunanpesu/helsinki/pitajanmaki.html",
+   "source": "page148375556.html",
+   "h1": "Ikkunanpesu Pitäjänmäessä",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/sornainen",
+   "file": "ikkunanpesu/helsinki/sornainen.html",
+   "source": "page148502596.html",
+   "h1": "Ikkunanpesu Sörnäisissä",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/kalasatama",
+   "file": "ikkunanpesu/helsinki/kalasatama.html",
+   "source": "page148503136.html",
+   "h1": "Ikkunanpesu Kalasatamassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/kallio",
+   "file": "ikkunanpesu/helsinki/kallio.html",
+   "source": "page148504176.html",
+   "h1": "Ikkunanpesu Kalliossa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/alppiharju",
+   "file": "ikkunanpesu/helsinki/alppiharju.html",
+   "source": "page148597696.html",
+   "h1": "Ikkunanpesu Alppiharjussa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/pasila",
+   "file": "ikkunanpesu/helsinki/pasila.html",
+   "source": "page148605786.html",
+   "h1": "Ikkunanpesu Pasilassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/hermanni",
+   "file": "ikkunanpesu/helsinki/hermanni.html",
+   "source": "page148609626.html",
+   "h1": "Ikkunanpesu Hermannissa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/vallila",
+   "file": "ikkunanpesu/helsinki/vallila.html",
+   "source": "page148706586.html",
+   "h1": "Ikkunanpesu Vallilassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/toukola",
+   "file": "ikkunanpesu/helsinki/toukola.html",
+   "source": "page148754396.html",
+   "h1": "Ikkunanpesu Toukolassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/arabianranta",
+   "file": "ikkunanpesu/helsinki/arabianranta.html",
+   "source": "page148805976.html",
+   "h1": "Ikkunanpesu Arabianrannassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/kumpula",
+   "file": "ikkunanpesu/helsinki/kumpula.html",
+   "source": "page148810946.html",
+   "h1": "Ikkunanpesu Kumpulassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/kapyla",
+   "file": "ikkunanpesu/helsinki/kapyla.html",
+   "source": "page148814216.html",
+   "h1": "Ikkunanpesu Käpylässä",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/koskela",
+   "file": "ikkunanpesu/helsinki/koskela.html",
+   "source": "page148822426.html",
+   "h1": "Ikkunanpesu Koskelassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/vanhakaupunki",
+   "file": "ikkunanpesu/helsinki/vanhakaupunki.html",
+   "source": "page148825326.html",
+   "h1": "Ikkunanpesu Vanhassakaupungissa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/ii-kaupunginosassa",
+   "file": "ikkunanpesu/turku/ii-kaupunginosassa.html",
+   "source": "page149584506.html",
+   "h1": "Ikkunanpesu Turun II kaupunginosassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/iii-kaupunginosassa",
+   "file": "ikkunanpesu/turku/iii-kaupunginosassa.html",
+   "source": "page149587266.html",
+   "h1": "Ikkunanpesu Turun III kaupunginosassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/martti",
+   "file": "ikkunanpesu/turku/martti.html",
+   "source": "page149588596.html",
+   "h1": "Ikkunanpesu Turun IV kaupunginosassa eli Martissa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/itaranta",
+   "file": "ikkunanpesu/turku/itaranta.html",
+   "source": "page149590006.html",
+   "h1": "Ikkunanpesu Turun V kaupunginosassa eli Itärannassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/vi-kaupunginosassa",
+   "file": "ikkunanpesu/turku/vi-kaupunginosassa.html",
+   "source": "page150331576.html",
+   "h1": "Ikkunanpesu Turun VI kaupunginosassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/vii-kaupunginosassa",
+   "file": "ikkunanpesu/turku/vii-kaupunginosassa.html",
+   "source": "page150346836.html",
+   "h1": "Ikkunanpesu Turun VII kaupunginosassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/port-arthur",
+   "file": "ikkunanpesu/turku/port-arthur.html",
+   "source": "page150354996.html",
+   "h1": "Ikkunanpesu Turun VIII kaupunginosassa eli Port Arthurissa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/lansiranta/",
+   "file": "ikkunanpesu/turku/lansiranta/index.html",
+   "source": "page150362506.html",
+   "h1": "Ikkunanpesu Turun IX kaupunginosassa eli Länsirannassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/vahaheikkila/",
+   "file": "ikkunanpesu/turku/vahaheikkila/index.html",
+   "source": "page150397476.html",
+   "h1": "Ikkunanpesu Vähäheikkilässä koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/iso-heikkila/",
+   "file": "ikkunanpesu/turku/iso-heikkila/index.html",
+   "source": "page150406926.html",
+   "h1": "Ikkunanpesu Iso-Heikkilässä koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/korppolaismaki",
+   "file": "ikkunanpesu/turku/korppolaismaki.html",
+   "source": "page150413066.html",
+   "h1": "Ikkunanpesu Korppolaismäessä koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/kupittaa",
+   "file": "ikkunanpesu/turku/kupittaa.html",
+   "source": "page150419786.html",
+   "h1": "Ikkunanpesu Kupittaalla koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/kurjenmaki",
+   "file": "ikkunanpesu/turku/kurjenmaki.html",
+   "source": "page150425386.html",
+   "h1": "Ikkunanpesu Turun Kurjenmäessä koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/mantymaki",
+   "file": "ikkunanpesu/turku/mantymaki.html",
+   "source": "page150620806.html",
+   "h1": "Ikkunanpesu Mäntymäessä koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/nummi",
+   "file": "ikkunanpesu/turku/nummi.html",
+   "source": "page150890936.html",
+   "h1": "Ikkunanpesu Nummessa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/pihlajaniemi",
+   "file": "ikkunanpesu/turku/pihlajaniemi.html",
+   "source": "page150911346.html",
+   "h1": "Ikkunanpesu Pihlajaniemessä koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/turun-satama",
+   "file": "ikkunanpesu/turku/turun-satama.html",
+   "source": "page151031196.html",
+   "h1": "Ikkunanpesu Turun satamassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/ruissalo",
+   "file": "ikkunanpesu/turku/ruissalo.html",
+   "source": "page151049086.html",
+   "h1": "Ikkunanpesu Turun satamassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/illoinen",
+   "file": "ikkunanpesu/turku/illoinen.html",
+   "source": "page151066746.html",
+   "h1": "Ikkunanpesu Illoisissa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/kaistarniemi",
+   "file": "ikkunanpesu/turku/kaistarniemi.html",
+   "source": "page151077736.html",
+   "h1": "Ikkunanpesu Kaistarniemessä koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/kakskerta",
+   "file": "ikkunanpesu/turku/kakskerta.html",
+   "source": "page151085086.html",
+   "h1": "Ikkunanpesu Kakskerrassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/kukola",
+   "file": "ikkunanpesu/turku/kukola.html",
+   "source": "page151454256.html",
+   "h1": "Ikkunanpesu Kukolassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/lauttaranta",
+   "file": "ikkunanpesu/turku/lauttaranta.html",
+   "source": "page151461816.html",
+   "h1": "Ikkunanpesu Lauttarannassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/maanpaa",
+   "file": "ikkunanpesu/turku/maanpaa.html",
+   "source": "page151474486.html",
+   "h1": "Ikkunanpesu Maanpäässä koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/moikoinen",
+   "file": "ikkunanpesu/turku/moikoinen.html",
+   "source": "page151481026.html",
+   "h1": "Ikkunanpesu Moikoisissa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/oriniemi",
+   "file": "ikkunanpesu/turku/oriniemi.html",
+   "source": "page151490276.html",
+   "h1": "Ikkunanpesu Oriniemessä koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/pikisaari",
+   "file": "ikkunanpesu/turku/pikisaari.html",
+   "source": "page151506916.html",
+   "h1": "Ikkunanpesu Pikisaaressa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/satava",
+   "file": "ikkunanpesu/turku/satava.html",
+   "source": "page151517676.html",
+   "h1": "Ikkunanpesu Satavassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/sarkilahti",
+   "file": "ikkunanpesu/turku/sarkilahti.html",
+   "source": "page151793976.html",
+   "h1": "Ikkunanpesu Särkilahdessa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/toijainen",
+   "file": "ikkunanpesu/turku/toijainen.html",
+   "source": "page151794956.html",
+   "h1": "Ikkunanpesu Toijaisissa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/friskala",
+   "file": "ikkunanpesu/turku/friskala.html",
+   "source": "page151796306.html",
+   "h1": "Ikkunanpesu Friskalassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/haarla",
+   "file": "ikkunanpesu/turku/haarla.html",
+   "source": "page151796966.html",
+   "h1": "Ikkunanpesu Haarlassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/janessaari",
+   "file": "ikkunanpesu/turku/janessaari.html",
+   "source": "page151797916.html",
+   "h1": "Ikkunanpesu Jänessaaressa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/vasaramaki",
+   "file": "ikkunanpesu/turku/vasaramaki.html",
+   "source": "page151800486.html",
+   "h1": "Ikkunanpesu Vasaramäessä koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/ilpoinen",
+   "file": "ikkunanpesu/turku/ilpoinen.html",
+   "source": "page152082446.html",
+   "h1": "Ikkunanpesu Ilpoisissa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/ispoinen",
+   "file": "ikkunanpesu/turku/ispoinen.html",
+   "source": "page152087766.html",
+   "h1": "Ikkunanpesu Ispoisissa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/katariina",
+   "file": "ikkunanpesu/turku/katariina.html",
+   "source": "page152091506.html",
+   "h1": "Ikkunanpesu Katariinassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/koivula",
+   "file": "ikkunanpesu/turku/koivula.html",
+   "source": "page152102136.html",
+   "h1": "Ikkunanpesu Koivulassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/luolavuori",
+   "file": "ikkunanpesu/turku/luolavuori.html",
+   "source": "page152114076.html",
+   "h1": "Ikkunanpesu Luolavuoressa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/peltola",
+   "file": "ikkunanpesu/turku/peltola.html",
+   "source": "page152138476.html",
+   "h1": "Ikkunanpesu Peltolassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/puistomaki",
+   "file": "ikkunanpesu/turku/puistomaki.html",
+   "source": "page152168386.html",
+   "h1": "Ikkunanpesu Puistomäessä koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/skanssi",
+   "file": "ikkunanpesu/turku/skanssi.html",
+   "source": "page152170606.html",
+   "h1": "Ikkunanpesu Skanssissa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/uittamo",
+   "file": "ikkunanpesu/turku/uittamo.html",
+   "source": "page152172846.html",
+   "h1": "Ikkunanpesu Uittamolla koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/harittu",
+   "file": "ikkunanpesu/turku/harittu.html",
+   "source": "page152175086.html",
+   "h1": "Ikkunanpesu Haritussa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/vaala",
+   "file": "ikkunanpesu/turku/vaala.html",
+   "source": "page152599596.html",
+   "h1": "Ikkunanpesu Vaalassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/varissuo",
+   "file": "ikkunanpesu/turku/varissuo.html",
+   "source": "page152600076.html",
+   "h1": "Ikkunanpesu Varissuolla koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/lauste",
+   "file": "ikkunanpesu/turku/lauste.html",
+   "source": "page152600546.html",
+   "h1": "Ikkunanpesu Lausteella koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/paaskyvuori",
+   "file": "ikkunanpesu/turku/paaskyvuori.html",
+   "source": "page152601176.html",
+   "h1": "Ikkunanpesu Pääskyvuoressa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/turku/huhkola",
+   "file": "ikkunanpesu/turku/huhkola.html",
+   "source": "page152601646.html",
+   "h1": "Ikkunanpesu Huhkolassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/porvoo",
+   "file": "ikkunanpesu/porvoo.html",
+   "source": "page153011126.html",
+   "h1": "Ikkunanpesu Porvoo koteihin ja yrityksille",
+   "faq": 10
+  },
+  {
+   "path": "/ikkunanpesu/sipoo",
+   "file": "ikkunanpesu/sipoo.html",
+   "source": "page153012966.html",
+   "h1": "Ikkunanpesu Sipoo koteihin ja yrityksille",
+   "faq": 10
+  },
+  {
+   "path": "/ikkunanpesu/loviisa",
+   "file": "ikkunanpesu/loviisa.html",
+   "source": "page153014106.html",
+   "h1": "Ikkunanpesu Loviisa koteihin ja yrityksille",
+   "faq": 10
+  },
+  {
+   "path": "/ikkunanpesu/kouvola",
+   "file": "ikkunanpesu/kouvola.html",
+   "source": "page153014436.html",
+   "h1": "Ikkunanpesu Kouvola koteihin ja yrityksille",
+   "faq": 10
+  },
+  {
+   "path": "/ikkunanpesu/kotka",
+   "file": "ikkunanpesu/kotka.html",
+   "source": "page153015496.html",
+   "h1": "Ikkunanpesu Kotka koteihin ja yrityksille",
+   "faq": 10
+  },
+  {
+   "path": "/ikkunanpesu/hamina",
+   "file": "ikkunanpesu/hamina.html",
+   "source": "page153015616.html",
+   "h1": "Ikkunanpesu Hamina koteihin ja yrityksille",
+   "faq": 10
+  },
+  {
+   "path": "/ikkunanpesu/kouvola/anjalankoski",
+   "file": "ikkunanpesu/kouvola/anjalankoski.html",
+   "source": "page153162946.html",
+   "h1": "Ikkunanpesu Anjalankoskella koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/kouvola/elimaki",
+   "file": "ikkunanpesu/kouvola/elimaki.html",
+   "source": "page153166416.html",
+   "h1": "Ikkunanpesu Elimäellä koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/kouvola/valkeala",
+   "file": "ikkunanpesu/kouvola/valkeala.html",
+   "source": "page153174326.html",
+   "h1": "Ikkunanpesu Valkealassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/kouvola/jaala",
+   "file": "ikkunanpesu/kouvola/jaala.html",
+   "source": "page153177606.html",
+   "h1": "Ikkunanpesu Jaalassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/kouvola/kuusankoski",
+   "file": "ikkunanpesu/kouvola/kuusankoski.html",
+   "source": "page153181046.html",
+   "h1": "Ikkunanpesu Kuusankoskella koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/kotka/kotkan-keskustaajama",
+   "file": "ikkunanpesu/kotka/kotkan-keskustaajama.html",
+   "source": "page153208546.html",
+   "h1": "Ikkunanpesu Kotkan keskustaajamassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/kotka/halla-tiutinen",
+   "file": "ikkunanpesu/kotka/halla-tiutinen.html",
+   "source": "page153210756.html",
+   "h1": "Ikkunanpesu Halla-Tiutisessa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/hamina/haminan-keskustaajama",
+   "file": "ikkunanpesu/hamina/haminan-keskustaajama.html",
+   "source": "page153215026.html",
+   "h1": "Ikkunanpesu Haminan keskustaajamassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/hamina/neuvoton",
+   "file": "ikkunanpesu/hamina/neuvoton.html",
+   "source": "page153215756.html",
+   "h1": "Ikkunanpesu Neuvottomassa koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/hamina/vilniemi",
+   "file": "ikkunanpesu/hamina/vilniemi.html",
+   "source": "page153216626.html",
+   "h1": "Ikkunanpesu Vilniemessä koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/hamina/metsakyla",
+   "file": "ikkunanpesu/hamina/metsakyla.html",
+   "source": "page153217636.html",
+   "h1": "Ikkunanpesu Metsäkylässä koteihin ja yrityksille",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/porvoo",
+   "file": "kotisiivous/porvoo.html",
+   "source": "page153484886.html",
+   "h1": "Kotisiivous Porvoo koteihin",
+   "faq": 10
+  },
+  {
+   "path": "/kotisiivous/sipoo",
+   "file": "kotisiivous/sipoo.html",
+   "source": "page153638856.html",
+   "h1": "Kotisiivous Sipoon koteihin",
+   "faq": 10
+  },
+  {
+   "path": "/kotisiivous/loviisa",
+   "file": "kotisiivous/loviisa.html",
+   "source": "page153640476.html",
+   "h1": "Kotisiivous Loviisassa koteihin",
+   "faq": 10
+  },
+  {
+   "path": "/kotisiivous/kouvola",
+   "file": "kotisiivous/kouvola.html",
+   "source": "page153641976.html",
+   "h1": "Kotisiivous Kouvola koteihin",
+   "faq": 10
+  },
+  {
+   "path": "/kotisiivous/kotka",
+   "file": "kotisiivous/kotka.html",
+   "source": "page153643436.html",
+   "h1": "Kotisiivous Kotka koteihin",
+   "faq": 10
+  },
+  {
+   "path": "/kotisiivous/hamina",
+   "file": "kotisiivous/hamina.html",
+   "source": "page153644796.html",
+   "h1": "Kotisiivous Haminan koteihin",
+   "faq": 10
+  },
+  {
+   "path": "/ikkunanpesu/inkeroinen",
+   "file": "ikkunanpesu/inkeroinen.html",
+   "source": "page153645696.html",
+   "h1": "Ikkunanpesu Inkeroinen koteihin ja yrityksille",
+   "faq": 10
+  },
+  {
+   "path": "/kotisiivous/inkeroinen",
+   "file": "kotisiivous/inkeroinen.html",
+   "source": "page153647496.html",
+   "h1": "Kotisiivous Inkeroinen koteihin",
+   "faq": 10
+  },
+  {
+   "path": "/kotisiivous/kouvola/anjalankoski",
+   "file": "kotisiivous/kouvola/anjalankoski.html",
+   "source": "page154104226.html",
+   "h1": "Kotisiivous Anjalankoski koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/kouvola/elimaki",
+   "file": "kotisiivous/kouvola/elimaki.html",
+   "source": "page154120066.html",
+   "h1": "Kotisiivous Elimäki koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/kouvola/valkeala",
+   "file": "kotisiivous/kouvola/valkeala.html",
+   "source": "page154160996.html",
+   "h1": "Kotisiivous Valkeala koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/kouvola/jaala",
+   "file": "kotisiivous/kouvola/jaala.html",
+   "source": "page154167506.html",
+   "h1": "Kotisiivous Jaala koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/kouvola/kuusankoski",
+   "file": "kotisiivous/kouvola/kuusankoski.html",
+   "source": "page154177616.html",
+   "h1": "Kotisiivous Kuusankoski koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/kotka/kotkan-keskustaajama",
+   "file": "kotisiivous/kotka/kotkan-keskustaajama.html",
+   "source": "page154190476.html",
+   "h1": "Kotisiivous Kotkan keskustaajama koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/kotka/halla-tiutinen",
+   "file": "kotisiivous/kotka/halla-tiutinen.html",
+   "source": "page154204056.html",
+   "h1": "Kotisiivous Halla-Tiutinen koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/hamina/haminan-keskustaajama",
+   "file": "kotisiivous/hamina/haminan-keskustaajama.html",
+   "source": "page154208896.html",
+   "h1": "Kotisiivous Haminan keskustaajaman koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/hamina/neuvoton",
+   "file": "kotisiivous/hamina/neuvoton.html",
+   "source": "page154276766.html",
+   "h1": "Kotisiivous Neuvoton koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/hamina/vilniemi",
+   "file": "kotisiivous/hamina/vilniemi.html",
+   "source": "page154296036.html",
+   "h1": "Kotisiivous Vilniemi koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/hamina/metsakyla",
+   "file": "kotisiivous/hamina/metsakyla.html",
+   "source": "page154333306.html",
+   "h1": "Kotisiivous Metsäkylä koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/muuttosiivous/kotka",
+   "file": "muuttosiivous/kotka.html",
+   "source": "page154366546.html",
+   "h1": "Muuttosiivous Kotkan koteihin",
+   "faq": 10
+  },
+  {
+   "path": "/muuttosiivous/kouvola",
+   "file": "muuttosiivous/kouvola.html",
+   "source": "page154377156.html",
+   "h1": "Muuttosiivous Kouvolan koteihin",
+   "faq": 10
+  },
+  {
+   "path": "/muuttosiivous/porvoo",
+   "file": "muuttosiivous/porvoo.html",
+   "source": "page154379426.html",
+   "h1": "Muuttosiivous Porvoon koteihin",
+   "faq": 10
+  },
+  {
+   "path": "/muuttosiivous/sipoo",
+   "file": "muuttosiivous/sipoo.html",
+   "source": "page154380806.html",
+   "h1": "Muuttosiivous Sipoon koteihin",
+   "faq": 10
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/oulunkyla",
+   "file": "ikkunanpesu/helsinki/oulunkyla.html",
+   "source": "page154525086.html",
+   "h1": "Ikkunanpesu Oulunkylässä",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/maunula",
+   "file": "ikkunanpesu/helsinki/maunula.html",
+   "source": "page154529676.html",
+   "h1": "Ikkunanpesu Maunulassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/pirkkola",
+   "file": "ikkunanpesu/helsinki/pirkkola.html",
+   "source": "page154536416.html",
+   "h1": "Ikkunanpesu Pirkkolassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/patola",
+   "file": "ikkunanpesu/helsinki/patola.html",
+   "source": "page154557086.html",
+   "h1": "Ikkunanpesu Patolassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/pakila",
+   "file": "ikkunanpesu/helsinki/pakila.html",
+   "source": "page154567176.html",
+   "h1": "Ikkunanpesu Pakilassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/ita-pakila",
+   "file": "ikkunanpesu/helsinki/ita-pakila.html",
+   "source": "page154572956.html",
+   "h1": "Ikkunanpesu Itä-Pakilassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/lansi-pakila",
+   "file": "ikkunanpesu/helsinki/lansi-pakila.html",
+   "source": "page154575896.html",
+   "h1": "Ikkunanpesu Länsi-Pakilassa",
+   "faq": 0
+  },
+  {
+   "path": "/ikkunanpesu/helsinki/tuomarinkyla",
+   "file": "ikkunanpesu/helsinki/tuomarinkyla.html",
+   "source": "page154578266.html",
+   "h1": "Ikkunanpesu Tuomarinkylässä",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo",
+   "file": "kotisiivous/espoo.html",
+   "source": "page154891536.html",
+   "h1": "Kotisiivous Espoossa – helpompi arki",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/leppavaara",
+   "file": "kotisiivous/espoo/leppavaara.html",
+   "source": "page155255296.html",
+   "h1": "Kotisiivous Leppävaarassa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/kilo",
+   "file": "kotisiivous/espoo/kilo.html",
+   "source": "page155730576.html",
+   "h1": "Kotisiivous Kilossa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/karakallio",
+   "file": "kotisiivous/espoo/karakallio.html",
+   "source": "page155743636.html",
+   "h1": "Kotisiivous Karakalliossa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/lintuvaara",
+   "file": "kotisiivous/espoo/lintuvaara.html",
+   "source": "page155817736.html",
+   "h1": "Kotisiivous Lintuvaarassa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/laaksolahti",
+   "file": "kotisiivous/espoo/laaksolahti.html",
+   "source": "page155819086.html",
+   "h1": "Kotisiivous Laaksolahdessa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/viherlaakso",
+   "file": "kotisiivous/espoo/viherlaakso.html",
+   "source": "page155819776.html",
+   "h1": "Kotisiivous Viherlaaksossa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/perkkaa",
+   "file": "kotisiivous/espoo/perkkaa.html",
+   "source": "page155820226.html",
+   "h1": "Kotisiivous Perkkaalla",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/matinkyla",
+   "file": "kotisiivous/espoo/matinkyla.html",
+   "source": "page155953796.html",
+   "h1": "Kotisiivous Matinkylässä",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/olari",
+   "file": "kotisiivous/espoo/olari.html",
+   "source": "page155961246.html",
+   "h1": "Kotisiivous Olarissa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/suurpelto",
+   "file": "kotisiivous/espoo/suurpelto.html",
+   "source": "page155964036.html",
+   "h1": "Kotisiivous Suurpellossa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/tapiola",
+   "file": "kotisiivous/espoo/tapiola.html",
+   "source": "page155965936.html",
+   "h1": "Kotisiivous Tapiolassa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/westend",
+   "file": "kotisiivous/espoo/westend.html",
+   "source": "page155969126.html",
+   "h1": "Kotisiivous Westendissä",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/haukilahti",
+   "file": "kotisiivous/espoo/haukilahti.html",
+   "source": "page155972136.html",
+   "h1": "Kotisiivous Haukilahdessa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/mankkaa",
+   "file": "kotisiivous/espoo/mankkaa.html",
+   "source": "page156491909.html",
+   "h1": "Kotisiivous Mankkaalla",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/niittykumpu",
+   "file": "kotisiivous/espoo/niittykumpu.html",
+   "source": "page156554309.html",
+   "h1": "Kotisiivous Niittykummussa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/laajalahti",
+   "file": "kotisiivous/espoo/laajalahti.html",
+   "source": "page156664209.html",
+   "h1": "Kotisiivous Laajalahdessa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/espoonlahti",
+   "file": "kotisiivous/espoo/espoonlahti.html",
+   "source": "page156690309.html",
+   "h1": "Kotisiivous Espoonlahdessa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/kivenlahti",
+   "file": "kotisiivous/espoo/kivenlahti.html",
+   "source": "page157087609.html",
+   "h1": "Kotisiivous Kivenlahdessa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/soukka",
+   "file": "kotisiivous/espoo/soukka.html",
+   "source": "page157113009.html",
+   "h1": "Kotisiivous Soukassa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/saunalahti",
+   "file": "kotisiivous/espoo/saunalahti.html",
+   "source": "page157118109.html",
+   "h1": "Kotisiivous Saunalahdessa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/noykkio",
+   "file": "kotisiivous/espoo/noykkio.html",
+   "source": "page158558209.html",
+   "h1": "Kotisiivous Nöykkiössä",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/laurinlahti",
+   "file": "kotisiivous/espoo/laurinlahti.html",
+   "source": "page158618009.html",
+   "h1": "Kotisiivous Laurinlahdessa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/kaitaa",
+   "file": "kotisiivous/espoo/kaitaa.html",
+   "source": "page159180209.html",
+   "h1": "Kotisiivous Kaitaalla",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/lippajarvi",
+   "file": "kotisiivous/espoo/lippajarvi.html",
+   "source": "page159188709.html",
+   "h1": "Kotisiivous Lippajärvellä",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/suvela",
+   "file": "kotisiivous/espoo/suvela.html",
+   "source": "page159195709.html",
+   "h1": "Kotisiivous Suvelassa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/tuomarila",
+   "file": "kotisiivous/espoo/tuomarila.html",
+   "source": "page159202409.html",
+   "h1": "Kotisiivous Tuomarilassa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/kauklahti",
+   "file": "kotisiivous/espoo/kauklahti.html",
+   "source": "page164031009.html",
+   "h1": "Kotisiivous Kauklahdessa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/vanttila",
+   "file": "kotisiivous/espoo/vanttila.html",
+   "source": "page164425809.html",
+   "h1": "Kotisiivous Vanttilassa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/espoo/kurttila",
+   "file": "kotisiivous/espoo/kurttila.html",
+   "source": "page164457909.html",
+   "h1": "Kotisiivous Kurttilassa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki",
+   "file": "kotisiivous/helsinki.html",
+   "source": "page168043309.html",
+   "h1": "Kotisiivous Helsingin koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous-vantaa",
+   "file": "kotisiivous-vantaa.html",
+   "source": "page37050221.html",
+   "h1": "Kotisiivous Vantaalla – helpompi arki",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/katajanokka",
+   "file": "kotisiivous/helsinki/katajanokka.html",
+   "source": "page172325809.html",
+   "h1": "Kotisiivous Katajanokan koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/meilahti",
+   "file": "kotisiivous/helsinki/meilahti.html",
+   "source": "page174532209.html",
+   "h1": "Kotisiivous Meilahden koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/haaga",
+   "file": "kotisiivous/helsinki/haaga.html",
+   "source": "page174572709.html",
+   "h1": "Kotisiivous Haagan koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/pitajanmaki",
+   "file": "kotisiivous/helsinki/pitajanmaki.html",
+   "source": "page174599409.html",
+   "h1": "Kotisiivous Pitäjänmäen koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/ruskeasuo",
+   "file": "kotisiivous/helsinki/ruskeasuo.html",
+   "source": "page174619109.html",
+   "h1": "Kotisiivous Ruskeasuo koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/pasila",
+   "file": "kotisiivous/helsinki/pasila.html",
+   "source": "page180213809.html",
+   "h1": "Kotisiivous Pasila koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/sornainen",
+   "file": "kotisiivous/helsinki/sornainen.html",
+   "source": "page180238309.html",
+   "h1": "Kotisiivous Sörnäinen koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/hermanni",
+   "file": "kotisiivous/helsinki/hermanni.html",
+   "source": "page180269309.html",
+   "h1": "Kotisiivous Hermanni koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/toukola",
+   "file": "kotisiivous/helsinki/toukola.html",
+   "source": "page180288009.html",
+   "h1": "Kotisiivous Toukola koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/kumpula",
+   "file": "kotisiivous/helsinki/kumpula.html",
+   "source": "page180307209.html",
+   "h1": "Kotisiivous Kumpulan koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/kapyla",
+   "file": "kotisiivous/helsinki/kapyla.html",
+   "source": "page180326509.html",
+   "h1": "Kotisiivous Käpylä koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/vallila",
+   "file": "kotisiivous/helsinki/vallila.html",
+   "source": "page180348009.html",
+   "h1": "Kotisiivous Vallila koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/pakila",
+   "file": "kotisiivous/helsinki/pakila.html",
+   "source": "page186189209.html",
+   "h1": "Kotisiivous Pakila koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/oulunkyla",
+   "file": "kotisiivous/helsinki/oulunkyla.html",
+   "source": "page186248509.html",
+   "h1": "Kotisiivous Oulunkylä koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/kulosaari",
+   "file": "kotisiivous/helsinki/kulosaari.html",
+   "source": "page186386709.html",
+   "h1": "Kotisiivous Kulosaari koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/helsinki/herttoniemi",
+   "file": "kotisiivous/helsinki/herttoniemi.html",
+   "source": "page186451309.html",
+   "h1": "Kotisiivous Herttoniemi koteihin",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/vantaa/tikkurila",
+   "file": "kotisiivous/vantaa/tikkurila.html",
+   "source": "page296775309.html",
+   "h1": "Kotisiivous Tikkurilassa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/vantaa/myyrmaki",
+   "file": "kotisiivous/vantaa/myyrmaki.html",
+   "source": "page298591109.html",
+   "h1": "Kotisiivous Myyrmäessä",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/vantaa/kivisto",
+   "file": "kotisiivous/vantaa/kivisto.html",
+   "source": "page300252909.html",
+   "h1": "Kotisiivous Kivistössä",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/vantaa/korso",
+   "file": "kotisiivous/vantaa/korso.html",
+   "source": "page300267809.html",
+   "h1": "Kotisiivous Korsossa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/vantaa/koivukyla",
+   "file": "kotisiivous/vantaa/koivukyla.html",
+   "source": "page302368409.html",
+   "h1": "Kotisiivous Koivukylässä",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/vantaa/hakunila",
+   "file": "kotisiivous/vantaa/hakunila.html",
+   "source": "page302384909.html",
+   "h1": "Kotisiivous Hakunilassa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/vantaa/martinlaakso",
+   "file": "kotisiivous/vantaa/martinlaakso.html",
+   "source": "page306856809.html",
+   "h1": "Kotisiivous Martinlaaksossa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/vantaa/pakkala",
+   "file": "kotisiivous/vantaa/pakkala.html",
+   "source": "page308897709.html",
+   "h1": "Kotisiivous Pakkalassa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/vantaa/havukoski",
+   "file": "kotisiivous/vantaa/havukoski.html",
+   "source": "page308936909.html",
+   "h1": "Kotisiivous Havukoskella",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/ikkunanpesu-lauttasaari-kolmio-parvekelasit",
+   "file": "referenssit/ikkunanpesu-lauttasaari-kolmio-parvekelasit.html",
+   "source": "page309880009.html",
+   "h1": "Kolmion ikkunanpesu Lauttasaaressa",
+   "faq": 0
+  },
+  {
+   "path": "/kotisiivous/vantaa/hiekkaharju",
+   "file": "kotisiivous/vantaa/hiekkaharju.html",
+   "source": "page311811909.html",
+   "h1": "Kotisiivous Hiekkaharjussa",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/ikkunanpesu-kivisto-omakotitalo",
+   "file": "referenssit/ikkunanpesu-kivisto-omakotitalo.html",
+   "source": "page312670509.html",
+   "h1": "Omakotitalon ikkunanpesu Kivistössä",
+   "faq": 0
+  },
+  {
+   "path": "/referenssit/ikkunanpesu-vantaa-kaksio-parvekelasit",
+   "file": "referenssit/ikkunanpesu-vantaa-kaksio-parvekelasit.html",
+   "source": "page319319609.html",
+   "h1": "Kaksion ikkunanpesu Vantaalla",
+   "faq": 0
+  }
+ ],
+ "junk_blocks": [
+  [
+   "/ikkunanpesu/porvoo",
+   "rec3517979301"
+  ],
+  [
+   "/ikkunanpesu/porvoo",
+   "rec3518047201"
+  ],
+  [
+   "/ikkunanpesu/porvoo",
+   "rec3518173801"
+  ],
+  [
+   "/ikkunanpesu/porvoo",
+   "rec3518160701"
+  ],
+  [
+   "/ikkunanpesu/porvoo",
+   "rec3518110501"
+  ],
+  [
+   "/ikkunanpesu/porvoo",
+   "rec3518208701"
+  ]
+ ],
+ "skipped": [
+  "/header",
+  "/footer",
+  "/ongelma",
+  "/test",
+  "/1"
+ ],
+ "redirects": 509,
+ "images": 1172
+}
