@@ -1,0 +1,1492 @@
+{
+ "_readme": "Who may edit which page. owner: 'partner' or 'sergei'. Files not listed here are SHARED (both owners must agree in the PR). New pages: add an entry in the same PR.",
+ "github": {
+  "sergei": "kotelnikoff-sergei",
+  "partner": ""
+ },
+ "shared": [
+  "public/assets/",
+  "public/_redirects",
+  "public/_headers",
+  "public/robots.txt",
+  "public/404.html",
+  "public/favicon.ico",
+  "wrangler.jsonc",
+  "migration/",
+  "tools/",
+  "ownership.json",
+  "AGENTS.md",
+  "CLAUDE.md",
+  ".github/"
+ ],
+ "files": {
+  "public/arvostelut.html": {
+   "url": "/arvostelut",
+   "owner": "sergei"
+  },
+  "public/blog.html": {
+   "url": "/blog",
+   "owner": "sergei"
+  },
+  "public/blogi.html": {
+   "url": "/blogi",
+   "owner": "sergei"
+  },
+  "public/blogi/ammattilaisvinkit-keittion-siivoukseen.html": {
+   "url": "/blogi/ammattilaisvinkit-keittion-siivoukseen",
+   "owner": "sergei"
+  },
+  "public/blogi/kiireisen-kodin-siivous.html": {
+   "url": "/blogi/kiireisen-kodin-siivous",
+   "owner": "sergei"
+  },
+  "public/blogi/muuttosiivous-taydellinen-opas-stressittomaan-muuttoon.html": {
+   "url": "/blogi/muuttosiivous-taydellinen-opas-stressittomaan-muuttoon",
+   "owner": "sergei"
+  },
+  "public/blogi/puhdas-kylpyhuone-helposti-vinkit.html": {
+   "url": "/blogi/puhdas-kylpyhuone-helposti-vinkit",
+   "owner": "sergei"
+  },
+  "public/etusivu.html": {
+   "url": "/etusivu",
+   "owner": "sergei"
+  },
+  "public/hinnasto.html": {
+   "url": "/hinnasto",
+   "owner": "partner"
+  },
+  "public/home-cleaning.html": {
+   "url": "/home-cleaning",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu-espoo.html": {
+   "url": "/ikkunanpesu-espoo",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu-hyvinkaa.html": {
+   "url": "/ikkunanpesu-hyvinkaa",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu-jarvenpaa.html": {
+   "url": "/ikkunanpesu-jarvenpaa",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu-kauniainen.html": {
+   "url": "/ikkunanpesu-kauniainen",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu-kerava.html": {
+   "url": "/ikkunanpesu-kerava",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu-kirkkonummi.html": {
+   "url": "/ikkunanpesu-kirkkonummi",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu-klaukkala.html": {
+   "url": "/ikkunanpesu-klaukkala",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu-lahti.html": {
+   "url": "/ikkunanpesu-lahti",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu-lohja.html": {
+   "url": "/ikkunanpesu-lohja",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu-nurmijarvi.html": {
+   "url": "/ikkunanpesu-nurmijarvi",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu-taloyhtiot.html": {
+   "url": "/ikkunanpesu-taloyhtiot",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu-tuusula.html": {
+   "url": "/ikkunanpesu-tuusula",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu-vantaa.html": {
+   "url": "/ikkunanpesu-vantaa",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu-vihti.html": {
+   "url": "/ikkunanpesu-vihti",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu.html": {
+   "url": "/ikkunanpesu",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/hamina.html": {
+   "url": "/ikkunanpesu/hamina",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/hamina/haminan-keskustaajama.html": {
+   "url": "/ikkunanpesu/hamina/haminan-keskustaajama",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/hamina/metsakyla.html": {
+   "url": "/ikkunanpesu/hamina/metsakyla",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/hamina/neuvoton.html": {
+   "url": "/ikkunanpesu/hamina/neuvoton",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/hamina/vilniemi.html": {
+   "url": "/ikkunanpesu/hamina/vilniemi",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/helsinki.html": {
+   "url": "/ikkunanpesu/helsinki",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/alppiharju.html": {
+   "url": "/ikkunanpesu/helsinki/alppiharju",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/arabianranta.html": {
+   "url": "/ikkunanpesu/helsinki/arabianranta",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/eira.html": {
+   "url": "/ikkunanpesu/helsinki/eira",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/haaga.html": {
+   "url": "/ikkunanpesu/helsinki/haaga",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/hermanni.html": {
+   "url": "/ikkunanpesu/helsinki/hermanni",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/ita-pakila.html": {
+   "url": "/ikkunanpesu/helsinki/ita-pakila",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/jatkasaari.html": {
+   "url": "/ikkunanpesu/helsinki/jatkasaari",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/kaarela.html": {
+   "url": "/ikkunanpesu/helsinki/kaarela",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/kaartinkaupunki.html": {
+   "url": "/ikkunanpesu/helsinki/kaartinkaupunki",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/kaivopuisto.html": {
+   "url": "/ikkunanpesu/helsinki/kaivopuisto",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/kalasatama.html": {
+   "url": "/ikkunanpesu/helsinki/kalasatama",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/kallio.html": {
+   "url": "/ikkunanpesu/helsinki/kallio",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/kamppi.html": {
+   "url": "/ikkunanpesu/helsinki/kamppi",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/kannelmaki.html": {
+   "url": "/ikkunanpesu/helsinki/kannelmaki",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/kapyla.html": {
+   "url": "/ikkunanpesu/helsinki/kapyla",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/katajanokka.html": {
+   "url": "/ikkunanpesu/helsinki/katajanokka",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/kivihaka.html": {
+   "url": "/ikkunanpesu/helsinki/kivihaka",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/kluuvi.html": {
+   "url": "/ikkunanpesu/helsinki/kluuvi",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/konala.html": {
+   "url": "/ikkunanpesu/helsinki/konala",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/koskela.html": {
+   "url": "/ikkunanpesu/helsinki/koskela",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/kruununhaka/index.html": {
+   "url": "/ikkunanpesu/helsinki/kruununhaka/",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/kumpula.html": {
+   "url": "/ikkunanpesu/helsinki/kumpula",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/laakso.html": {
+   "url": "/ikkunanpesu/helsinki/laakso",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/lansi-pakila.html": {
+   "url": "/ikkunanpesu/helsinki/lansi-pakila",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/lansisatama.html": {
+   "url": "/ikkunanpesu/helsinki/lansisatama",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/lapinlahti.html": {
+   "url": "/ikkunanpesu/helsinki/lapinlahti",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/lassila.html": {
+   "url": "/ikkunanpesu/helsinki/lassila",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/lauttasaari.html": {
+   "url": "/ikkunanpesu/helsinki/lauttasaari",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/malminkartano.html": {
+   "url": "/ikkunanpesu/helsinki/malminkartano",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/maunula.html": {
+   "url": "/ikkunanpesu/helsinki/maunula",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/meilahti.html": {
+   "url": "/ikkunanpesu/helsinki/meilahti",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/munkkiniemi.html": {
+   "url": "/ikkunanpesu/helsinki/munkkiniemi",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/munkkisaari.html": {
+   "url": "/ikkunanpesu/helsinki/munkkisaari",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/munkkivuori.html": {
+   "url": "/ikkunanpesu/helsinki/munkkivuori",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/oulunkyla.html": {
+   "url": "/ikkunanpesu/helsinki/oulunkyla",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/pakila.html": {
+   "url": "/ikkunanpesu/helsinki/pakila",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/pasila.html": {
+   "url": "/ikkunanpesu/helsinki/pasila",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/patola.html": {
+   "url": "/ikkunanpesu/helsinki/patola",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/pirkkola.html": {
+   "url": "/ikkunanpesu/helsinki/pirkkola",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/pitajanmaki.html": {
+   "url": "/ikkunanpesu/helsinki/pitajanmaki",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/punavuori.html": {
+   "url": "/ikkunanpesu/helsinki/punavuori",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/ruoholahti.html": {
+   "url": "/ikkunanpesu/helsinki/ruoholahti",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/ruskeasuo.html": {
+   "url": "/ikkunanpesu/helsinki/ruskeasuo",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/salmisaari.html": {
+   "url": "/ikkunanpesu/helsinki/salmisaari",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/sornainen.html": {
+   "url": "/ikkunanpesu/helsinki/sornainen",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/suomenlinna.html": {
+   "url": "/ikkunanpesu/helsinki/suomenlinna",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/toolo.html": {
+   "url": "/ikkunanpesu/helsinki/toolo",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/toukola.html": {
+   "url": "/ikkunanpesu/helsinki/toukola",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/tuomarinkyla.html": {
+   "url": "/ikkunanpesu/helsinki/tuomarinkyla",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/ullanlinna.html": {
+   "url": "/ikkunanpesu/helsinki/ullanlinna",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/vallila.html": {
+   "url": "/ikkunanpesu/helsinki/vallila",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/helsinki/vanhakaupunki.html": {
+   "url": "/ikkunanpesu/helsinki/vanhakaupunki",
+   "owner": "partner"
+  },
+  "public/ikkunanpesu/inkeroinen.html": {
+   "url": "/ikkunanpesu/inkeroinen",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/kotka.html": {
+   "url": "/ikkunanpesu/kotka",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/kotka/halla-tiutinen.html": {
+   "url": "/ikkunanpesu/kotka/halla-tiutinen",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/kotka/kotkan-keskustaajama.html": {
+   "url": "/ikkunanpesu/kotka/kotkan-keskustaajama",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/kouvola.html": {
+   "url": "/ikkunanpesu/kouvola",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/kouvola/anjalankoski.html": {
+   "url": "/ikkunanpesu/kouvola/anjalankoski",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/kouvola/elimaki.html": {
+   "url": "/ikkunanpesu/kouvola/elimaki",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/kouvola/jaala.html": {
+   "url": "/ikkunanpesu/kouvola/jaala",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/kouvola/kuusankoski.html": {
+   "url": "/ikkunanpesu/kouvola/kuusankoski",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/kouvola/valkeala.html": {
+   "url": "/ikkunanpesu/kouvola/valkeala",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/loviisa.html": {
+   "url": "/ikkunanpesu/loviisa",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/porvoo.html": {
+   "url": "/ikkunanpesu/porvoo",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/sipoo.html": {
+   "url": "/ikkunanpesu/sipoo",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku.html": {
+   "url": "/ikkunanpesu/turku",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/friskala.html": {
+   "url": "/ikkunanpesu/turku/friskala",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/haarla.html": {
+   "url": "/ikkunanpesu/turku/haarla",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/harittu.html": {
+   "url": "/ikkunanpesu/turku/harittu",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/huhkola.html": {
+   "url": "/ikkunanpesu/turku/huhkola",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/i-kaupunginosassa.html": {
+   "url": "/ikkunanpesu/turku/i-kaupunginosassa",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/ii-kaupunginosassa.html": {
+   "url": "/ikkunanpesu/turku/ii-kaupunginosassa",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/iii-kaupunginosassa.html": {
+   "url": "/ikkunanpesu/turku/iii-kaupunginosassa",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/illoinen.html": {
+   "url": "/ikkunanpesu/turku/illoinen",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/ilpoinen.html": {
+   "url": "/ikkunanpesu/turku/ilpoinen",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/iso-heikkila/index.html": {
+   "url": "/ikkunanpesu/turku/iso-heikkila/",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/ispoinen.html": {
+   "url": "/ikkunanpesu/turku/ispoinen",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/itaranta.html": {
+   "url": "/ikkunanpesu/turku/itaranta",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/janessaari.html": {
+   "url": "/ikkunanpesu/turku/janessaari",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/kaistarniemi.html": {
+   "url": "/ikkunanpesu/turku/kaistarniemi",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/kakskerta.html": {
+   "url": "/ikkunanpesu/turku/kakskerta",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/katariina.html": {
+   "url": "/ikkunanpesu/turku/katariina",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/koivula.html": {
+   "url": "/ikkunanpesu/turku/koivula",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/korppolaismaki.html": {
+   "url": "/ikkunanpesu/turku/korppolaismaki",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/kukola.html": {
+   "url": "/ikkunanpesu/turku/kukola",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/kupittaa.html": {
+   "url": "/ikkunanpesu/turku/kupittaa",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/kurjenmaki.html": {
+   "url": "/ikkunanpesu/turku/kurjenmaki",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/lansiranta/index.html": {
+   "url": "/ikkunanpesu/turku/lansiranta/",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/lauste.html": {
+   "url": "/ikkunanpesu/turku/lauste",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/lauttaranta.html": {
+   "url": "/ikkunanpesu/turku/lauttaranta",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/luolavuori.html": {
+   "url": "/ikkunanpesu/turku/luolavuori",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/maanpaa.html": {
+   "url": "/ikkunanpesu/turku/maanpaa",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/mantymaki.html": {
+   "url": "/ikkunanpesu/turku/mantymaki",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/martti.html": {
+   "url": "/ikkunanpesu/turku/martti",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/moikoinen.html": {
+   "url": "/ikkunanpesu/turku/moikoinen",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/nummi.html": {
+   "url": "/ikkunanpesu/turku/nummi",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/oriniemi.html": {
+   "url": "/ikkunanpesu/turku/oriniemi",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/paaskyvuori.html": {
+   "url": "/ikkunanpesu/turku/paaskyvuori",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/peltola.html": {
+   "url": "/ikkunanpesu/turku/peltola",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/pihlajaniemi.html": {
+   "url": "/ikkunanpesu/turku/pihlajaniemi",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/pikisaari.html": {
+   "url": "/ikkunanpesu/turku/pikisaari",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/port-arthur.html": {
+   "url": "/ikkunanpesu/turku/port-arthur",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/puistomaki.html": {
+   "url": "/ikkunanpesu/turku/puistomaki",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/ruissalo.html": {
+   "url": "/ikkunanpesu/turku/ruissalo",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/sarkilahti.html": {
+   "url": "/ikkunanpesu/turku/sarkilahti",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/satava.html": {
+   "url": "/ikkunanpesu/turku/satava",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/skanssi.html": {
+   "url": "/ikkunanpesu/turku/skanssi",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/toijainen.html": {
+   "url": "/ikkunanpesu/turku/toijainen",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/turun-satama.html": {
+   "url": "/ikkunanpesu/turku/turun-satama",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/uittamo.html": {
+   "url": "/ikkunanpesu/turku/uittamo",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/vaala.html": {
+   "url": "/ikkunanpesu/turku/vaala",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/vahaheikkila/index.html": {
+   "url": "/ikkunanpesu/turku/vahaheikkila/",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/varissuo.html": {
+   "url": "/ikkunanpesu/turku/varissuo",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/vasaramaki.html": {
+   "url": "/ikkunanpesu/turku/vasaramaki",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/vi-kaupunginosassa.html": {
+   "url": "/ikkunanpesu/turku/vi-kaupunginosassa",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu/turku/vii-kaupunginosassa.html": {
+   "url": "/ikkunanpesu/turku/vii-kaupunginosassa",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu_anttola.html": {
+   "url": "/ikkunanpesu_anttola",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu_imatra.html": {
+   "url": "/ikkunanpesu_imatra",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu_lappeenranta.html": {
+   "url": "/ikkunanpesu_lappeenranta",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu_mikkeli.html": {
+   "url": "/ikkunanpesu_mikkeli",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu_savonlinna.html": {
+   "url": "/ikkunanpesu_savonlinna",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesu_valkeala.html": {
+   "url": "/ikkunanpesu_valkeala",
+   "owner": "sergei"
+  },
+  "public/ikkunanpesun-laskuri.html": {
+   "url": "/ikkunanpesun-laskuri",
+   "owner": "sergei"
+  },
+  "public/ilmalmppumpun_puhdistus.html": {
+   "url": "/ilmalmppumpun_puhdistus",
+   "owner": "sergei"
+  },
+  "public/ilmastointilaitteen_pesu.html": {
+   "url": "/ilmastointilaitteen_pesu",
+   "owner": "sergei"
+  },
+  "public/index.html": {
+   "url": "/",
+   "owner": "partner"
+  },
+  "public/joulusiivous.html": {
+   "url": "/joulusiivous",
+   "owner": "sergei"
+  },
+  "public/kiitossivu-ikkunapesu.html": {
+   "url": "/kiitossivu-ikkunapesu",
+   "owner": "sergei"
+  },
+  "public/kiitossivu-kotisiivous.html": {
+   "url": "/kiitossivu-kotisiivous",
+   "owner": "sergei"
+  },
+  "public/kiitossivu_yritys.html": {
+   "url": "/kiitossivu_yritys",
+   "owner": "sergei"
+  },
+  "public/kotisiivous-helsinki/kotisiivous-toolo.html": {
+   "url": "/kotisiivous-helsinki/kotisiivous-toolo",
+   "owner": "partner"
+  },
+  "public/kotisiivous-helsinki/kotisiivous-vuosaari.html": {
+   "url": "/kotisiivous-helsinki/kotisiivous-vuosaari",
+   "owner": "partner"
+  },
+  "public/kotisiivous-hyvinkaa.html": {
+   "url": "/kotisiivous-hyvinkaa",
+   "owner": "sergei"
+  },
+  "public/kotisiivous-jarvenpaa.html": {
+   "url": "/kotisiivous-jarvenpaa",
+   "owner": "sergei"
+  },
+  "public/kotisiivous-kauniainen.html": {
+   "url": "/kotisiivous-kauniainen",
+   "owner": "partner"
+  },
+  "public/kotisiivous-kerava.html": {
+   "url": "/kotisiivous-kerava",
+   "owner": "sergei"
+  },
+  "public/kotisiivous-kirkkonummi.html": {
+   "url": "/kotisiivous-kirkkonummi",
+   "owner": "sergei"
+  },
+  "public/kotisiivous-klaukkala.html": {
+   "url": "/kotisiivous-klaukkala",
+   "owner": "sergei"
+  },
+  "public/kotisiivous-lahti.html": {
+   "url": "/kotisiivous-lahti",
+   "owner": "partner"
+  },
+  "public/kotisiivous-lappenranta.html": {
+   "url": "/kotisiivous-lappenranta",
+   "owner": "sergei"
+  },
+  "public/kotisiivous-lohja.html": {
+   "url": "/kotisiivous-lohja",
+   "owner": "sergei"
+  },
+  "public/kotisiivous-nurmijarvi.html": {
+   "url": "/kotisiivous-nurmijarvi",
+   "owner": "sergei"
+  },
+  "public/kotisiivous-turku.html": {
+   "url": "/kotisiivous-turku",
+   "owner": "sergei"
+  },
+  "public/kotisiivous-tuusula.html": {
+   "url": "/kotisiivous-tuusula",
+   "owner": "sergei"
+  },
+  "public/kotisiivous-vantaa.html": {
+   "url": "/kotisiivous-vantaa",
+   "owner": "partner"
+  },
+  "public/kotisiivous-vihti.html": {
+   "url": "/kotisiivous-vihti",
+   "owner": "sergei"
+  },
+  "public/kotisiivous.html": {
+   "url": "/kotisiivous",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/espoo.html": {
+   "url": "/kotisiivous/espoo",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/espoonlahti.html": {
+   "url": "/kotisiivous/espoo/espoonlahti",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/haukilahti.html": {
+   "url": "/kotisiivous/espoo/haukilahti",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/kaitaa.html": {
+   "url": "/kotisiivous/espoo/kaitaa",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/karakallio.html": {
+   "url": "/kotisiivous/espoo/karakallio",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/kauklahti.html": {
+   "url": "/kotisiivous/espoo/kauklahti",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/kilo.html": {
+   "url": "/kotisiivous/espoo/kilo",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/kivenlahti.html": {
+   "url": "/kotisiivous/espoo/kivenlahti",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/kurttila.html": {
+   "url": "/kotisiivous/espoo/kurttila",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/laajalahti.html": {
+   "url": "/kotisiivous/espoo/laajalahti",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/laaksolahti.html": {
+   "url": "/kotisiivous/espoo/laaksolahti",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/laurinlahti.html": {
+   "url": "/kotisiivous/espoo/laurinlahti",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/leppavaara.html": {
+   "url": "/kotisiivous/espoo/leppavaara",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/lintuvaara.html": {
+   "url": "/kotisiivous/espoo/lintuvaara",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/lippajarvi.html": {
+   "url": "/kotisiivous/espoo/lippajarvi",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/mankkaa.html": {
+   "url": "/kotisiivous/espoo/mankkaa",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/matinkyla.html": {
+   "url": "/kotisiivous/espoo/matinkyla",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/niittykumpu.html": {
+   "url": "/kotisiivous/espoo/niittykumpu",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/noykkio.html": {
+   "url": "/kotisiivous/espoo/noykkio",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/olari.html": {
+   "url": "/kotisiivous/espoo/olari",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/perkkaa.html": {
+   "url": "/kotisiivous/espoo/perkkaa",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/saunalahti.html": {
+   "url": "/kotisiivous/espoo/saunalahti",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/soukka.html": {
+   "url": "/kotisiivous/espoo/soukka",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/suurpelto.html": {
+   "url": "/kotisiivous/espoo/suurpelto",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/suvela.html": {
+   "url": "/kotisiivous/espoo/suvela",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/tapiola.html": {
+   "url": "/kotisiivous/espoo/tapiola",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/tuomarila.html": {
+   "url": "/kotisiivous/espoo/tuomarila",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/vanttila.html": {
+   "url": "/kotisiivous/espoo/vanttila",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/viherlaakso.html": {
+   "url": "/kotisiivous/espoo/viherlaakso",
+   "owner": "partner"
+  },
+  "public/kotisiivous/espoo/westend.html": {
+   "url": "/kotisiivous/espoo/westend",
+   "owner": "partner"
+  },
+  "public/kotisiivous/hamina.html": {
+   "url": "/kotisiivous/hamina",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/hamina/haminan-keskustaajama.html": {
+   "url": "/kotisiivous/hamina/haminan-keskustaajama",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/hamina/metsakyla.html": {
+   "url": "/kotisiivous/hamina/metsakyla",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/hamina/neuvoton.html": {
+   "url": "/kotisiivous/hamina/neuvoton",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/hamina/vilniemi.html": {
+   "url": "/kotisiivous/hamina/vilniemi",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/helsinki.html": {
+   "url": "/kotisiivous/helsinki",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/eira.html": {
+   "url": "/kotisiivous/helsinki/eira",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/etu-toolo.html": {
+   "url": "/kotisiivous/helsinki/etu-toolo",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/haaga.html": {
+   "url": "/kotisiivous/helsinki/haaga",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/hermanni.html": {
+   "url": "/kotisiivous/helsinki/hermanni",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/herttoniemi.html": {
+   "url": "/kotisiivous/helsinki/herttoniemi",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/kaartinkaupunki.html": {
+   "url": "/kotisiivous/helsinki/kaartinkaupunki",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/kaivopuisto.html": {
+   "url": "/kotisiivous/helsinki/kaivopuisto",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/kamppi.html": {
+   "url": "/kotisiivous/helsinki/kamppi",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/kapyla.html": {
+   "url": "/kotisiivous/helsinki/kapyla",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/katajanokka.html": {
+   "url": "/kotisiivous/helsinki/katajanokka",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/kruununhaka.html": {
+   "url": "/kotisiivous/helsinki/kruununhaka",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/kulosaari.html": {
+   "url": "/kotisiivous/helsinki/kulosaari",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/kumpula.html": {
+   "url": "/kotisiivous/helsinki/kumpula",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/lansisatama.html": {
+   "url": "/kotisiivous/helsinki/lansisatama",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/lauttasaari.html": {
+   "url": "/kotisiivous/helsinki/lauttasaari",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/meilahti.html": {
+   "url": "/kotisiivous/helsinki/meilahti",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/munkkiniemi.html": {
+   "url": "/kotisiivous/helsinki/munkkiniemi",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/oulunkyla.html": {
+   "url": "/kotisiivous/helsinki/oulunkyla",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/pakila.html": {
+   "url": "/kotisiivous/helsinki/pakila",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/pasila.html": {
+   "url": "/kotisiivous/helsinki/pasila",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/pitajanmaki.html": {
+   "url": "/kotisiivous/helsinki/pitajanmaki",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/punavuori.html": {
+   "url": "/kotisiivous/helsinki/punavuori",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/ruskeasuo.html": {
+   "url": "/kotisiivous/helsinki/ruskeasuo",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/sornainen.html": {
+   "url": "/kotisiivous/helsinki/sornainen",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/taka-toolo.html": {
+   "url": "/kotisiivous/helsinki/taka-toolo",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/toukola.html": {
+   "url": "/kotisiivous/helsinki/toukola",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/ullanlinna.html": {
+   "url": "/kotisiivous/helsinki/ullanlinna",
+   "owner": "partner"
+  },
+  "public/kotisiivous/helsinki/vallila.html": {
+   "url": "/kotisiivous/helsinki/vallila",
+   "owner": "partner"
+  },
+  "public/kotisiivous/inkeroinen.html": {
+   "url": "/kotisiivous/inkeroinen",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/kotka.html": {
+   "url": "/kotisiivous/kotka",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/kotka/halla-tiutinen.html": {
+   "url": "/kotisiivous/kotka/halla-tiutinen",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/kotka/kotkan-keskustaajama.html": {
+   "url": "/kotisiivous/kotka/kotkan-keskustaajama",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/kouvola.html": {
+   "url": "/kotisiivous/kouvola",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/kouvola/anjalankoski.html": {
+   "url": "/kotisiivous/kouvola/anjalankoski",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/kouvola/elimaki.html": {
+   "url": "/kotisiivous/kouvola/elimaki",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/kouvola/jaala.html": {
+   "url": "/kotisiivous/kouvola/jaala",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/kouvola/kuusankoski.html": {
+   "url": "/kotisiivous/kouvola/kuusankoski",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/kouvola/valkeala.html": {
+   "url": "/kotisiivous/kouvola/valkeala",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/loviisa.html": {
+   "url": "/kotisiivous/loviisa",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/porvoo.html": {
+   "url": "/kotisiivous/porvoo",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/sipoo.html": {
+   "url": "/kotisiivous/sipoo",
+   "owner": "sergei"
+  },
+  "public/kotisiivous/vantaa/hakunila.html": {
+   "url": "/kotisiivous/vantaa/hakunila",
+   "owner": "partner"
+  },
+  "public/kotisiivous/vantaa/havukoski.html": {
+   "url": "/kotisiivous/vantaa/havukoski",
+   "owner": "partner"
+  },
+  "public/kotisiivous/vantaa/hiekkaharju.html": {
+   "url": "/kotisiivous/vantaa/hiekkaharju",
+   "owner": "partner"
+  },
+  "public/kotisiivous/vantaa/kivisto.html": {
+   "url": "/kotisiivous/vantaa/kivisto",
+   "owner": "partner"
+  },
+  "public/kotisiivous/vantaa/koivukyla.html": {
+   "url": "/kotisiivous/vantaa/koivukyla",
+   "owner": "partner"
+  },
+  "public/kotisiivous/vantaa/korso.html": {
+   "url": "/kotisiivous/vantaa/korso",
+   "owner": "partner"
+  },
+  "public/kotisiivous/vantaa/martinlaakso.html": {
+   "url": "/kotisiivous/vantaa/martinlaakso",
+   "owner": "partner"
+  },
+  "public/kotisiivous/vantaa/myyrmaki.html": {
+   "url": "/kotisiivous/vantaa/myyrmaki",
+   "owner": "partner"
+  },
+  "public/kotisiivous/vantaa/pakkala.html": {
+   "url": "/kotisiivous/vantaa/pakkala",
+   "owner": "partner"
+  },
+  "public/kotisiivous/vantaa/tikkurila.html": {
+   "url": "/kotisiivous/vantaa/tikkurila",
+   "owner": "partner"
+  },
+  "public/kotisiivous_mikkeli.html": {
+   "url": "/kotisiivous_mikkeli",
+   "owner": "sergei"
+  },
+  "public/kylpyhuonesiivous.html": {
+   "url": "/kylpyhuonesiivous",
+   "owner": "sergei"
+  },
+  "public/lahjakortti.html": {
+   "url": "/lahjakortti",
+   "owner": "sergei"
+  },
+  "public/lampopumppu_puhdistushuolto.html": {
+   "url": "/lampopumppu_puhdistushuolto",
+   "owner": "sergei"
+  },
+  "public/laskuri.html": {
+   "url": "/laskuri",
+   "owner": "sergei"
+  },
+  "public/loppusiivous-2h-olari.html": {
+   "url": "/loppusiivous-2h-olari",
+   "owner": "partner"
+  },
+  "public/loppusiivous-kallio.html": {
+   "url": "/loppusiivous-kallio",
+   "owner": "partner"
+  },
+  "public/loppusiivous-rivitalo-espoo.html": {
+   "url": "/loppusiivous-rivitalo-espoo",
+   "owner": "partner"
+  },
+  "public/loppusiivous.html": {
+   "url": "/loppusiivous",
+   "owner": "sergei"
+  },
+  "public/muuttosiivous-espoo.html": {
+   "url": "/muuttosiivous-espoo",
+   "owner": "partner"
+  },
+  "public/muuttosiivous-hamina.html": {
+   "url": "/muuttosiivous-hamina",
+   "owner": "sergei"
+  },
+  "public/muuttosiivous-helsinki.html": {
+   "url": "/muuttosiivous-helsinki",
+   "owner": "partner"
+  },
+  "public/muuttosiivous-hyvinkaa.html": {
+   "url": "/muuttosiivous-hyvinkaa",
+   "owner": "sergei"
+  },
+  "public/muuttosiivous-jarvenpaa.html": {
+   "url": "/muuttosiivous-jarvenpaa",
+   "owner": "sergei"
+  },
+  "public/muuttosiivous-kerava.html": {
+   "url": "/muuttosiivous-kerava",
+   "owner": "sergei"
+  },
+  "public/muuttosiivous-lahti.html": {
+   "url": "/muuttosiivous-lahti",
+   "owner": "partner"
+  },
+  "public/muuttosiivous-lappenranta.html": {
+   "url": "/muuttosiivous-lappenranta",
+   "owner": "sergei"
+  },
+  "public/muuttosiivous-nurmijarvi.html": {
+   "url": "/muuttosiivous-nurmijarvi",
+   "owner": "sergei"
+  },
+  "public/muuttosiivous-turku.html": {
+   "url": "/muuttosiivous-turku",
+   "owner": "sergei"
+  },
+  "public/muuttosiivous-tuusula.html": {
+   "url": "/muuttosiivous-tuusula",
+   "owner": "sergei"
+  },
+  "public/muuttosiivous-vantaa.html": {
+   "url": "/muuttosiivous-vantaa",
+   "owner": "partner"
+  },
+  "public/muuttosiivous.html": {
+   "url": "/muuttosiivous",
+   "owner": "sergei"
+  },
+  "public/muuttosiivous/kotka.html": {
+   "url": "/muuttosiivous/kotka",
+   "owner": "sergei"
+  },
+  "public/muuttosiivous/kouvola.html": {
+   "url": "/muuttosiivous/kouvola",
+   "owner": "sergei"
+  },
+  "public/muuttosiivous/porvoo.html": {
+   "url": "/muuttosiivous/porvoo",
+   "owner": "sergei"
+  },
+  "public/muuttosiivous/sipoo.html": {
+   "url": "/muuttosiivous/sipoo",
+   "owner": "sergei"
+  },
+  "public/quick_application.html": {
+   "url": "/quick_application",
+   "owner": "sergei"
+  },
+  "public/referenssit.html": {
+   "url": "/referenssit",
+   "owner": "sergei"
+  },
+  "public/referenssit/espoo-kotisiivous-61m2-kolmen-huoneen-asunto.html": {
+   "url": "/referenssit/espoo-kotisiivous-61m2-kolmen-huoneen-asunto",
+   "owner": "partner"
+  },
+  "public/referenssit/espoo-kotisiivous-80m2-rivitalon-kertasiivous.html": {
+   "url": "/referenssit/espoo-kotisiivous-80m2-rivitalon-kertasiivous",
+   "owner": "partner"
+  },
+  "public/referenssit/espoo-muuttosiivous-vuokra-asunnon-loppusiivous.html": {
+   "url": "/referenssit/espoo-muuttosiivous-vuokra-asunnon-loppusiivous",
+   "owner": "partner"
+  },
+  "public/referenssit/helsinki-saannollinen-kotisiivous-39m2-asunto.html": {
+   "url": "/referenssit/helsinki-saannollinen-kotisiivous-39m2-asunto",
+   "owner": "partner"
+  },
+  "public/referenssit/ikkunanpesu-espoo-viisi-ikkunaa-parvekelasit.html": {
+   "url": "/referenssit/ikkunanpesu-espoo-viisi-ikkunaa-parvekelasit",
+   "owner": "partner"
+  },
+  "public/referenssit/ikkunanpesu-herttoniemenranta-kerrostalo/index.html": {
+   "url": "/referenssit/ikkunanpesu-herttoniemenranta-kerrostalo/",
+   "owner": "partner"
+  },
+  "public/referenssit/ikkunanpesu-ita-pakila-kerrostalo/index.html": {
+   "url": "/referenssit/ikkunanpesu-ita-pakila-kerrostalo/",
+   "owner": "partner"
+  },
+  "public/referenssit/ikkunanpesu-ita-pakila-omakotitalo/index.html": {
+   "url": "/referenssit/ikkunanpesu-ita-pakila-omakotitalo/",
+   "owner": "partner"
+  },
+  "public/referenssit/ikkunanpesu-kauniainen-omakotitalo-7h.html": {
+   "url": "/referenssit/ikkunanpesu-kauniainen-omakotitalo-7h",
+   "owner": "partner"
+  },
+  "public/referenssit/ikkunanpesu-kivisto-omakotitalo.html": {
+   "url": "/referenssit/ikkunanpesu-kivisto-omakotitalo",
+   "owner": "partner"
+  },
+  "public/referenssit/ikkunanpesu-kolmio-espoo-rakennuspoly-5h.html": {
+   "url": "/referenssit/ikkunanpesu-kolmio-espoo-rakennuspoly-5h",
+   "owner": "partner"
+  },
+  "public/referenssit/ikkunanpesu-lauttasaari-kolmio-parvekelasit.html": {
+   "url": "/referenssit/ikkunanpesu-lauttasaari-kolmio-parvekelasit",
+   "owner": "partner"
+  },
+  "public/referenssit/ikkunanpesu-meilahti-helsinki-4h.html": {
+   "url": "/referenssit/ikkunanpesu-meilahti-helsinki-4h",
+   "owner": "partner"
+  },
+  "public/referenssit/ikkunanpesu-oulunkyla-kerrostalo/index.html": {
+   "url": "/referenssit/ikkunanpesu-oulunkyla-kerrostalo/",
+   "owner": "partner"
+  },
+  "public/referenssit/ikkunanpesu-palohein-rivitalo/index.html": {
+   "url": "/referenssit/ikkunanpesu-palohein-rivitalo/",
+   "owner": "partner"
+  },
+  "public/referenssit/ikkunanpesu-pukinmaki-omakotitalo.html": {
+   "url": "/referenssit/ikkunanpesu-pukinmaki-omakotitalo",
+   "owner": "partner"
+  },
+  "public/referenssit/ikkunanpesu-tapanila-omakotitalo/index.html": {
+   "url": "/referenssit/ikkunanpesu-tapanila-omakotitalo/",
+   "owner": "partner"
+  },
+  "public/referenssit/ikkunanpesu-vantaa-kaksio-parvekelasit.html": {
+   "url": "/referenssit/ikkunanpesu-vantaa-kaksio-parvekelasit",
+   "owner": "partner"
+  },
+  "public/referenssit/kaksion-saannollinen-siivous-kotkassa.html": {
+   "url": "/referenssit/kaksion-saannollinen-siivous-kotkassa",
+   "owner": "sergei"
+  },
+  "public/referenssit/muuttosiivous-espoo-55m2.html": {
+   "url": "/referenssit/muuttosiivous-espoo-55m2",
+   "owner": "partner"
+  },
+  "public/referenssit/muuttosiivous-helsinki-yksio-37m2/index.html": {
+   "url": "/referenssit/muuttosiivous-helsinki-yksio-37m2/",
+   "owner": "partner"
+  },
+  "public/referenssit/muuttosiivous-hermanni-helsinki-30m2.html": {
+   "url": "/referenssit/muuttosiivous-hermanni-helsinki-30m2",
+   "owner": "partner"
+  },
+  "public/referenssit/muuttosiivous-jatkasaari-helsinki-28m2.html": {
+   "url": "/referenssit/muuttosiivous-jatkasaari-helsinki-28m2",
+   "owner": "partner"
+  },
+  "public/referenssit/muuttosiivous-kaksio-espoo-48m2.html": {
+   "url": "/referenssit/muuttosiivous-kaksio-espoo-48m2",
+   "owner": "partner"
+  },
+  "public/referenssit/muuttosiivous-kaksio-vantaa-49m2.html": {
+   "url": "/referenssit/muuttosiivous-kaksio-vantaa-49m2",
+   "owner": "partner"
+  },
+  "public/referenssit/muuttosiivous-kapyla-helsinki-75m2.html": {
+   "url": "/referenssit/muuttosiivous-kapyla-helsinki-75m2",
+   "owner": "partner"
+  },
+  "public/referenssit/muuttosiivous-kolmio-espoo-70m2.html": {
+   "url": "/referenssit/muuttosiivous-kolmio-espoo-70m2",
+   "owner": "partner"
+  },
+  "public/referenssit/muuttosiivous-lauttasaari-helsinki-30m2.html": {
+   "url": "/referenssit/muuttosiivous-lauttasaari-helsinki-30m2",
+   "owner": "partner"
+  },
+  "public/referenssit/muuttosiivous-lauttasaari-helsinki-85m2.html": {
+   "url": "/referenssit/muuttosiivous-lauttasaari-helsinki-85m2",
+   "owner": "partner"
+  },
+  "public/referenssit/muuttosiivous-tapiola-espoo-35m2.html": {
+   "url": "/referenssit/muuttosiivous-tapiola-espoo-35m2",
+   "owner": "partner"
+  },
+  "public/referenssit/muuttosiivous-westend-espoo-200m2.html": {
+   "url": "/referenssit/muuttosiivous-westend-espoo-200m2",
+   "owner": "partner"
+  },
+  "public/referenssit/omakotitalon-muuttosiivous-kotka-210m2.html": {
+   "url": "/referenssit/omakotitalon-muuttosiivous-kotka-210m2",
+   "owner": "sergei"
+  },
+  "public/referenssit/rivitaloasunnon-muuttosiivous-vantaalla.html": {
+   "url": "/referenssit/rivitaloasunnon-muuttosiivous-vantaalla",
+   "owner": "partner"
+  },
+  "public/referenssit/saannollinen-kotisiivous-espoonlahti-espoo-78m2.html": {
+   "url": "/referenssit/saannollinen-kotisiivous-espoonlahti-espoo-78m2",
+   "owner": "partner"
+  },
+  "public/referenssit/saannollinen-kotisiivous-kalasatama-helsinki-kerrostalo.html": {
+   "url": "/referenssit/saannollinen-kotisiivous-kalasatama-helsinki-kerrostalo",
+   "owner": "partner"
+  },
+  "public/referenssit/saannollinen-kotisiivous-lauttasaari-helsinki-90m2.html": {
+   "url": "/referenssit/saannollinen-kotisiivous-lauttasaari-helsinki-90m2",
+   "owner": "partner"
+  },
+  "public/referenssit/saannollinen-kotisiivous-pakila-helsinki-136m2.html": {
+   "url": "/referenssit/saannollinen-kotisiivous-pakila-helsinki-136m2",
+   "owner": "partner"
+  },
+  "public/referenssit/saannollinen-siivous-vantaalla-120m2.html": {
+   "url": "/referenssit/saannollinen-siivous-vantaalla-120m2",
+   "owner": "partner"
+  },
+  "public/referenssit/vuokra-asunnon-muuttosiivous-kotkassa.html": {
+   "url": "/referenssit/vuokra-asunnon-muuttosiivous-kotkassa",
+   "owner": "sergei"
+  },
+  "public/remonttisiivous.html": {
+   "url": "/remonttisiivous",
+   "owner": "sergei"
+  },
+  "public/saannollinen_siivous.html": {
+   "url": "/saannollinen_siivous",
+   "owner": "sergei"
+  },
+  "public/suursiivous-hyvinkaa.html": {
+   "url": "/suursiivous-hyvinkaa",
+   "owner": "sergei"
+  },
+  "public/suursiivous.html": {
+   "url": "/suursiivous",
+   "owner": "sergei"
+  },
+  "public/tietoa-meista/index.html": {
+   "url": "/tietoa-meista/",
+   "owner": "partner"
+  },
+  "public/tietosuojaseloste.html": {
+   "url": "/tietosuojaseloste",
+   "owner": "sergei"
+  },
+  "public/toimistosiivous.html": {
+   "url": "/toimistosiivous",
+   "owner": "sergei"
+  },
+  "public/typaikat-puhdistusalalla.html": {
+   "url": "/typaikat-puhdistusalalla",
+   "owner": "sergei"
+  },
+  "public/ukk.html": {
+   "url": "/ukk",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu.html": {
+   "url": "/ukk/ikkunanpesu",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/kauanko-ikkunanpesu-kesta.html": {
+   "url": "/ukk/ikkunanpesu/kauanko-ikkunanpesu-kesta",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/kenelle-kuuluu-ikkunoiden-pesu.html": {
+   "url": "/ukk/ikkunanpesu/kenelle-kuuluu-ikkunoiden-pesu",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/kuka-pesee-kerrostalon-ikkunat.html": {
+   "url": "/ukk/ikkunanpesu/kuka-pesee-kerrostalon-ikkunat",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/mika-on-paras-ikkunanpesuaine.html": {
+   "url": "/ukk/ikkunanpesu/mika-on-paras-ikkunanpesuaine",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/mika-on-paras-saa-pesta-ikkunat.html": {
+   "url": "/ukk/ikkunanpesu/mika-on-paras-saa-pesta-ikkunat",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/miksi-ikkunapesuri-jattaa-aitoja.html": {
+   "url": "/ukk/ikkunanpesu/miksi-ikkunapesuri-jattaa-aitoja",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/milla-saa-ikkunat-kirkkaaksi.html": {
+   "url": "/ukk/ikkunanpesu/milla-saa-ikkunat-kirkkaaksi",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/milloin-ei-voi-pesta-ikkunoita.html": {
+   "url": "/ukk/ikkunanpesu/milloin-ei-voi-pesta-ikkunoita",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/missa-kuussa-ikkuna-kannattaa-pesta.html": {
+   "url": "/ukk/ikkunanpesu/missa-kuussa-ikkuna-kannattaa-pesta",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/miten-pesta-ikkunat-kerrostalossa.html": {
+   "url": "/ukk/ikkunanpesu/miten-pesta-ikkunat-kerrostalossa",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/paljonko-ikkunan-pesu-maksaa.html": {
+   "url": "/ukk/ikkunanpesu/paljonko-ikkunan-pesu-maksaa",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/pitaako-ikkunat-pesta-joka-vuosi.html": {
+   "url": "/ukk/ikkunanpesu/pitaako-ikkunat-pesta-joka-vuosi",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/pitaako-kerrostalon-ikkunat-pesta-ulkoa.html": {
+   "url": "/ukk/ikkunanpesu/pitaako-kerrostalon-ikkunat-pesta-ulkoa",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/pitaako-muuttosiivouksessa-pesta-ikkunat.html": {
+   "url": "/ukk/ikkunanpesu/pitaako-muuttosiivouksessa-pesta-ikkunat",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/saako-ikkunanpesusta-kotitalousvahennysta.html": {
+   "url": "/ukk/ikkunanpesu/saako-ikkunanpesusta-kotitalousvahennysta",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/saako-kerrostalossa-pesta-ikkunat.html": {
+   "url": "/ukk/ikkunanpesu/saako-kerrostalossa-pesta-ikkunat",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/voiko-aurinkoisella-saalla-pesta-ikkunat.html": {
+   "url": "/ukk/ikkunanpesu/voiko-aurinkoisella-saalla-pesta-ikkunat",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/voiko-ikkunat-pesta-pelkalla-vedella.html": {
+   "url": "/ukk/ikkunanpesu/voiko-ikkunat-pesta-pelkalla-vedella",
+   "owner": "sergei"
+  },
+  "public/ukk/ikkunanpesu/voiko-ikkunat-pesta-sateella.html": {
+   "url": "/ukk/ikkunanpesu/voiko-ikkunat-pesta-sateella",
+   "owner": "sergei"
+  },
+  "public/videot.html": {
+   "url": "/videot",
+   "owner": "sergei"
+  },
+  "public/yhteystiedot.html": {
+   "url": "/yhteystiedot",
+   "owner": "sergei"
+  },
+  "public/yrityssiivous-espoo.html": {
+   "url": "/yrityssiivous-espoo",
+   "owner": "partner"
+  },
+  "public/yrityssiivous-helsinki.html": {
+   "url": "/yrityssiivous-helsinki",
+   "owner": "partner"
+  },
+  "public/yrityssiivous-kotka.html": {
+   "url": "/yrityssiivous-kotka",
+   "owner": "sergei"
+  },
+  "public/yrityssiivous-vantaa.html": {
+   "url": "/yrityssiivous-vantaa",
+   "owner": "partner"
+  }
+ }
+}
