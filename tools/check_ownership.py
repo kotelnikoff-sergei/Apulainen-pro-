@@ -25,6 +25,11 @@ cfg = json.load(open(os.path.join(ROOT, 'ownership.json'), encoding='utf-8'))
 args = sys.argv[1:]
 if not args:
     sys.exit(__doc__)
+approved_by = None  # CI mode: comma-separated logins that approved the PR
+if '--approved-by' in args:
+    i = args.index('--approved-by')
+    approved_by = {x.strip().lower() for x in args[i + 1].split(',') if x.strip()}
+    del args[i:i + 2]
 if args[0] == '--login':
     login = args[1].lower()
     owner = next((k for k, v in cfg['github'].items() if v and v.lower() == login), None)
@@ -63,4 +68,16 @@ for title, lst in (('OK - own files', own), ('SHARED - needs approval from the o
         print(f'\n{title}:')
         for x in lst:
             print('  ' + x)
-sys.exit(1 if foreign else 0)
+if approved_by is None:  # local run by an agent
+    sys.exit(1 if foreign else 0)
+
+# CI run: shared files or the other owner's pages pass only after the other owner approved the PR
+others = {v.lower() for k, v in cfg['github'].items() if k != owner and v}
+needs = bool(foreign or shared)
+ok = not needs or bool(others & approved_by)
+print('\nApproved by: ' + (', '.join(sorted(approved_by)) or 'nobody'))
+if needs and not ok:
+    print('RESULT: waiting for approval from ' + ', '.join(sorted(others)) + ' (Review changes -> Approve).')
+else:
+    print('RESULT: OK')
+sys.exit(0 if ok else 1)

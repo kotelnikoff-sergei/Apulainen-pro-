@@ -2,7 +2,7 @@
  "_readme": "Who may edit which page. owner: 'partner' or 'sergei'. Files not listed here are SHARED (both owners must agree in the PR). New pages: add an entry in the same PR.",
  "github": {
   "sergei": "kotelnikoff-sergei",
-  "partner": ""
+  "partner": "stkuzmenkov-del"
  },
  "shared": [
   "public/assets/",
